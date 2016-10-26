@@ -1,0 +1,28 @@
+baseurl = "https://josharcher.gitlab.io"
+disablePathToLower = false
+languageCode = "en-gb"
+title = "Josh Archer"
+canonifyurls = true
+paginate = 8
+
+[params]
+    description = "Musings, ramblings, tips, tricks and essays by Josh Archer. Oh, and photos. Always something new, occasionally something interesting."
+
+[Author]
+	name = "Josh Archer"
+	email = "josh@jamail.co.uk"
+	twitter = "josharcher"
+	github = "puffinblue"
+
+[taxonomies]
+tag = "tags"
+category = "categories"
+series = "series"
+
+disqusShortname = "josharcher"
+
+[blackfriday]
+smartypants = false
+smartDashes = false
+angledQuotes = false
+latexDashes = false

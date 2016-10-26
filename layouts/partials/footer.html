@@ -1,0 +1,33 @@
+	<footer>
+		<p>
+          Copyright © {{ .Now.Year }} Josh Archer - <a href="/copyright/">some rights reserved</a>
+        </p>
+        <p>
+		 Find me at 
+		  {{ if or .Site.Author.github .Site.Author.twitter .Site.Author.facebook .Site.Author.linkedin }}
+
+		  {{ if .Site.Author.github }}
+		  <a href="https://github.com/{{ .Site.Author.github }}" >GitHub</a>
+		  {{ end }}
+
+		  {{ if .Site.Author.facebook }}
+		  <a href="https://www.facebook.com/{{ .Site.Author.facebook }}">Facebook</a>
+		  {{ end }}
+
+		  {{ if .Site.Author.twitter }}
+		  <a href="https://twitter.com/{{ .Site.Author.twitter }}">Twitter</a>
+		  {{ end }}
+
+		  {{ if .Site.Author.linkedin }}
+		  <a href="https://www.linkedin.com/in/{{ .Site.Author.linkedin }}">Linkedin</a>
+		  {{ end }}
+
+		  {{ end }}
+			or <a href="/contact/">Contact Me</a>
+		</p>
+        <p>Site built with <a href="http://gohugo.io/">Hugo</a></p>
+        <p><a href="/attribution/">Attribution of Licensed Works</a></p>
+	</footer>
+    <script>hljs.initHighlightingOnLoad();</script>
+</body>
+</html>
