@@ -13,18 +13,18 @@
             <div class="post-tags">
                 <p>Tags: {{ range .Params.tags }} <a href="{{ "/tags/" | relURL }}{{ . | urlize }}">{{ . }}</a> {{ end }}</p>
             </div>
-			<div>
-				{{ template "_internal/disqus.html" . }}
-			</div>
 		</article>
-    <nav class="pagination" role="navigation">
-    {{ with .NextInSection }}
-      <a class="newer-posts" style="order:2;" href="{{ .Permalink }}" title="{{ .LinkTitle }}">Next Post &rarr;</a>
-    {{ end }}
-    {{ with .PrevInSection }}
-        <a class="older-posts" style="order:1;" href="{{ .Permalink }}" title="{{ .LinkTitle }}">&larr; Previous Post</a>
-    {{ end }}
-    </nav>
+        <nav class="pagination" role="navigation">
+            {{ with .NextInSection }}
+            <a class="newer-posts" style="order:2;" href="{{ .Permalink }}" title="{{ .LinkTitle }}">Next Post &rarr;</a>
+            {{ end }}
+            {{ with .PrevInSection }}
+            <a class="older-posts" style="order:1;" href="{{ .Permalink }}" title="{{ .LinkTitle }}">&larr; Previous Post</a>
+            {{ end }}
+        </nav>
+    <div class="comments">
+		{{ template "_internal/disqus.html" . }}
+	</div>
 	</main>
     <!-- {{ partial "sidebar.html" . }} -->
 {{ partial "footer.html" . }}
