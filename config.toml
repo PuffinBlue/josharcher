@@ -4,6 +4,7 @@ languageCode = "en-gb"
 title = "Josh Archer"
 canonifyurls = true
 paginate = 8
+disqusShortname = "josharcher"
 
 [params]
     description = "Musings, ramblings, tips, tricks and essays by Josh Archer. Oh, and photos. Always something new, occasionally something interesting."
@@ -18,8 +19,6 @@ paginate = 8
 tag = "tags"
 category = "categories"
 series = "series"
-
-disqusShortname = "puffinblue"
 
 [blackfriday]
 smartypants = false

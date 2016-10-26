@@ -14,7 +14,7 @@
                 <p>Tags: {{ range .Params.tags }} <a href="{{ "/tags/" | relURL }}{{ . | urlize }}">{{ . }}</a> {{ end }}</p>
             </div>
 			<div>
-				{{ partial "disqus.html" . }}
+				{{ template "_internal/disqus.html" . }}
 			</div>
 		</article>
     <nav class="pagination" role="navigation">
