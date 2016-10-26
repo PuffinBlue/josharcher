@@ -1,5 +1,5 @@
 +++
-url = "/code/lpthw-exercise-4-variables-and-names"
+url = "/code/lpthw-exercise-4-variables-and-names/"
 categories = [
   "LPTHW",
 ]

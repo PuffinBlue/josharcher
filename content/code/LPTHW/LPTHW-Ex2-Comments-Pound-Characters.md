@@ -4,7 +4,7 @@ description = "Complete finished example of the second exercise from the Learn P
 tags = [
   "",
 ]
-url = "/code/lpthw-exercise-2-comments-and-pound-characters"
+url = "/code/lpthw-exercise-2-comments-and-pound-characters/"
 draft = "false"
 pageimage = ""
 categories = [

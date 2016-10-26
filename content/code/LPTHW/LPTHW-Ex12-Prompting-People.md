@@ -1,5 +1,5 @@
 +++
-url = "/code/lpthw-exercise-12-prompting-people"
+url = "/code/lpthw-exercise-12-prompting-people/"
 categories = [
   "LPTHW",
 ]

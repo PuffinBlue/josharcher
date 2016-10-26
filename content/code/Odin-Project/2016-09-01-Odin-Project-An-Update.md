@@ -11,7 +11,7 @@ categories = [
   "Odin Project",
 ]
 title = "Odin Project - an update"
-url = "/code/odin-project-an-update"
+url = "/code/odin-project-an-update/"
 
 +++
 Yikes, been a while since an Odin Project update was posted here!

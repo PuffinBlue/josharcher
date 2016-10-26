@@ -1,6 +1,6 @@
 +++
 description = "Complete finished example of the first exercise from the Learn Python The Hard Way course. Exercise 1: A good First Program."
-url = "/code/lpthw-exercise-1-a-good-first-program"
+url = "/code/lpthw-exercise-1-a-good-first-program/"
 pageimage = ""
 title = "LPTHW - Exercise 1: A Good First Program"
 tags = [

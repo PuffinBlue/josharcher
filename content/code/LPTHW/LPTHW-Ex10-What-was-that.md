@@ -6,7 +6,7 @@ categories = [
 ]
 date = "2016-05-09T22:59:00+01:00"
 draft = "false"
-url = "/code/lpthw-exercise-10-what-was-that"
+url = "/code/lpthw-exercise-10-what-was-that/"
 pageimage = ""
 tags = [
   "",

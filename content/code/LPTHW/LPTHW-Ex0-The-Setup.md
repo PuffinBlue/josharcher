@@ -11,7 +11,7 @@ categories = [
   "LPTHW",
 ]
 date = "2015-10-13T20:48:07+01:00"
-url = "/code/lpthw-ex-0-setup"
+url = "/code/lpthw-ex-0-setup/"
 
 +++
 This is all about setting up your development environment. I wasn't going to bother writing this up as it seemed like a fairly basic thing but that's just not the case.

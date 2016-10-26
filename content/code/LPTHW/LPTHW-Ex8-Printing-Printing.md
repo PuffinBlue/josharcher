@@ -7,7 +7,7 @@ date = "2016-02-20T22:29:06+01:00"
 categories = [
   "LPTHW",
 ]
-url = "/code/lpthw-exercise-8-printing-printing"
+url = "/code/lpthw-exercise-8-printing-printing/"
 description = "Complete finished example of the eighth exercise from the Learn Python The Hard Way course. Exercise 8: Printing, Printing."
 title = "LPTHW - Exercise 8: Printing Printing"
 slug = ""

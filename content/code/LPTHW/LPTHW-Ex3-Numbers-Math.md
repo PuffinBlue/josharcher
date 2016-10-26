@@ -1,7 +1,7 @@
 +++
 pageimage = ""
 title = "LPTHW - Exercise 3: Numbers and Math"
-url = "/code/lpthw-exercise-3-numbers-and-math"
+url = "/code/lpthw-exercise-3-numbers-and-math/"
 date = "2015-11-30T21:47:04+01:00"
 draft = "false"
 categories = [

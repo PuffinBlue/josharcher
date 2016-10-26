@@ -7,7 +7,7 @@ categories = [
 ]
 title = "LPTHW - Exercise 5: More Variables Printing"
 description = "Complete finished example of the fifth exercise from the Learn Python The Hard Way course. Exercise 5: More Variables and Printing"
-url = "/code/lpthw-exercise-5-variables-printing"
+url = "/code/lpthw-exercise-5-variables-printing/"
 tags = [
   "",
 ]

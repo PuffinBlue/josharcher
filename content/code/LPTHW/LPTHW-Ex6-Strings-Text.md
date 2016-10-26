@@ -10,7 +10,7 @@ categories = [
   "LPTHW",
 ]
 date = "2016-01-17T22:18:13+01:00"
-url = "/code/lpthw-exercise-6-strings-and-text"
+url = "/code/lpthw-exercise-6-strings-and-text/"
 slug = ""
 
 +++

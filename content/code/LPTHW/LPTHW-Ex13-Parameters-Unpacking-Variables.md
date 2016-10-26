@@ -1,5 +1,5 @@
 +++
-url = "/code/lpthw-exercise-13-parameters-unpacking-variables"
+url = "/code/lpthw-exercise-13-parameters-unpacking-variables/"
 title = "LPTHW - Exercise 13: Parameters, Unpacking, Variables"
 description = "Complete finished example of the thirteenth exercise from the Learn Python The Hard Way course. Exercise 13: Parameters, Unpacking, Variables"
 date = "2016-08-29T00:12:44+01:00"

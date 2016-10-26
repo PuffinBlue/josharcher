@@ -10,7 +10,7 @@ categories = [
 date = "2016-01-21T22:24:05+01:00"
 draft = "false"
 title = "LPTHW - Exercise 7: More Printing"
-url = "/code/lpthw-exercise-7-more-printing"
+url = "/code/lpthw-exercise-7-more-printing/"
 pageimage = ""
 
 +++

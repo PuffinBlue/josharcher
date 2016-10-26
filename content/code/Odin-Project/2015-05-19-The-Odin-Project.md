@@ -3,7 +3,7 @@ Description = "The start of my long road to becoming a Web Developer. The Odin P
 categories = ["Odin Project"]
 date = "2015-05-19T20:37:49+01:00"
 draft = false
-url = "/code/the-odin-project"
+url = "/code/the-odin-project/"
 title = "The Odin Project - A Journey"
 type = "code"
 +++

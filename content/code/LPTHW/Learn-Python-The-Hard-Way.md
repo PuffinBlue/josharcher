@@ -11,7 +11,7 @@ tags = [
   "",
 ]
 slug = ""
-url = "/code/learn-python-the-hard-way"
+url = "/code/learn-python-the-hard-way/"
 
 +++
 In addition to the [Odin Project](/categories/odin-project/) I've decided to simultaneously undertake the [Learn Python The Hard Way](http://learnpythonthehardway.org/) course by Zed Shaw.

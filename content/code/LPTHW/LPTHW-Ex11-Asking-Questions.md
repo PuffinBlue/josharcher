@@ -7,7 +7,7 @@ categories = [
 tags = [
   "",
 ]
-url = "/code/lpthw-exercise-11-asking-questions"
+url = "/code/lpthw-exercise-11-asking-questions/"
 slug = ""
 pageimage = ""
 draft = "false"
