@@ -70,7 +70,7 @@ Once that's done, use the following command to have SANE look for the scanner:
 
 You'll get a rush of text that'll look something like below. I've highlighted the important bit in the red box...
 
-<a href="http://josharcher.uk/wp-content/uploads/2016/10/2-sane-find-scanner.png"><img src="http://josharcher.uk/wp-content/uploads/2016/10/2-sane-find-scanner.png" alt="sane-find-scanner command in a terminal" width="786" height="630" class="aligncenter size-full wp-image-559" /></a>
+[<img src="/img/2016/10/2-sane-find-scanner.png" alt="sane-find-scanner command in a terminal">](/img/2016/10/02/2-sane-find-scanner.png)
 
 Don't worry about the errors, just look for something similar to that output in the red box and that shows it's properly detected the scanner. For those reading this with a screen reader, the relevant output I got is:
 
