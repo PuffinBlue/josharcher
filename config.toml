@@ -19,7 +19,7 @@ tag = "tags"
 category = "categories"
 series = "series"
 
-disqusShortname = "josharcher"
+disqusShortname = "puffinblue"
 
 [blackfriday]
 smartypants = false
