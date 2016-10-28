@@ -7,15 +7,19 @@
 		  {{ if or .Site.Author.github .Site.Author.twitter .Site.Author.facebook .Site.Author.linkedin }}
 
 		  {{ if .Site.Author.github }}
-		  <a href="https://github.com/{{ .Site.Author.github }}" >GitHub</a>
+		  <a href="https://github.com/{{ .Site.Author.github }}" >GitHub</a>,
 		  {{ end }}
-
-		  {{ if .Site.Author.facebook }}
+          
+          {{ if .Site.Author.github }}
+		  <a href="https://gitlab.com/{{ .Site.Author.github }}" >GitLab</a>,
+		  {{ end }}
+		  
+          {{ if .Site.Author.facebook }}
 		  <a href="https://www.facebook.com/{{ .Site.Author.facebook }}">Facebook</a>
 		  {{ end }}
 
 		  {{ if .Site.Author.twitter }}
-		  <a href="https://twitter.com/{{ .Site.Author.twitter }}">Twitter</a>
+		  <a href="https://twitter.com/{{ .Site.Author.twitter }}">Twitter</a>,
 		  {{ end }}
 
 		  {{ if .Site.Author.linkedin }}

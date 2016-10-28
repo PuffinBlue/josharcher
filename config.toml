@@ -15,6 +15,7 @@ googleAnalytics = "UA-62812844-1"
 	email = "josh@jamail.co.uk"
 	twitter = "josharcher"
 	github = "puffinblue"
+  gitlab  = "josharcher"
 
 [taxonomies]
 tag = "tags"
