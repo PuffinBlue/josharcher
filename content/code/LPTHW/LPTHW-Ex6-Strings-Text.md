@@ -93,4 +93,6 @@ e = "a string with a right side."
 print w + e
 # Test of ''.join
 print ''.join((w,e))
-``` 
+```
+
+As ever, [source files on GitLab](https://gitlab.com/josharcher/LPTHW)
