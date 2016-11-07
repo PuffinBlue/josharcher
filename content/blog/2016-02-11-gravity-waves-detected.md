@@ -10,10 +10,10 @@ tags = [
   "Gravity waves",
 ]
 slug = "gravity-waves-have-been-detected"
-pageimage = "/img/2016/02/ligo.jpg"
+pageimage = "/static/img/2016/02/ligo.jpg"
 
 +++
-{{< figure class="img-right-float" src="/img/2016/02/ligo.jpg" alt="LIGO from the air" >}}
+{{< figure class="img-right-float" src="/static/img/2016/02/ligo.jpg" alt="LIGO from the air" >}}
 Incredible.
 
 One of the most astounding discoveries you'll see in your lifetime. The last tenet of Einstein's Theory of General Relativity confirmed. 
@@ -30,7 +30,7 @@ What incredible discoveries, possibilities and advancements might await us with 
 
 The possibilities that await us are staggering!
 
-![Ligo, how to catch a wave infographic](/img/2016/02/60212_LIGO_web.png)
+![Ligo, how to catch a wave infographic](/static/img/2016/02/60212_LIGO_web.png)
 
 [http://www.bbc.co.uk/news/science-environment-35524440](http://www.bbc.co.uk/news/science-environment-35524440)
 

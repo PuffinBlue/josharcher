@@ -7,7 +7,7 @@ draft = false
 slug = "headway-w3tc-wp-super-cache-page-caching-not-working"
 title = "Wordpress Headway Theme: Page cache not working with W3TC and WP Super Cache"
 +++
-{{< figure class="img-right-float" src="/img/2015/06/headway-theme.png" >}}
+{{< figure class="img-right-float" src="/static/img/2015/06/headway-theme.png" >}}
 
 <hr />
 
@@ -37,7 +37,7 @@ In an effort to speed up the operation of the theme, reduce overall page load ti
 
 Fire up your favourite FTP application or SSH into your server and view the content of this folder. As an example, here is a screenshot showing the output of the Headway cache folder from another site I manage.
 
-<figure><img src="/img/2015/06/headway-cache-full.png" alt="Headway Cache Folder - full" /></figure>
+<figure><img src="/static/img/2015/06/headway-cache-full.png" alt="Headway Cache Folder - full" /></figure>
 
 As you can see, Headway caches CSS stylesheets and JS files for each template or page layout, as well as a 'general' stylesheet covering styles valid across all pages.
 
@@ -45,17 +45,17 @@ As you can see, Headway caches CSS stylesheets and JS files for each template or
 
 First, make a note of the names of the cached files, just so you can see what is happening. Now, open up Headway's Visual Editor, click on 'Tools' on the top bar and then click 'Clear Cache'.
 
-<figure><img src="/img/2015/06/headway-clearing-cache.png" alt="Emptying Headway Theme Cache" /></figure>
+<figure><img src="/static/img/2015/06/headway-clearing-cache.png" alt="Emptying Headway Theme Cache" /></figure>
 
 If you go back to your FTP or terminal and refresh the content of the cache folder, you'll see that the cached files have now gone.
 
-<figure><img src="/img/2015/06/headway-cache-cleared.png" alt="Headway Cache Folder - empty" /></figure>
+<figure><img src="/static/img/2015/06/headway-cache-cleared.png" alt="Headway Cache Folder - empty" /></figure>
 
 To regenerate them, simply visit a page on your site and Headway will automatically regenerate the cached files.
 
 Try it now and look again at the content of the cache folder...
 
-<figure><img src="/img/2015/06/headway-cache-regenerated.png" alt="Headway Cache Folder - regerated" /></figure>
+<figure><img src="/static/img/2015/06/headway-cache-regenerated.png" alt="Headway Cache Folder - regerated" /></figure>
 
 See the files being regenerated?
 
@@ -159,7 +159,7 @@ Also, whilst W3TC and WP Super Cache do purge their caches, they do so for a _su
 
 For W3TC this might include the Home page, the Blog page (if you have separate Home and Blog pages), the post page itself and the feeds or author overview pages. I believe a similar thing is done by WP Super Cache.
 
-<figure><img src="/img/2015/06/W3TC-cache-purge-options.png" alt="W3TC Page Cache Purge Options" /></figure>
+<figure><img src="/static/img/2015/06/W3TC-cache-purge-options.png" alt="W3TC Page Cache Purge Options" /></figure>
 
 Neither appear to clear _actual_ normal pages though, so some parts of the site might get flushed and others won't. I've also noticed that sometimes Custom Post Types aren't cleared either, though as a type of 'post' I thought they would be.
 
@@ -187,7 +187,7 @@ This will only work for W3TC as WP Super Cache doesn't seem to provide this func
 
 W3TC allows you to set which parts of the site are to be cleared upon a particular action like publishing or editing a post.
 
-<figure><img src="/img/2015/06/W3TC-additional-pages.png" alt="W3TC options specifying which additional cache pages to purge" /></figure>
+<figure><img src="/static/img/2015/06/W3TC-additional-pages.png" alt="W3TC options specifying which additional cache pages to purge" /></figure>
 
 This input allow you to manually specify pages. Unfortunately, it doesn't seem to allow the use of [Regular Expressions](http://www.regular-expressions.info/) (not when I tried anyway) so you must specify each pages URL (correct if wrong - contact details in footer).
 

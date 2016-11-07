@@ -7,7 +7,7 @@ url = "/code/the-odin-project-html-css-101"
 title = "The Odin Project - HTML and CSS 101"
 
 +++
-{{< figure class="img-right-float" src="/img/2015/05/html5.png" >}}
+{{< figure class="img-right-float" src="/static/img/2015/05/html5.png" >}}
 
 Having completed the HTML and CSS 101 course (and starting as I mean to go on) here are some thoughts on the lesson.
 

@@ -19,7 +19,7 @@ GitLab: <a href="https://gitlab.com/josharcher">JoshArcher</a>
 <h2>Need to contact me securely?</h2>
 If you'd like to email me securely or just want to be sure that the person replying is actually me, you can use my PGP public key:
 
-<a href="/files/2016/10/josh-archer-public-key.asc">Josh Archer - Public Key</a>
+<a href="/static/files/2016/10/josh-archer-public-key.asc">Josh Archer - Public Key</a>
 
 Fingerprint:
 

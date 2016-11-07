@@ -25,5 +25,5 @@ It was exhilarating.
 
 I've definitely taken 'better' shots, but I'll always love this one. 
 
-[<img src="/img/2016/01/josharcher-watch-man-1.jpg" alt="Old man looks into shop window containing watches and an image of a younger couple">](/img/2016/01/josharcher-watch-man-1.jpg)
+[<img src="/static/img/2016/01/josharcher-watch-man-1.jpg" alt="Old man looks into shop window containing watches and an image of a younger couple">](/static/img/2016/01/josharcher-watch-man-1.jpg)
 <!--more-->

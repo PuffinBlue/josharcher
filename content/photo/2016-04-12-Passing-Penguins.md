@@ -1,5 +1,5 @@
 +++
-pageimage = "/img/2016/04/2016.02.27-bristol-zoo-0018.jpg"
+pageimage = "/static/img/2016/04/2016.02.27-bristol-zoo-0018.jpg"
 date = "2016-04-12T19:28:15+01:00"
 draft = "False"
 title = "Passing Penguins"
@@ -15,5 +15,5 @@ slug = "passing-penguins"
 +++
 Bristol Zoo, Penguin habitat - Feb 2016
 
-[<img src="/img/2016/04/2016.02.27-bristol-zoo-0018.jpg">](/img/2016/04/2016.02.27-bristol-zoo-0018.jpg)
+[<img src="/static/img/2016/04/2016.02.27-bristol-zoo-0018.jpg">](/static/img/2016/04/2016.02.27-bristol-zoo-0018.jpg)
 <!--more-->

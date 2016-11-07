@@ -28,7 +28,7 @@ If you really do want to develop locally, then by all means do so, it's always a
 
 No problem, save yourself some testing time and just jump in with [Atom](https://atom.io). I know that Zed recommends Notepad++, Text Wrangler and Gedit, but this course was around when Atom was a glint in the developers eyes so it just wasn't an option back then.
 
-[<img src="/img/2015/10/Atom_editor_logo.svg.png" width=300 >](https://atom.io)
+[<img src="/static/img/2015/10/Atom_editor_logo.svg.png" width=300 >](https://atom.io)
 
 Atom has also come a long way from the slow and buggy days of old. It's a cross platform editor available on Windows, OS X and on many variants of Linux. Sure it's not as fast as Sublime Text or Notepad++ when handling massive files, but it's fast enough for 98% of things you'll need to be doing in the first 6 months of learning, and it's totally FREE and OPEN SOURCE!
 

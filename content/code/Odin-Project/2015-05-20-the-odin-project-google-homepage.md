@@ -14,7 +14,7 @@ Following the [HTML/CSS Basics course](http://www.theodinproject.com/web-develop
 
 The project is ostensibly about testing your newly learned skills with HTML and CSS but it also calls on you to use [Git](https://git-scm.com/), [GitHub](https://github.com/) and the Developer Tools in your browser. These are all fairly simple tasks but with anything you do for the first time, getting it done can be a little daunting.
 
-![Image of Google homepage](/img/2015/05/googlehp.png)
+![Image of Google homepage](/static/img/2015/05/googlehp.png)
 
 <!--more-->
 
@@ -30,7 +30,7 @@ It took me a couple of hours whilst also looking after my 10 month old. But I've
 
 Actually, for me, there were two. The first is the moment you look at the final page and it all works. That moment is really the moment that adds the icing on the cake!
 
-![GitHub pull request image](/img/2015/05/pullrequest.png)
+![GitHub pull request image](/static/img/2015/05/pullrequest.png)
 
 The second part I found really useful was submitting the project on GitHub. This calls for you to fork the actual course curriculum, edit it to insert links to your solution and then submit a pull request.
 
@@ -48,7 +48,7 @@ The trickiest part of the page build for me was working out the 'Apps' icon Goog
 
 In case you can't view the page for some reason, here's a screenshot of my final build. Compare it to the actually Google homepage above!
 
-![Josh Archer rebuild of Google homepage for The Odin Project](/img/2015/05/mygooglehp.png)
+![Josh Archer rebuild of Google homepage for The Odin Project](/static/img/2015/05/mygooglehp.png)
 
 Next time I'd sort out the distance between the content and the top, I've used to much space there.
 

@@ -14,7 +14,7 @@ categories = [
 pageimage = ""
 
 +++
-{{< figure class="img-right-float" src="/img/2016/10/scansnap-folder.png" alt="scansnap-folder" >}}
+{{< figure class="img-right-float" src="/static/img/2016/10/scansnap-folder.png" alt="scansnap-folder" >}}
 
 The Fujitsu ScanSnap s1300 and s300 were some of the best low cost duplex scanners available, and if you've got one no doubt it's still going strong. 
 
@@ -32,9 +32,9 @@ Well, almost, there are certain bits that don't work like one button scanning bu
 
 Here they are then, just one file for each driver to download:
 
-[Download 1300_0C26.nal driver for Fujitsu ScanSnap s1300](/img/2016/10/1300_0C26.nal)
+[Download 1300_0C26.nal driver for Fujitsu ScanSnap s1300](/static/img/2016/10/1300_0C26.nal)
 
-[Download 300_0C00.nal driver for Fujitsu ScanSnap s300](/img/2016/10/300_0C00.nal)
+[Download 300_0C00.nal driver for Fujitsu ScanSnap s300](/static/img/2016/10/300_0C00.nal)
 
 If you know what you're doing, or if you're me returning because I've reinstalled our system yet again (stop doing that!!) then carry on and ignore the rest. 
 
@@ -58,7 +58,7 @@ You'll probably be asked to enter your password to allow the install to proceed.
 
 The result will be something like below if you're running an Ubuntu based Distro but a pure Debian variant will likely perform an install as it's not usually already installed on Debain.
 
-<img src="/img/2016/10/1-sane-install.png" alt="SANE installation in a terminal">
+<img src="/static/img/2016/10/1-sane-install.png" alt="SANE installation in a terminal">
 
 ## Find your s1300 Scanner
 
@@ -70,7 +70,7 @@ Once that's done, use the following command to have SANE look for the scanner:
 
 You'll get a rush of text that'll look something like below. I've highlighted the important bit in the red box...
 
-[<img src="/img/2016/10/2-sane-find-scanner.png" alt="sane-find-scanner command in a terminal">](/img/2016/10/02/2-sane-find-scanner.png)
+[<img src="/static/img/2016/10/2-sane-find-scanner.png" alt="sane-find-scanner command in a terminal">](/static/img/2016/10/02/2-sane-find-scanner.png)
 
 Don't worry about the errors, just look for something similar to that output in the red box and that shows it's properly detected the scanner. For those reading this with a screen reader, the relevant output I got is:
 
@@ -132,7 +132,7 @@ Use the following command to open the config file in gedit. gedit is normally in
 
 gedit will open and you'll see a wall of text in the programme like below. I've highlighted the sections you need to look for in the red boxes. 
 
-<a href="/img/2016/10/3-gedit-image.png"><img src="/img/2016/10/3-gedit-image.png" alt="gedit image showing ScanSnap linux drivers"/></a>
+<a href="/static/img/2016/10/3-gedit-image.png"><img src="/static/img/2016/10/3-gedit-image.png" alt="gedit image showing ScanSnap linux drivers"/></a>
 
 Scroll to the bottom and look for those lines:
 
@@ -172,7 +172,7 @@ device 'epjitsu:libusb:003:008' is a FUJITSU ScanSnap S1300 scanner
 
 Here's what is looked like for me...
 
-<a href="/img/2016/10/4-scan-image-L.png"><img src="/img/2016/10/4-scan-image-L.png" alt="scanimage -L command in a terminal"/></a>
+<a href="/static/img/2016/10/4-scan-image-L.png"><img src="/static/img/2016/10/4-scan-image-L.png" alt="scanimage -L command in a terminal"/></a>
 
 Now open up your scanner application, Ubuntu uses Simple Scan by default. You can find it by clicking the Dash button (top of the launcher bar) and simply typing 'Simple Scan', then hitting the enter key. 
 
@@ -180,7 +180,7 @@ Once open, place something that you want to scan into the paper tray and press â
 
 You should see something like the image below...
 
-<a href="/img/2016/10/5-scan-success.png"><img src="/img/2016/10/5-scan-success.png" alt="ScanSnap s1300 s300 scan on linux ubuntu"/></a>
+<a href="/static/img/2016/10/5-scan-success.png"><img src="/static/img/2016/10/5-scan-success.png" alt="ScanSnap s1300 s300 scan on linux ubuntu"/></a>
  
 Your Fujitsu Scansnap S1300/S300 is now working. Yey!
 
