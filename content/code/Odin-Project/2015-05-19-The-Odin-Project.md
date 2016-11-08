@@ -7,7 +7,7 @@ url = "/code/the-odin-project/"
 title = "The Odin Project - A Journey"
 type = "code"
 +++
-<figure style="float:right"><img src="/img/2015/05/odin.gif" /></figure>
+<figure style="float:right"><img src="/static/img/2015/05/odin.gif" /></figure>
 
 Here we go then, the start of something big...maybe. In an attempt to avoid being one of those that fizzles out half way through I've decided to blog my way through The Odin Project course.
 

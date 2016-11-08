@@ -5,9 +5,11 @@ description = "Contact details for Josh Archer. Find email, social media and mor
 +++
 If you'd like to get in contact with me you have a few options. My public profiles are listed below:
 
-<a href="https://twitter.com/josharcher">Twitter: @josharcher</a>
+Twitter: <a href="https://twitter.com/josharcher">@josharcher</a>
 
-<a href="https://github.com/puffinblue">GitHub: PuffinBlue</a>
+GitHub: <a href="https://github.com/puffinblue">PuffinBlue</a>
+
+GitLab: <a href="https://gitlab.com/josharcher">JoshArcher</a>
 
 <a href="https://plus.google.com/+josharchers">Google+</a>
 
@@ -17,7 +19,7 @@ If you'd like to get in contact with me you have a few options. My public profil
 <h2>Need to contact me securely?</h2>
 If you'd like to email me securely or just want to be sure that the person replying is actually me, you can use my PGP public key:
 
-<a href="/files/2016/10/josh-archer-public-key.asc">Josh Archer - Public Key</a>
+<a href="/static/files/2016/10/josh-archer-public-key.asc">Josh Archer - Public Key</a>
 
 Fingerprint:
 

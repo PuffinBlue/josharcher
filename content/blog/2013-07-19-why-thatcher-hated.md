@@ -6,9 +6,9 @@ title = "10 Reasons why Margaret Thatcher is Britain's most hated politician"
 categories = ["essays"]
 tags = ["Thatcher","Margaret Thatcher hated","Margaret Thatcher","Politics"]
 slug = "why-margaret-thatcher-is-hated"
-pageimage = "/img/2013/Margaret-Thatcher-Photo.jpg"
+pageimage = "/static/img/2013/Margaret-Thatcher-Photo.jpg"
 +++
-<figure class="img-right-float"><img src="/img/2013/Margaret-Thatcher-Photo.jpg" alt="Margaret Thatcher Photo with Union Flag" width="460" height="288"></figure>
+<figure class="img-right-float"><img src="/static/img/2013/Margaret-Thatcher-Photo.jpg" alt="Margaret Thatcher Photo with Union Flag" width="460" height="288"></figure>
 
 Margaret Thatcher, Prime Minister from 1979 to 1990, is one of the most divisive figures in British Political history.
 
@@ -73,7 +73,7 @@ But that was not before over 2 million manufacturing jobs had been lost in the 1
 
 After the recession in 1983, manufacturing output was 30% lower than 1978 levels, reducing the manufacturing base so much that the [balance of payments](http://en.wikipedia.org/wiki/Balance_of_payments) in manufactured goods was in deficit - and has been there ever since.
 
-<figure><img src="/img/2013/Manufacturing-decline.png" alt="Manufacturing decline in the UK 1970 to 2010 - 1970 to 2010" width="458" height="323"/><figcaption>Source: The Guardian</figcaption></figure>
+<figure><img src="/static/img/2013/Manufacturing-decline.png" alt="Manufacturing decline in the UK 1970 to 2010 - 1970 to 2010" width="458" height="323"/><figcaption>Source: The Guardian</figcaption></figure>
 
 **HOWEVER** – Finding a definitive resolution on the question of Britain’s manufacturing, Thatcher’s role in it’s demise and the extent to which it was about to implode under the weight of the Unions is virtually impossible.
 
@@ -91,7 +91,7 @@ What is less welcome to many people is that Britain was in *critical* need of th
 
 She unquestionably stirs up hatred for her actions during this time, it’s up to you to decide whether, on balance, she was right to take them.
 
-For a more 'thorough' review you can read a detailed analysis from the Centre for Business Research on the History of [British Industrial Performance from 1870-2010](/files/2013/Industrial-Performance-1870-2010.pdf), or [The impact of Government policies on UK manufacturing since 1945](/files/2013/ep2-government-policy-since-1945.pdf).
+For a more 'thorough' review you can read a detailed analysis from the Centre for Business Research on the History of [British Industrial Performance from 1870-2010](/static/files/2013/Industrial-Performance-1870-2010.pdf), or [The impact of Government policies on UK manufacturing since 1945](/static/files/2013/ep2-government-policy-since-1945.pdf).
 
 ### <a name="3"></a>3. She presided over interest rates of 15%
 
@@ -99,11 +99,11 @@ She did. This [Guardian article](http://www.theguardian.com/politics/datablog/20
 
 More important than simply being in office during the time of such rates were the consequences and the measures taken to control them.
 
-This [Parliamentary Briefing Paper](/files/2013/sn00263.pdf) shows one of the biggest - repossessions.
+This [Parliamentary Briefing Paper](/static/files/2013/sn00263.pdf) shows one of the biggest - repossessions.
 
-<figure><img src="/img/2013/Interest-rates.png" alt="Interest rates in the UK under Margaret Thatcher - 1976 to 2013" width="471" height="385"><figcaption>Interest rates (%) 1976 – 2013 <br> Source: The Guardian</figcaption></figure>
+<figure><img src="/static/img/2013/Interest-rates.png" alt="Interest rates in the UK under Margaret Thatcher - 1976 to 2013" width="471" height="385"><figcaption>Interest rates (%) 1976 – 2013 <br> Source: The Guardian</figcaption></figure>
 
-Ordinary home owners, many of whom had bought their homes as a direct result of the <a href="http://en.wikipedia.org/wiki/Right_to_Buy">Right to Buy</a> scheme, found themselves losing their homes due to spiraling mortgage payments. However, it must be said that the [bulk of repossessions happened directly after Thatcher left office](/files/2013/sn00263.pdf), though no doubt many rightly attribute their defaults to the period of high interest rates that preceded her departure.
+Ordinary home owners, many of whom had bought their homes as a direct result of the <a href="http://en.wikipedia.org/wiki/Right_to_Buy">Right to Buy</a> scheme, found themselves losing their homes due to spiraling mortgage payments. However, it must be said that the [bulk of repossessions happened directly after Thatcher left office](/static/files/2013/sn00263.pdf), though no doubt many rightly attribute their defaults to the period of high interest rates that preceded her departure.
 
 Though the control of inflation was ultimately achieved, this further damage to ordinary people, millions of whom had already lost their jobs thanks to the impact on manufacturing, lead to a deep rooted personal hatred of Thatcher and [Thatcherism](http://en.wikipedia.org/wiki/Thatcherism).
 
@@ -117,7 +117,7 @@ As long as the innocent spouse took care not to be caught in adultery, he or she
 
 As ever, things are more complicated. In the 70′s there was significant pressure in the Wilson Government to make spending cuts in order to pay for Tax savings.
 
-<figure><img src="/img/2013/Margaret-Thatcher-Milk-Snatcher.jpg" alt="Margaret Thatcher Milk Snatcher"></figure>
+<figure><img src="/static/img/2013/Margaret-Thatcher-Milk-Snatcher.jpg" alt="Margaret Thatcher Milk Snatcher"></figure>
 
 Thatcher, the new Secretary of State for Education at the time, was ordered to make cuts in four areas:
 
@@ -140,9 +140,9 @@ She did. There can’t be much argument that her massive expansion and subsidisa
 
 These graphics from the BBC highlight the changes:
 
-<figure><img src="/img/2013/54388267_housebuilding_464.png" alt="Graph showing new homes built by private and social sectors in the UK 1950 to 2010"><figcaption>Source: BBC</figcaption></figure>
+<figure><img src="/static/img/2013/54388267_housebuilding_464.png" alt="Graph showing new homes built by private and social sectors in the UK 1950 to 2010"><figcaption>Source: BBC</figcaption></figure>
 
-<figure><img src="/img/2013/right_to_buy_304.png" alt="UK Council House sales after 1980"> <figcaption>Source: BBC</figcaption></figure>
+<figure><img src="/static/img/2013/right_to_buy_304.png" alt="UK Council House sales after 1980"> <figcaption>Source: BBC</figcaption></figure>
 
 It’s been more than 20 years since she left power, including a 13 year Labour Government. It is therefore prudent to ask at what point responsibility for the current situation switches to successive Governments who have failed to correct this imbalance.
 
@@ -164,7 +164,7 @@ It moved the burden of tax from the rich to the poor.
 
 It disproportionately hit large families living in relatively small accommodation and was universally hated for being unfair on ordinary working people.
 
-<figure><img src="/img/2013/polltax.png" alt="Newspaper clipping on the fury against teh Poll Tax"></figure>
+<figure><img src="/static/img/2013/polltax.png" alt="Newspaper clipping on the fury against teh Poll Tax"></figure>
 
 The Community Charge caused intense distrust and deep wounds in the political psyche of millions of voters, many of whom never forgave Thatcher for her actions (as we see from the anger released following her death).
 
@@ -172,7 +172,7 @@ The changes generated [seething public anger](http://www.socialistparty.org.uk/a
 
 {{< youtube FRj2K0ulD8Q >}}
 
-Yorkshire Police even made preparations to refuse to arrest anyone as thanks to the problems of [implementing the tax](http://en.wikipedia.org/wiki/Community_Charge#Implementation), the force believed it [lacked the resources](/img/2013/organise21_polltax_p16.gif) to deal with such wide-scale civil disobedience.
+Yorkshire Police even made preparations to refuse to arrest anyone as thanks to the problems of [implementing the tax](http://en.wikipedia.org/wiki/Community_Charge#Implementation), the force believed it [lacked the resources](/static/img/2013/organise21_polltax_p16.gif) to deal with such wide-scale civil disobedience.
 
 ### A note on the Consequences
 
@@ -192,7 +192,7 @@ This Act defined what was to be known as the ‘Internal Market’, which [intro
 
 > “The market splits health authorities (which commission care for their local population) from hospital trusts (which compete to provide care). GP fundholding, which gives some family doctors budgets to buy care on their patients’ behalf, is introduced.’
 
-In [The Impact of the NHS Market](/files/2013/Civitas_LiteratureReview_NHS_market_Feb10.pdf), [CIVITAS](http://www.civitas.org.uk/) described the intention was:
+In [The Impact of the NHS Market](/static/files/2013/Civitas_LiteratureReview_NHS_market_Feb10.pdf), [CIVITAS](http://www.civitas.org.uk/) described the intention was:
 
 > “...for purchasers to choose the most suitable services at the best prices. Healthcare services could be purchased from public (NHS) providers (including new self-governing hospitals called NHS Trusts, other health authorities’ hospitals, and health authorities’ own self-managed hospitals) and independent suppliers, who were all to compete for contracts.” “Fundholders were to be motivated by the ability to reinvest any profit gained from efficient purchasing back into general practice, to spend as they liked.”
 
@@ -220,7 +220,7 @@ This is one of the apparently obvious, but in reality, confused reasons why peop
 
 There is little evidence to say that Thatcher was directly involved in the Act’s creation, (it was [Jill Knight who introduced the specific Section](http://en.wikipedia.org/wiki/Jill_Knight#Stance_on_homosexuality) itself) and indeed far more to suggest that modern politicians such as [William Hague actively supported the clause](http://news.bbc.co.uk/1/hi/uk_politics/547508.stm).
 
-<figure><img src="/img/2013/Section-28-What-did-it-do.jpg" alt="What Section 28 of the Local Government Act 1988 did"><figcaption>Section 28 explained</figcaption></figure>
+<figure><img src="/static/img/2013/Section-28-What-did-it-do.jpg" alt="What Section 28 of the Local Government Act 1988 did"><figcaption>Section 28 explained</figcaption></figure>
 
 Nonetheless, such legislation reflects the generally held beliefs of the [Conservative traditionalists](http://www.standard.co.uk/news/politics/antihomosexual-section-28-was-right-for-schools-says-tory-mp-8398942.html) that Homosexuality, though no longer illegal, should not be promoted.
 
@@ -234,7 +234,7 @@ This highly complex topic developed over months and you should take the time to 
 
 Regardless, the legislation was later confirmed as being [inapplicable to Schools](http://briandeer.com/social/clause-28.htm), and didn’t prohibit the objective discussion of sexuality, or prohibit any discussion related to the prevention of the disease.
 
-<figure><img src="/img/2013/Section-28-Protest-Flyer-400x561.jpg" alt="A Section 28 of the Local Government Act 1988 protest flyer" ><figcaption>Protest Flyer against Section 28: (year 2000)</figcaption></figure>
+<figure><img src="/static/img/2013/Section-28-Protest-Flyer-400x561.jpg" alt="A Section 28 of the Local Government Act 1988 protest flyer" ><figcaption>Protest Flyer against Section 28: (year 2000)</figcaption></figure>
 
 What it did do was serve to highlight and ostracise the Gay and Lesbian community, legislating for separate treatment and restriction of teaching that many LGBT supports legitimately felt discriminated against them.
 
@@ -248,7 +248,7 @@ The [Irish Hunger Strike in 1981](http://en.wikipedia.org/wiki/1981_Irish_hunger
 
 It was the culmination of 5 years of protests by Irish Republican prisoners, having begun in 1976 after Britain removed [Special Category Status](http://en.wikipedia.org/wiki/Special_Category_Status) (essentially ‘Political Prisoner’ status) for captured paramilitary prisoners.
 
-<figure><img src="/img/2013/IrishHungerStrike.jpg" alt="Irish Hunger Strikers - colour photo with names"><figcaption><b>From left to right, clockwise:</b> Bobby Sands, Francis Hughes, Ray McCreesh, Patsy O’Hara, Joe McDonnell, Martin Hurson, Kevin Lynch, Kieran Doherty, Thomas McElwee, Michael Devine.</figcaption></figure>
+<figure><img src="/static/img/2013/IrishHungerStrike.jpg" alt="Irish Hunger Strikers - colour photo with names"><figcaption><b>From left to right, clockwise:</b> Bobby Sands, Francis Hughes, Ray McCreesh, Patsy O’Hara, Joe McDonnell, Martin Hurson, Kevin Lynch, Kieran Doherty, Thomas McElwee, Michael Devine.</figcaption></figure>
 
 The [Blanket Men’s primary aim](http://en.wikipedia.org/wiki/Blanket_protest) was to reinstate their categorisation as essentially ‘Prisoner’s of War’ and the attached privileges awarded under that status. Specifically their goals included:
 
@@ -272,7 +272,7 @@ Thatcher also solidified her stance, saying:
 
 Following Sands death, 100,000 people attended his funeral and such was the international feeling over the situation, the [cities of Paris and Tehran](http://www.independent.co.uk/news/uk/this-britain/remembering-bobby-sands-6101872.html) even named streets in Sands honour. Throughout the crisis, Thatcher remain absolutely resolute in the face of extraordinary national and international political and moral pressure.
 
-<figure><img src="/img/2013/Bobby-Sands-MP-Mural.jpg" alt="Colour photo of the Bobby Sands murial - Northern Ireland"><figcaption>Repainted every year, Sands mural is one of Northern Ireland's most prominent.<br>Bobby Sands MP Mural – Northern Ireland</figcaption></figure>
+<figure><img src="/static/img/2013/Bobby-Sands-MP-Mural.jpg" alt="Colour photo of the Bobby Sands murial - Northern Ireland"><figcaption>Repainted every year, Sands mural is one of Northern Ireland's most prominent.<br>Bobby Sands MP Mural – Northern Ireland</figcaption></figure>
 
 Her tone in May 1981 was at times morbid, even as the Hunger Strikers began to die one after another:
 
@@ -298,7 +298,7 @@ Republican writer [Danny Morrison’s](http://en.wikipedia.org/wiki/Danny_Morris
 
 In 1984, several years after the Hunger Strikes, the resentment went beyond mere feeling as the IRA launched a very nearly successful assassination attempt on Thatcher on the night before the Conservative Party Conference.
 
-<figure><img src="/img/2013/brighton-bomb-aftermath.jpg" alt="The aftermath of the Brighton Bombing"><figcaption>The aftermath of the Brighton Bombing<br>Several floors collapsed and 5 people were killed</figcaption></figure>
+<figure><img src="/static/img/2013/brighton-bomb-aftermath.jpg" alt="The aftermath of the Brighton Bombing"><figcaption>The aftermath of the Brighton Bombing<br>Several floors collapsed and 5 people were killed</figcaption></figure>
 
 5 people died in the [Brighton Hotel Bombing](http://en.wikipedia.org/wiki/Brighton_hotel_bombing) and Thatcher herself only [narrowly avoided being killed](http://en.wikipedia.org/wiki/Brighton_hotel_bombing#The_bombing).
 

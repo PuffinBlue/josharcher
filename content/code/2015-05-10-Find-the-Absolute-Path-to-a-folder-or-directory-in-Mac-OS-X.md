@@ -5,7 +5,7 @@ date = "2015-05-10T19:50:23+01:00"
 draft = false
 slug = "find-path-to-folder-on-mac"
 title = "Find the Absolute Path to a folder or directory in Mac OS X"
-pageimage = "/img/2015/5/Locate-folder-you-need-location-for.png"
+pageimage = "/static/img/2015/5/Locate-folder-you-need-location-for.png"
 +++
 Mac OS X doesn’t have an obvious way to view the exact text based path to a folder (otherwise known as a directory) in the finder window. You can have it show a graphical path, but getting just the text based path to a directory (for use in the Terminal for example) requires a couple of extra steps.
 
@@ -25,19 +25,19 @@ Here are the instructions for finding the file path on Mavericks and below...
 
 The first thing to do is identify the folder you need to know the full path for. In this example it’s the “month 1″ folder of my Insanity Workout folder (and yes, I did buy Insanity, directly from Amazon actually and these are my back-ups. It’s not pirated like so much Beachbody stuff unfortunately is!):
 
-![Locate folder you need location for](/img/2015/05/Locate-folder-you-need-location-for.png)
+![Locate folder you need location for](/static/img/2015/05/Locate-folder-you-need-location-for.png)
 
 Now we can simply press the “cmd+i” keys together to open up the “Get Info” window. This displays various bits of info about the folder as you can see below:
 
-![The "Get Info" display window](/img/2015/05/The-Get-Info-display-window.png")
+![The "Get Info" display window](/static/img/2015/05/The-Get-Info-display-window.png")
 
 You can see that the Get Info window contains the line “Where:” followed by the text folder path. This is the path to the folder we have been looking for. The path to the folder is highlighted and made clearer in the screenshot below:
 
-![Copy the folder path](/img/2015/05/Copy-the-folder-path.png")
+![Copy the folder path](/static/img/2015/05/Copy-the-folder-path.png")
 
 You can now copy this text based absolute folder path and paste it into your Terminal window. **NOTE** – If the directory path contains spaces, as the example i have used in this post does, you **MUST** use ” quotation ” marks around the path when typing it into the Terminal. The screenshot below demonstrates this:
 
-![Terminal-window-showing-use-of-quote-marks](/img/2015/05/Terminal-window-showing-use-of-quote-marks.png)
+![Terminal-window-showing-use-of-quote-marks](/static/img/2015/05/Terminal-window-showing-use-of-quote-marks.png)
 
 ### Why might I need to know how to find the path to a folder on Mac?
 
@@ -61,21 +61,21 @@ Here are the instructions for finding the file path on Mavericks and below...
 
 The first thing to do is identify the folder you need to know the full path for. In this example it’s the “month 1″ folder of my Insanity Workout folder (and yes, I did buy Insanity, directly from Amazon actually and these are my back-ups. It’s not pirated like so much Beachbody stuff unfortunately is!):
 
-<img src="/img/2015/05/Locate-folder-you-need-location-for.png" alt="Locate folder you need location for" width="884" height="552" >
+<img src="/static/img/2015/05/Locate-folder-you-need-location-for.png" alt="Locate folder you need location for" width="884" height="552" >
 
 <!--more-->
 
 Now we can simply press the “cmd+i” keys together to open up the “Get Info” window. This displays various bits of info about the folder as you can see below:
 
-<img src="/img/2015/05/The-Get-Info-display-window.png" alt="The Get Info display window">
+<img src="/static/img/2015/05/The-Get-Info-display-window.png" alt="The Get Info display window">
 
 You can see that the Get Info window contains the line “Where:” followed by the text folder path. This is the path to the folder we have been looking for. The path to the folder is highlighted and made clearer in the screenshot below:
 
-<img src="/img/2015/05/Copy-the-folder-path.png" alt="Copy the folder path">
+<img src="/static/img/2015/05/Copy-the-folder-path.png" alt="Copy the folder path">
 
 You can now copy this text based absolute folder path and paste it into your Terminal window. **NOTE** – If the directory path contains spaces, as the example i have used in this post does, you **MUST** use ” quotation ” marks around the path when typing it into the Terminal. The screenshot below demonstrates this:
 
-<img src="/img/2015/05/Terminal-window-showing-use-of-quote-marks.png" alt="Terminal window showing use of quote marks">
+<img src="/static/img/2015/05/Terminal-window-showing-use-of-quote-marks.png" alt="Terminal window showing use of quote marks">
 
 ### Why might I need to know how to find the path to a folder on Mac?
 

@@ -41,4 +41,4 @@ Comment out all but one - done.
 
 A '#' comments out a line meaning it won't be actioned by the interpreter. 
 
-As ever, [source files on GitHub](https://github.com/PuffinBlue/LPTHW).
+As ever, [source files on GitLab](https://gitlab.com/josharcher/LPTHW).

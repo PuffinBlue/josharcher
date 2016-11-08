@@ -9,7 +9,7 @@ tags = [
   "Take Back Parliament","London","House of Parliament Protest","Westminster Minster"
 ]
 slug = "young-protester-take-back-parliament-2010"
-pageimage = "/img/2016/03/2010.05.15-take-back-parliament-0006.jpg"
+pageimage = "/static/img/2016/03/2010.05.15-take-back-parliament-0006.jpg"
 date = "2016-03-15T19:27:49+01:00"
 
 +++
@@ -21,5 +21,5 @@ Everything was shot on the streets around Westminster and Whitehall. I shot on a
 
 See more from my coverage of this event [here](http://photos.josharcher.uk/Public/Street/Take-Back-Parliament/).
 
-[<img src="/img/2016/03/2010.05.15-take-back-parliament-0006.jpg" width=400px>](/img/2016/03/2010.05.15-take-back-parliament-0006.jpg)
+[<img src="/static/img/2016/03/2010.05.15-take-back-parliament-0006.jpg" width=400px>](/static/img/2016/03/2010.05.15-take-back-parliament-0006.jpg)
 <!--more-->
