@@ -155,3 +155,8 @@ I can't write out all the goodness in that linked answer so read it!
 [Here's what the docs say](https://docs.python.org/3/reference/simple_stmts.html#import). Yes, I know that's Python 3, but let's face it, at the end of this course that's what I'm going to switch to using. 
 
 And into the rabbit hole we go with the [Import System](https://docs.python.org/3/reference/import.html#importsystem)...
+
+### Source files
+
+As ever, [source files on GitLab](https://gitlab.com/josharcher/LPTHW).
+
