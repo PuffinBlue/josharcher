@@ -60,7 +60,7 @@ print_one("First!")
 print_none()
 ```
 
-I think a litte note on the `*args` argument in the `print_two` function definition is in order. 
+I think a litte note on the `*args` [parameter](http://stackoverflow.com/a/156787) in the `print_two` function definition is in order. 
 
 Firstly `*args` isn't *really* the thing that's important, it's simply the asterisk bit. You could use `*var` instead if you wanted, but it's convention to use `*args`. 
 
