@@ -9,7 +9,7 @@ tags = [
   "",
 ]
 draft = "false"
-url = "/code/lpthw-exercise-19-functions-variables"
+url = "/code/lpthw-exercise-19-functions-variables/"
 slug = ""
 pageimage = ""
 

@@ -9,7 +9,7 @@ tags = [
   "",
 ]
 draft = "false"
-url = "/code/lpthw-exercise-16-reading-writing-files"
+url = "/code/lpthw-exercise-16-reading-writing-files/"
 slug = ""
 pageimage = ""
 
