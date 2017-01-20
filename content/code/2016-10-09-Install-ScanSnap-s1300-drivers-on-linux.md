@@ -1,8 +1,8 @@
 +++
-title = "Install ScanSnap s1300 and s300 drivers on Linux - drivers included"
-description = "A step by step guide showing how to install on Linux the relevant ScanSnap s1300 drivers. This post included the drivers you need to install."
+title = "Install ScanSnap s1300, s1300i, s1100 and s300 drivers on Linux - drivers included"
+description = "A step by step guide showing how to install on Linux the relevant ScanSnap s1300, s1300i, s1100 and s300 drivers. This post included the drivers you need to install."
 tags = [
-  "s1300","s300","s300M","scansnap","scansnap drivers","scansnap s1300 drivers","scansnap s300 drivers"
+  "s1300","s1100","s1300i","s300","s300M","scansnap","scansnap drivers","scansnap s1300 drivers","scansnap s300 drivers","scansnap s1300i drivers","scansnap s1100 drivers"
 ]
 url = ""
 date = "2016-10-09T00:26:01+01:00"
@@ -16,33 +16,39 @@ pageimage = ""
 +++
 {{< figure class="img-right-float" src="/static/img/2016/10/scansnap-folder.png" alt="scansnap-folder" >}}
 
-The Fujitsu ScanSnap s1300 and s300 were some of the best low cost duplex scanners available, and if you've got one no doubt it's still going strong. 
+The Fujitsu ScanSnap s1300, s1100 and s300 were some of the best low cost duplex scanners available, and if you've got one no doubt it's still going strong. Likewise, the current generation s1300i upholds that tradition and is arguably one of the best scanners currently on sale.
 
 Unfortunately Fujitsu don't provide linux drivers so this post provides those drivers for you to download.
 
 This post looks long but it's just spelt out very very clearly. The actual number of things you need to do is not that high at all. I've seen many terse instructions that fail to give new users enough to go on so this one is written out fully and clearly.
 
-To that end I'll also walk you through the install process so you can have your s1300 and s300 happily scanning away just like they would if you were using Windows or OS X/macOS. 
+To that end I'll also walk you through the install process so you can have your s1300, s1300i, s1100 and s300 happily scanning away just like they would if you were using Windows or OS X/macOS. 
 
 Well, almost, there are certain bits that don't work like one button scanning but it's not too much of a hardship. 
 
 <!--more-->
 
-## ScanSnap s1300 and s300 driver download
+## ScanSnap s1300, s1100, s1300i and s300 driver download
 
 Here they are then, just one file for each driver to download:
 
-[Download 1300_0C26.nal driver for Fujitsu ScanSnap s1300](/static/img/2016/10/1300_0C26.nal)
+[Download 1300_0C26.nal driver for Fujitsu ScanSnap s1300](/static/files/2016/10/1300_0C26.nal)
 
-[Download 300_0C00.nal driver for Fujitsu ScanSnap s300](/static/img/2016/10/300_0C00.nal)
+[Download 300_0C00.nal driver for Fujitsu ScanSnap s300](/static/files/2016/10/300_0C00.nal)
+
+[Download 1100_0A00.nal driver for Fujitsu ScanSnap s1100](/static/files/2016/10/1100_0A00.nal)
+
+[Download 1300i_0D12.nal driver for Fujitsu ScanSnap s1300i](/static/files/2016/10/1300i_0D12.nal)
 
 If you know what you're doing, or if you're me returning because I've reinstalled our system yet again (stop doing that!!) then carry on and ignore the rest. 
 
 If you aren't sure what you're doing then click the link above to download the driver (put it in your downloads folder or remember where you put it) and read on for instructions on how to install the relevant one.  
 
-## Installing ScanSnap s1300 driver on Ubuntu
+## Installing ScanSnap s1300, s1300i, s1100 or s300 driver on Ubuntu
 
-First things first - this post requires you to use the terminal. If you aren't familiar with it then here's a [great post on getting started with the terminal](http://www.howtogeek.com/140679/beginner-geek-how-to-start-using-the-linux-terminal/) by How-To Geek. Try not to be put off if you are new to the terminal, all it requires is that you can type text, that's literally it.
+First things first there's no point telling you how to install each driver itself, because it's basically the same way for each. Instead I'll show you how to install the s1300 and those steps can be used to install drivers for the s1100, s1300i and s300.
+
+One other thing - this post requires you to use the terminal. If you aren't familiar with it then here's a [great post on getting started with the terminal](http://www.howtogeek.com/140679/beginner-geek-how-to-start-using-the-linux-terminal/) by How-To Geek. Try not to be put off if you are new to the terminal, all it requires is that you can type text, that's ***literally*** it.
 
 I run vanilla Ubuntu 16.04 LTS, but I did test this driver install on Linux Mint 18 and Debian Jessie 8.5 and this process worked. It should work on any Debian based distro (that includes Ubuntu based ones and it's offspring for those that aren't familiar with the mess that is Linux distributions).  
 
@@ -60,7 +66,7 @@ The result will be something like below if you're running an Ubuntu based Distro
 
 <img src="/static/img/2016/10/1-sane-install.png" alt="SANE installation in a terminal">
 
-## Find your s1300 Scanner
+## Find your s1300, s1300i, s1100 or s300 Scanner
 
 Now we need to make sure the system can find your scanner. Make sure it's connected and powered on by plugging in the power cable and connecting it to a USB port on your computer. You make sure it is on by opening the lid/paper tray which will cause the scan button to flash blue.
 
@@ -80,7 +86,7 @@ found USB scanner (vendor=0x04c5 [FUJITSU], product=0x11ed [ScanSnap S1300]) at 
 
 You should find something similar in your terminal output.  
 
-## Installing the s1300/s300 drivers
+## Installing the s1300, s1300i, s1100 or s300 drivers themselves
 
 So now we get to installing the driver you need. If you have the s1300 you obviously don't need to install the s300 driver too, just install the relevant one for your scanner. 
 
@@ -92,7 +98,7 @@ Create a folder called ‘epjitsu’ in the directory /usr/share/sane using the 
 
 ### Step 2 - move the drivers
 
-Move the drivers (install them) to the usr/share/sane/epjitsu folder you just created. 
+Move the drivers (that's all you need to do to 'install' them) to the usr/share/sane/epjitsu folder you just created. 
 
 **NOTE** - You need to know where exactly you downloaded the drivers. Most of the time they automatically go into your Downloads folder so the commands below will work fine. If not, you'll need to find the correct path to the downloaded files (if you saved them to your Desktop or something) and use that path instead.
 
@@ -120,13 +126,15 @@ Then:
 sudo cp Downloads/300_0C00.nal /usr/share/sane/epjitsu/300_0C00.nal
 ```
 
+I'm sure you can work out for yourself how to do the s300 and s1300i - just change the names in the command.
+
 NOTE - That like `~` symbol is the [tilde key](http://www.computerhope.com/jargon/t/tilde.htm), it's normally on the top left or bottom left of the keyboard and might need the shift key to get to it. Or you could just copy and paste what I've put here but the standard warning is your should never just copy and paste commands from someone on the internet, even the nice people!
 
 ### Step 3 - update configuration settings
 
 That might sound a bit off putting if you're new, don't worry, it's just text and we make the adjustment using a text editor.
 
-Use the following command to open the config file in gedit. gedit is normally installed by default so that's why I chose it, feel free to use the editor of your choice if you wish:
+Use the following command to open the config file in gedit. gedit is just a plain text editor that is normally installed by default so that's why I chose it, feel free to use the editor of your choice if you wish but don't use anything like LibreOffice as we need a **plain** text editor, not one that adds it's own invisible markup:
 
 `sudo gedit /etc/sane.d/epjitsu.conf`
 
@@ -150,9 +158,11 @@ firmware /usr/share/sane/epjitsu/300_0C00.nal
 usb 0x04c5 0x1156 
 ```
 
+...or the lines that match for the s1300i/s1100.
+
 If those lines aren't there or they are wrong, add or adjust them as needed. 
 
-Interestingly, you'll see the s300 driver will work for the s300M but the s1300 driver won't work for the s1300i. If someone has the driver for the s1300i and wants to provide it here let me know.
+Interestingly, you'll see the s300 driver will work for the s300M but the s1300 driver won't work for the s1300i, so make sure you use the correct driver for your device.
 
 ### Step 4 - reboot you computer
 
@@ -194,7 +204,11 @@ A couple problems for me:
 
 If you need duplex scanning, try [gscan2pdf](https://apps.ubuntu.com/cat/applications/precise/gscan2pdf/). You can search for it and install it on the Ubuntu software centre or in the Debian repos. Other distros probably have it in their repos too. 
 
-Using gscan2pdf offers way more control and I get perfect duplex (double sided) scanning every time. 
+Using gscan2pdf offers way more control and I get perfect duplex (double sided) scanning every time.
+
+3) Can't find a scanner unless you use `sudo`
+
+If this happens, you might need to just update the permissions on the scanners' group. Have a look at [this](http://www.openfusion.net/linux/scansnap_1300i) post for info on how to do that. 
 
 ## Final words
 
