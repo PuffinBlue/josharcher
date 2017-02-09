@@ -16,7 +16,7 @@ pageimage = ""
 +++
 [LPTHW - Exercise 21](http://learnpythonthehardway.org/book/ex21.html)
 
-Well this feel like finally getting somewhere. Learning the basics over and over again as I am (I'm also doing the [Odin Project](/categories/odin-project/)) gets a bit demoralising. Finally getting to this stage here (and prety much the same stage in the Odin Project) feels like a bit of a breakthrough.
+Well it feels like I'm finally getting somewhere. Learning the basics over and over again as I am (I'm also doing the [Odin Project](/categories/odin-project/)) gets a bit demoralising. Finally getting to this stage here (and prety much the same stage in the Odin Project) feels like a bit of a breakthrough.
 
 That's not to say there isn't a long way to go! It is nice though to feel a little bit like I'm emerging from the dense forrest and starting to be able to glimpse the land beyond.
 
