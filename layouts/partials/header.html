@@ -256,7 +256,15 @@ a:hover.older-posts, a:hover.newer-posts, a:hover.read-more {
   /* Post top images - float right */
   .img-right-float {float:right;padding:5px;max-width:20em;}
 </style>
-<!-- {{ template "_internal/google_analytics_async.html" . }} -->
+<!-- Google Analytics -->
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-62812844-1', 'auto');
+ga('set', 'transport', 'beacon');
+ga('send', 'pageview');
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+<!-- End Google Analytics -->
 </head>
 <body>
 	<header>
