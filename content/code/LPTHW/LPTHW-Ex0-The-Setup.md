@@ -32,7 +32,9 @@ No problem, save yourself some testing time and just jump in with [Atom](https:/
 
 Atom has also come a long way from the slow and buggy days of old. It's a cross platform editor available on Windows, OS X and on many variants of Linux. Sure it's not as fast as Sublime Text or Notepad++ when handling massive files, but it's fast enough for 98% of things you'll need to be doing in the first 6 months of learning, and it's totally FREE and OPEN SOURCE!
 
-To add to that, Atom is one of the most easily extensible and well supported text editors around. Microsoft and Adobe each have launched Visual Code Studio and Brackets respectively, showing that an Electron based editor doesn't have to be slow, but you won't find the same number of community packages or the same ease of customisation you will with Atom.
+To add to that, Atom is one of the most easily extensible and well supported text editors around. 
+
+Microsoft and Adobe each have launched Visual Code Studio and Brackets respectively, showing that an Electron based editor doesn't have to be slow, but you won't find the same number of community packages or the same ease of customisation you will with Atom.
 
 So, save yourself a bit of time and go for it.
 

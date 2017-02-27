@@ -17,6 +17,18 @@ title = "LPTHW - Exercise 2: Comments and Pound Characters"
 
 Another gentle intro/recap of the first lesson. 
 
+```python
+# A comment, this is so you can read your program later
+# Anything after the # is ignored by python.
+
+print("I could have code like this.") # and the comment after is ignored
+
+# You can also use a comment to 'disable' or comment out a piece of code:
+# print "This won't run."
+
+print("This will run.")
+```
+
 ## Learn Python The Hard Way Study Drills
 
 #### 1. Find out if you were right about what the # character does and make sure you know what it's called (octothorpe or pound character).
@@ -35,16 +47,6 @@ Nope!
 
 None!
 
-```python
-# A comment, this is so you can read your program later
-# Anything after the # is ignored by python.
-
-print "I could have code like this." # and the comment after is ignored
-
-# You can also use a comment to 'disable' or comment out a piece of code:
-# print "This won't run."
-
-print "This will run."
-```
+### Source files
 
 As ever, [source files on GitLab](https://gitlab.com/josharcher/LPTHW).

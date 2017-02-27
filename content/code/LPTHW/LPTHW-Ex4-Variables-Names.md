@@ -48,37 +48,41 @@ carpool_capacity = drivers * space_in_a_car
 average_passengers_per_car = passengers / cars_driven
 
 
-print "There are", cars, "cars available."
-print "There are only", drivers, "drivers available."
-print "There will be", cars_not_driven, "empty cars today."
-print "We can transport", carpool_capacity, "people today."
-print "We have", passengers, "to carpool today."
-print "We need to put about", average_passengers_per_car, "in each car."
+print("There are", cars, "cars available.")
+print("There are only", drivers, "drivers available.")
+print("There will be", cars_not_driven, "empty cars today.")
+print("We can transport", carpool_capacity, "people today.")
+print("We have", passengers, "to carpool today.")
+print("We need to put about", average_passengers_per_car, "in each car.")
 ```
 
 ## Learn Python The Hard Way Study Drills
 
 #### 1. I used 4.0 for space_in_a_car, but is that necessary? What happens if it's just 4? 
 
-Remember that 4.0 is a floating point number. It's just a number with a decimal point, and you need 4.0 instead of just 4 so that it is floating point.
+If you didn't use floating point numbers I believe Python would round down to the nearest whole number. In this case that would not really matter as the product (?) is a whole number anyway. 
+
+#### 2. Remember that 4.0 is a floating point number. It's just a number with a decimal point, and you need 4.0 instead of just 4 so that it is floating point.
 
 Floating points were [covered in exercise 3](/code/lpthw-exercise-3-numbers-and-math/#floating).
 
-#### 2. Write comments above each of the variable assignments.
+#### 3. Write comments above each of the variable assignments.
 
 OK.
 
-#### 3. Make sure you know what = is called (equals) and that it's making names for things.
+#### 4. Make sure you know what = is called (equals) and that it's making names for things.
 
 OK.
 
-#### 4. Remember that _ is an underscore character.
+#### 5. Remember that _ is an underscore character.
 
 OK.
 
-#### 5. Try running python from the Terminal as a calculator like you did before and use variable names to do your calculations. Popular variable names are also i, x, and j.
+#### 6. Try running python from the Terminal as a calculator like you did before and use variable names to do your calculations. Popular variable names are also i, x, and j.
 
 It's trickier first time you do this, setting the variable in this fashion feels a bit weird as we've been writing them in a script. This [Let's Learn Python](https://www.youtube.com/watch?v=D48iCw3WWpI&list=PL82YdDfxhWsDJTq5f0Ae7M7yGcA26wevJ) video by [Trevor Payne](https://www.youtube.com/channel/UCPme28sMOcWS50CgtTWUZIw) has a great overview of doing this if you get stuck or need to see exactly what doing this looks like. 
+
+### Source files
 
 As ever, [source files on GitLab](https://gitlab.com/josharcher/LPTHW).
 

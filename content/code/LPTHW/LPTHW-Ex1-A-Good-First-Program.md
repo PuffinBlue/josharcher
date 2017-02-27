@@ -19,12 +19,12 @@ date = "2015-10-20T21:18:05+01:00"
 Pretty simple introduction this, just a few print statements. Example code will be below the answers to the student questions...
 
 ```python
-# print "Hello again!"
-# print "I Like typing this."
-# print "This is fun."
-# print 'Yay! Printing.'
-# print "I'd much rather you 'not'."
-# print 'I "said" do not touch this.'
+# print("Hello again!")
+# print("I Like typing this.")
+# print("This is fun.")
+# print('Yay! Printing.')
+# print("I'd much rather you 'not'.")
+# print('I "said" do not touch this.')
 print "This is another line."
 ```
 ## Learn Python The Hard Way Study Drills
@@ -40,5 +40,7 @@ Comment out all but one - done.
 #### 3. Put a # (octothorpe) character at the beginning of a line. What did it do? Try to find out what this character does
 
 A '#' comments out a line meaning it won't be actioned by the interpreter. 
+
+### Source files
 
 As ever, [source files on GitLab](https://gitlab.com/josharcher/LPTHW).

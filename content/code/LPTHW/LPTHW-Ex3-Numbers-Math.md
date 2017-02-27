@@ -59,32 +59,32 @@ Simple answer, floating point numbers. Here's a great [video on floating point n
 Ta da! Here's the rest of my completed answer, you might see some differences as this is the final saved version after I played around with it.
 
 ```python
-print "I will now count my chickens:"
+print("I will now count my chickens:")
 
-print "Hens", 25 + 30 / 6
+print("Hens", 25 + 30 / 6)
 
 # % and * have identical priority so do from left to right. - is lower priority so...
-# 3 * 25 = 75 &gt;&gt;&gt; 75 % 4 = 3 &gt;&gt;&gt; 100 - 3 = 97
-print "Roosters", 100 - 25 * 3 % 4
+# 3 * 25 = 75 >>> 75 % 4 = 3 >>> 100 - 3 = 97
+print("Roosters", 100 - 25 * 3 % 4)
 
-print "I will now count the eggs:"
+print("I will now count the eggs:")
 
 # 4 % 2 = 0 and 1 / 4 = 0 too because without a decimal place it's a non-floating point
 # number so it only deals in whole numbers...
 # 6 - 5 + 0 - 0 + 6 = 7
-print 3 + 2 + 1 - 5 + 4 % 2 - 1.0 / 4.0 + 6
-print "Is it true that 3 + 2 &lt; 5 - 7?"
+print(3 + 2 + 1 - 5 + 4 % 2 - 1.0 / 4.0 + 6)
+print("Is it true that 3 + 2 < 5 - 7?")
 
-print 3 + 2 &lt; 5 - 7
+print(3 + 2 < 5 - 7)
 
-print "What is 3 + 2?", 3 + 2
-print "What is 5 - 7?", 5 - 7
+print("What is 3 + 2?", 3 + 2)
+print("What is 5 - 7?", 5 - 7)
 
-print "Oh, that's why it's False."
-print "How about some more."
-print "Is it greater?", 5 &gt; -2
-print "Is it greater than or equal?", 5 &gt;= -2
-print "Is it less or equal?", 5 &lt;= -2
+print("Oh, that's why it's False.")
+print("How about some more.")
+print("Is it greater?", 5 > -2)
+print("Is it greater than or equal?", 5 >= -2)
+print("Is it less or equal?", 5 <= -2)
 ```
 
 ## Learn Python The Hard Way Study drills
@@ -101,12 +101,10 @@ Gave it a go, it works.
 
 This was too redundant. You can add calculations to this file or do study drill 2. There's a limit to useful repetition.
 
-#### 4. Notice the math seems "wrong"? There are no fractions, only whole numbers. You need to use a "floating point" number, which is a number with a decimal point, as in 10.5, or 0.89, or even 3.0.
-
-Explained above. 
-
-#### 5. Rewrite ex3.py to use floating point numbers so it's more accurate. 20.0 is floating point.
+#### 4. Rewrite ex3.py to use floating point numbers so it's more accurate. 20.0 is floating point.
 
 Done in the explanation and completed example above.
+
+### Source files
 
 As ever, [source files on GitLab](https://gitlab.com/josharcher/LPTHW).

@@ -27,6 +27,31 @@ I see evidence of this in the [Python 3 docs](https://docs.python.org/3.1/whatsn
 You can see an example of this new syntax at the bottom of my completed example below. It's output is the exact same code as before. 
 
 ```python
+my_name = 'Josh Archer'
+my_age = 30
+my_height = 178 # centimetres 
+my_weight = 92 # kilograms
+my_eyes = 'hazel'
+my_teeth = 'white'
+my_hair = 'Black'
+
+print(f"Let's talk about {my_name}" % name
+print(f"He's {my_height} centimetres tall."
+print(f"He weights {my_weight}kg."
+print("Actually that's not that heavy")
+print("He's got {my_eyes} eyes and {my_hair} hair."
+print("His teeth are always {my_teeth} as he doesn't drink coffee!"
+
+# This line is tricky, try to get it exactly right.
+total = my_age + my_height + my_weight
+print(f"If I add {my_age}, {my_height}, and {my_weight} I get {total}.")
+```
+
+## Learn Python The Hard Way Study drills
+
+#### 1. Change all the variables so there is no my\_ in front of each one. Make sure you change the name everywhere, not just where you used = to set them.
+
+```python
 name = 'Josh Archer'
 age = 30
 height = 178 # centimetres 
@@ -35,44 +60,48 @@ eyes = 'hazel'
 teeth = 'white'
 hair = 'Black'
 
-print "Let's talk about %s." % name
-print "He's %d centimetres tall." % height
-print "He weights %d kg." % weight
-print "Actually that's not that heavy"
-print "He's got %s eyes and %s hair." % (eyes, hair)
-print "His teeth are always %s as he doesn't drink coffee!" % teeth
+print(f"Let's talk about {name}" % name
+print(f"He's {height} centimetres tall."
+print(f"He weights {weight}kg."
+print("Actually that's not that heavy")
+print("He's got {eyes} eyes and {hair} hair."
+print("His teeth are always {teeth} as he doesn't drink coffee!"
 
 # This line is tricky, try to get it exactly right.
-print "If I add %d, %d and %d I get %d." % (age, height, weight, age + height + weight)
+total = my_age + my_height + my_weight
+print(f"If I add {age}, {height}, and {weight} I get {total}.")
+```
 
+#### 2. Try to write some variables that convert the inches and pounds to centimeters and kilograms. Do not just type in the measurements. Work out the math in Python.
+
+I initially wrote this answer for version 3 of the LPTHW book which taught Python 2. However, I noticed then that the format strings were different for Python 3, so I wrote the answer with both.
+
+I'll leave the original answer here.
+
+```python
 print "If you'd like the numbers in imperial, then lets see..."
-# This uses one of the different format characters '%r', which prints exactly
-# what you input.
-print '''%r weights %r pounds, he's %r inches tall (and unfortunately for him) 
-is still %r years old.''' % (name, weight * 2.2, height * 0.39370, age)
-# Trying this with the new format() syntax
+
 print '''{!r} weights {!r} pounds, he's {!r} inches tall (and unfortunately for him) 
 is still {!r} years old.''' .format(name, weight * 2.2, height * 0.39370, age)
 ``` 
 
-## Learn Python The Hard Way Study drills
-
-#### 1. Change all the variables so there is no my_ in front of each one. Make sure you change the name everywhere, not just where you used = to set them.
-
-Done.
-
-#### 2. Try to write some variables that convert the inches and pounds to centimeters and kilograms. Do not just type in the measurements. Work out the math in Python.
-
-Done - see last two examples above.
-
 #### 3. Search online for all of the Python format characters.
 
-As mentioned above, this is a bit of a tricky one. It seems that the available format characters might have stayed the same, as far as I can tell, but [the docs have the best reference on Python format strings](https://docs.python.org/2/library/string.html#format-specification-mini-language) that I could find. 
+This question is no longer in version 4 of the book that teaches Python 3 but I'm leaving it in. 
+[The docs have the best reference on Python format strings](https://docs.python.org/2/library/string.html#format-specification-mini-language) that I could find. 
 
-Interestingly, they don't seem to include the `r` character in the list, but it does work and there is an example of how to change from it to the new syntax. Definitely a bit of a tricky one to work out on your fifth lesson!
+This bit is useful:
 
-#### 4. Try more format characters. %r is a very useful one. It's like saying "print this no matter what."
+```python
+"Harold's a clever {0!s}"        # Calls str() on the argument first
+"Bring out the holy {name!r}"    # Calls repr() on the argument first
+"More {!a}"                      # Calls ascii() on the argument first
+```
 
-Done, and tried the new syntax too. 
+#### 4. Try more format characters. {!r} is a very useful one. It's like saying "print this no matter what."
+
+Done, and tried the new syntax too in answer to question 2 above. 
+
+### Source files
 
 As ever, [source files on GitLab](https://gitlab.com/josharcher/LPTHW).
