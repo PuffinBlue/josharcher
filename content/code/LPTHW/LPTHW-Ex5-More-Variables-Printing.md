@@ -30,7 +30,7 @@ The PyFormat guide extracts much of the salient information from the docs and pr
 
 However, it doesn't seems to have the Python 3.6 behaviour in there yet, so extract that from the topmost link.
 
-I know, confusing, but that seems to have been a bit of a thing in Python over the last few year and I guess played a part in the big rift from Python 2 to Python 3.  
+I know, confusing, but that seems to have been a bit of a thing in Python over the last few years and I guess played a part in the big rift from Python 2 to Python 3.  
 
 Anyway, heres the script...
 
