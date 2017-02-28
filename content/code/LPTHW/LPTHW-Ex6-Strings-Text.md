@@ -20,7 +20,28 @@ More working with strings and text in this exercise.
 
 Having looked into string formatting in the last exercise I realised that I was looking into something quite a bit further on in the course than I needed to right now. 
 
-Exercise 37 picks up the topic again so for now I'll just be following along using the old style `%` indicators rather than the 'new' format. 
+```python
+x = "There are {!d} types of people.".format(10)
+binary = "binary"
+do_not = "don't"
+y = f"Those who know {binary} and those who {do_not}."
+
+print(x)
+print(y)
+
+print(f"I said: '{x}'")
+print(f"I also said: '{y}'")
+
+hilarious = False
+joke_evaluation = "Isn't that joke so funny?! {}"
+
+print(joke_evaluation.format(hilarious))
+
+w = "This is the left side of..."
+e = "a string with a right side."
+
+print(w + e)
+```
 
 ## Learn Python The Hard Way Study Drills
 
