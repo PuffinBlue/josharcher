@@ -21,7 +21,7 @@ More working with strings and text in this exercise.
 Having looked into string formatting in the last exercise I realised that I was looking into something quite a bit further on in the course than I needed to right now. 
 
 ```python
-x = "There are {!d} types of people.".format(10)
+x = "There are {!a} types of people.".format(10)
 binary = "binary"
 do_not = "don't"
 y = f"Those who know {binary} and those who {do_not}."
@@ -51,7 +51,7 @@ print(w + e)
 # Sets variable x to string with an embedded format string. Format strings 
 # are way to insert (embed) a thing within a string such that the final 
 # output will include the thing or whatever operation the thing is part of.
-x = "There are {!d} types of people.".format(10)
+x = "There are {!a} types of people.".format(10)
 
 # sets variable 'binary' to 'binary' = redundant slightly but needed
 binary = "binary"
