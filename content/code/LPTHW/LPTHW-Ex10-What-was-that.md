@@ -35,15 +35,10 @@ I'll do a list:
 \t* Catnip\n\t* Grass
 """
 
-print tabby_cat
-print persian_cat 
-print backslash_cat
-print fat_cat
-
-# This is an annoying spinning star thing that never quits
-while True:
-    for i in ["/","-","|","\\","|"]:
-        print "%s\r" % i,
+print(tabby_cat)
+print(persian_cat)
+print(backslash_cat)
+print(fat_cat)
 ``` 
 
 ## Learn Python The Hard Way - Study Drills
@@ -71,7 +66,7 @@ So not 'more complex', just 'new':
 
 escape = '\nAh! \nhow \nmany \nnew \nlines \nin \nthis \nlist: %s'
 
-print escape % ('\n\tLoads!\n\tAnd some more')
+print(escape % ('\n\tLoads!\n\tAnd some more'))
 ``` 
 
 Output:
@@ -89,23 +84,20 @@ list:
         And some more
 ``` 
 
-
-**NOTE** - Comment out the annoying repeating star thing if you place new code at the bottom of the script or it'll just keep running that and never get to your new stuff. 
-
-#### 4. Remember the %r format? Combine %r with double-quote and single-quote escapes and print them out. Compare %r with %s. Notice how %r prints it the way you'd write it in your file, but %s prints it the way you'd like to see it?
+#### 4. Remember the `{!r}` format? Combine `{!r}` with double-quote and single-quote escapes and print them out. Compare `{!r}` with `{!s}`. Notice how `{!r}` prints it the way you'd write it in your file, but `{!s}` prints it the way you'd like to see it?
 
 I notice!
  
 ```python
 # Study drill code with double/single quotes and %s or %r
-print 'Didn\'t you see %r, that\'s %r ' % ("Michael\'s tops", "crazy")
-print 'Didn\'t you see %s, that\'s %s ' % ("Michael\'s tops", "crazy")
+print('Didn\'t you see {!r}, that\'s {!r} '.format("Michael\'s tops", "crazy"))
+print('Didn\'t you see {!s}, that\'s {!s} '.format("Michael\'s tops", "crazy"))
 ``` 
 
 Output:
  
 ```text
-"Didn't you see "Michael's tops", that's 'crazy' 
+Didn't you see "Michael's tops", that's 'crazy' 
 Didn't you see Michael's tops, that's crazy
 ```
 
