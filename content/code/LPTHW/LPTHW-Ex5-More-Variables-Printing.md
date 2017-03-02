@@ -9,7 +9,7 @@ title = "LPTHW - Exercise 5: More Variables Printing"
 description = "Complete finished example of the fifth exercise from the Learn Python The Hard Way course. Exercise 5: More Variables and Printing"
 url = "/code/lpthw-exercise-5-variables-printing/"
 tags = [
-  "",
+  "Learn Python The Hard Way Exercise 5","LPTHW Exercise 5","Learn Python Exercise 5","LPTHW Ex 5","",
 ]
 slug = ""
 

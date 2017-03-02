@@ -6,7 +6,7 @@ categories = [
   "LPTHW",
 ]
 tags = [
-  "",
+  "","Learn Python The Hard Way Exercise 15","LPTHW Exercise 15","Learn Python Exercise 15","LPTHW Ex 15"
 ]
 draft = "false"
 url = "/code/lpthw-exercise-15-reading-files/"

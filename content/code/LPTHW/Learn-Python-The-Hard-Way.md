@@ -8,7 +8,7 @@ date = "2015-10-09T21:08:31+01:00"
 draft = "false"
 pageimage = ""
 tags = [
-  "",
+  "LPTHW","Learn Python The Hard Way","LPTHW completed course","Learn Python The HArd Way complete","LPTHW answers","LPTHW Help","Learn Python The HArd Way guide"
 ]
 slug = ""
 url = "/code/learn-python-the-hard-way/"

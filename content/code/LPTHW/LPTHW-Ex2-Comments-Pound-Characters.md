@@ -8,7 +8,7 @@ url = "/code/lpthw-exercise-2-comments-and-pound-characters/"
 draft = "false"
 pageimage = ""
 categories = [
-  "LPTHW",
+  "LPTHW","Learn Python The Hard Way Exercise 2","LPTHW Exercise 2","Learn Python Exercise 2","LPTHW Ex 2"
 ]
 date = "2015-11-05T21:26:17+01:00"
 title = "LPTHW - Exercise 2: Comments and Pound Characters"

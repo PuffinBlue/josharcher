@@ -6,7 +6,7 @@ categories = [
   "LPTHW",
 ]
 tags = [
-  "",
+  "","Learn Python The Hard Way Exercise 14","LPTHW Exercise 14","Learn Python Exercise 14","LPTHW Ex 14"
 ]
 draft = "false"
 url = "/code/lpthw-exercise-14-prompting-and-passing/"

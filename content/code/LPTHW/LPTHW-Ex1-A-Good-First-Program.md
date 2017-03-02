@@ -8,7 +8,7 @@ tags = [
 ]
 draft = "false"
 categories = [
-  "LPTHW",
+  "LPTHW","Learn Python The Hard Way Exercise 1","LPTHW Exercise 1","Learn Python Exercise 1","LPTHW Ex 1"
 ]
 slug = ""
 date = "2015-10-20T21:18:05+01:00"

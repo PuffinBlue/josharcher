@@ -8,7 +8,7 @@ categories = [
 pageimage = ""
 date = "2016-03-20T22:38:36+01:00"
 tags = [
-  "",
+  "Learn Python The Hard Way Exercise 9","LPTHW Exercise 9","Learn Python Exercise 9","LPTHW Ex 9","",
 ]
 url = "/code/lpthw-exercise-9-printing-printing-printing/"
 description = "Complete finished example of the ninthexercise from the Learn Python The Hard Way course. Exercise 9: Printing, Printing, Printing"

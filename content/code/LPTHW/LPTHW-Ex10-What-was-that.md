@@ -9,7 +9,7 @@ draft = "false"
 url = "/code/lpthw-exercise-10-what-was-that/"
 pageimage = ""
 tags = [
-  "",
+  "Learn Python The Hard Way Exercise 10","LPTHW Exercise 10","Learn Python Exercise 10","LPTHW Ex 10"
 ]
 slug = ""
 
@@ -64,9 +64,9 @@ So not 'more complex', just 'new':
 ```python
 # New code with format strings and escape characters
 
-escape = '\nAh! \nhow \nmany \nnew \nlines \nin \nthis \nlist: %s'
+escape = '\nAh! \nhow \nmany \nnew \nlines \nin \nthis \nlist: {}'
 
-print(escape % ('\n\tLoads!\n\tAnd some more'))
+print(escape.format('\n\tLoads!\n\tAnd some more'))
 ``` 
 
 Output:
@@ -107,22 +107,24 @@ Zed suggests that students memorise all of the following escape sequences (their
 
 These characters are trivial to lookup (and I'm leaving this here for reference for myself) and I think I'll just move on and concentrate on learning the 'concepts' rather than rote memorisation of this bit.
 
-|ESCAPE|WHAT IT DOES|
-|------|------------|
-|\\    |Backslash (\)
-|\'    |Single-quote (')
-|\"    |Double-quote (")
-|\a    |ASCII bell (BEL)
-|\b    |ASCII backspace (BS)
-|\f    |ASCII formfeed (FF)
-|\n|ASCII linefeed (LF)
-|\N{name}|Character named name in the Unicode database (Unicode only)
-|\r|Carriage Return (CR)
-|\t|Horizontal Tab (TAB)
-|\uxxxx|Character with 16-bit hex value xxxx (Unicode only)
-|\Uxxxxxxxx|Character with 32-bit hex value xxxxxxxx (Unicode only)
-|\v|ASCII vertical tab (VT)
-|\ooo|Character with octal value ooo
-|\xhh|Character with hex value hh
+|ESCAPE     |WHAT IT DOES|
+|:---------:|------------|
+|\\         |Backslash (\)
+|\'         |Single-quote (')
+|\"         |Double-quote (")
+|\a         |ASCII bell (BEL)
+|\b         |ASCII backspace (BS)
+|\f         |ASCII formfeed (FF)
+|\n         |ASCII linefeed (LF)
+|\N{name}   |Character named name in the Unicode database (Unicode only)
+|\r         |Carriage Return (CR)
+|\t         |Horizontal Tab (TAB)
+|\uxxxx     |Character with 16-bit hex value xxxx (Unicode only)
+|\Uxxxxxxxx |Character with 32-bit hex value xxxxxxxx (Unicode only)
+|\v         |ASCII vertical tab (VT)
+|\ooo       |Character with octal value ooo
+|\xhh       |Character with hex value hh
+
+### Source files
 
 As ever, [source files on GitLab](https://gitlab.com/josharcher/LPTHW).

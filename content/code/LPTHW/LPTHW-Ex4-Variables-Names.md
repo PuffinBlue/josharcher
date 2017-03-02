@@ -7,7 +7,7 @@ slug = ""
 title = "LPTHW - Exercise 4: Variables Names"
 description = "Complete finished example of the fourth exercise from the Learn Python The Hard Way course. Exercise 4: Variables And Names"
 tags = [
-  "",
+  "Learn Python The Hard Way Exercise 4","LPTHW Exercise 4","Learn Python Exercise 4","LPTHW Ex 4","",
 ]
 pageimage = ""
 date = "2015-12-15T21:56:26+01:00"

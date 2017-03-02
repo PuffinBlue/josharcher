@@ -10,7 +10,7 @@ categories = [
 slug = ""
 description = "Complete finished example of the third exercise from the Learn Python The Hard Way course. Exercise 3: Numbers and Math."
 tags = [
-  "LPTHW rooster question","Why rooster question 97"
+  "LPTHW rooster question","Why rooster question 97","Learn Python The Hard Way Exercise 3","LPTHW Exercise 3","Learn Python Exercise 3","LPTHW Ex 3"
 ]
 
 +++

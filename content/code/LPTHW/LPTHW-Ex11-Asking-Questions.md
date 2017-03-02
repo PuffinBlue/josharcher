@@ -5,7 +5,7 @@ categories = [
   "LPTHW",
 ]
 tags = [
-  "",
+  "Learn Python The Hard Way Exercise 11","LPTHW Exercise 11","Learn Python Exercise 11","LPTHW Ex 11",""
 ]
 url = "/code/lpthw-exercise-11-asking-questions/"
 slug = ""

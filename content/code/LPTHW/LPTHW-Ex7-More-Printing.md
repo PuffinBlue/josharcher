@@ -1,7 +1,7 @@
 +++
 description = "Complete finished example of the seventh exercise from the Learn Python The Hard Way course. Exercise 7: More Printing"
 tags = [
-  "",
+  "Learn Python The Hard Way Exercise 7","LPTHW Exercise 7","Learn Python Exercise 7","LPTHW Ex 7","",
 ]
 slug = ""
 categories = [

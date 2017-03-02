@@ -1,7 +1,7 @@
 +++
 draft = "false"
 tags = [
-  "",
+  "Learn Python The Hard Way Exercise 8","LPTHW Exercise 8","Learn Python Exercise 8","LPTHW Ex 8","",
 ]
 date = "2016-02-20T22:29:06+01:00"
 categories = [

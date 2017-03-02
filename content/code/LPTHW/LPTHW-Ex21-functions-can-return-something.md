@@ -4,9 +4,10 @@ description = "Complete finished example of the twenty first exercise from the L
 date = "2017-02-09T12:13:39Z"
 categories = [
   "LPTHW",
-]
+  ]
 tags = [
-  "",
+  "","Learn Python The Hard Way Exercise 21","LPTHW Exercise 21","Learn Python Exercise 21","LPTHW Ex 21"
+
 ]
 draft = "false"
 url = "/code/lpthw-exercise-21-functions-can-return-something/"

@@ -8,7 +8,7 @@ title = "LPTHW - Ex 0: The Setup"
 slug = ""
 description = "Some thoughts and tips regarding the zeroth exercise from the Learn Python The Hard Way course. Exercise 0: The Setup."
 categories = [
-  "LPTHW",
+  "LPTHW","Learn Python The Hard Way Exercise 0","LPTHW Exercise 0","Learn Python Exercise 0","LPTHW Ex 0"
 ]
 date = "2015-10-13T20:48:07+01:00"
 url = "/code/lpthw-ex-0-setup/"

@@ -6,7 +6,7 @@ categories = [
   "LPTHW",
 ]
 tags = [
-  "",
+  "","Learn Python The Hard Way Exercise 18","LPTHW Exercise 18","Learn Python Exercise 18","LPTHW Ex 18"
 ]
 draft = "false"
 url = "/code/lpthw-exercise-18-names-variables-code-functions/"

@@ -9,7 +9,7 @@ draft = "false"
 title = "LPTHW - Exercise 12: Prompting People"
 description = "Complete finished example of the twelth exercise from the Learn Python The Hard Way course. Exercise 12: Prompting People"
 tags = [
-  "",
+  "","Learn Python The Hard Way Exercise 12","LPTHW Exercise 12","Learn Python Exercise 12","LPTHW Ex 12"
 ]
 slug = ""
 
