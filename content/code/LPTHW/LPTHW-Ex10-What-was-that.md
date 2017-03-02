@@ -43,15 +43,15 @@ print(fat_cat)
 
 ## Learn Python The Hard Way - Study Drills
 
-#### 1. Memorize all the escape sequences by putting them on flash cards.
+### 1. Memorize all the escape sequences by putting them on flash cards.
 
 See right at the bottom of this post for my answer on this...
 
-#### 2. Use ''' (triple-single-quote) instead. Can you see why you might use that instead of """?
+### 2. Use ''' (triple-single-quote) instead. Can you see why you might use that instead of """?
 
 I would use them because it saves hitting the shift key, which saves some time. I suppose you'd just use whatever the convention is. Maybe you can tell how anal or sane a project is by the rules around the use of quote characters!
 
-#### 3. Combine escape sequences and format strings to create a more complex format.
+### 3. Combine escape sequences and format strings to create a more complex format.
 
 Not sure what constitutes a 'more complex format'? Something that's eternally frustrating about tutorials are the lack of definitions of terminology. Tutors seem to forget that not everyone shares their personal definition of keywords. 
 
@@ -84,7 +84,7 @@ list:
         And some more
 ``` 
 
-#### 4. Remember the `{!r}` format? Combine `{!r}` with double-quote and single-quote escapes and print them out. Compare `{!r}` with `{!s}`. Notice how `{!r}` prints it the way you'd write it in your file, but `{!s}` prints it the way you'd like to see it?
+### 4. Remember the `{!r}` format? Combine `{!r}` with double-quote and single-quote escapes and print them out. Compare `{!r}` with `{!s}`. Notice how `{!r}` prints it the way you'd write it in your file, but `{!s}` prints it the way you'd like to see it?
 
 I notice!
  
@@ -101,7 +101,7 @@ Didn't you see "Michael's tops", that's 'crazy'
 Didn't you see Michael's tops, that's crazy
 ```
 
-### Escape sequences
+## Escape sequences
 
 Zed suggests that students memorise all of the following escape sequences (their format and what they do). I'm not sure that it's necessary to commit something like this to memory right now.
 
@@ -125,6 +125,6 @@ These characters are trivial to lookup (and I'm leaving this here for reference 
 |\ooo       |Character with octal value ooo
 |\xhh       |Character with hex value hh
 
-### Source files
+## Source files
 
 As ever, [source files on GitLab](https://gitlab.com/josharcher/LPTHW).

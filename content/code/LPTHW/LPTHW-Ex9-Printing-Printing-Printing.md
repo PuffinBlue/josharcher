@@ -39,10 +39,10 @@ Even 4 lines if we want, or 5, or 6.
 
 ## Learn Python the Hard Way Study Drills
 
-#### 1. Check your work, write down your mistakes, try not to make them on the next exercise.
+### 1. Check your work, write down your mistakes, try not to make them on the next exercise.
 
 OK!
 
-### Source files
+## Source files
 
 As ever, [source files on GitLab](https://gitlab.com/josharcher/LPTHW).

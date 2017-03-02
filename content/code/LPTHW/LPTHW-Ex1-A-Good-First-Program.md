@@ -29,18 +29,18 @@ print "This is another line."
 ```
 ## Learn Python The Hard Way Study Drills
 
-#### 1. Make your script print another line.
+### 1. Make your script print another line.
 
 Done. See code (multiple print statements print multiple lines).
 
-#### 2. Make your script print only one of the lines.
+### 2. Make your script print only one of the lines.
 
 Comment out all but one - done.
 
-#### 3. Put a # (octothorpe) character at the beginning of a line. What did it do? Try to find out what this character does
+### 3. Put a # (octothorpe) character at the beginning of a line. What did it do? Try to find out what this character does
 
 A '#' comments out a line meaning it won't be actioned by the interpreter. 
 
-### Source files
+## Source files
 
 As ever, [source files on GitLab](https://gitlab.com/josharcher/LPTHW).

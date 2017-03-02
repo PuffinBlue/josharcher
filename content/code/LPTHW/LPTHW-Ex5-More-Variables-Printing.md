@@ -57,7 +57,7 @@ print(f"If I add {my_age}, {my_height}, and {my_weight} I get {total}.")
 
 ## Learn Python The Hard Way Study drills
 
-#### 1. Change all the variables so there is no my\_ in front of each one. Make sure you change the name everywhere, not just where you used = to set them.
+### 1. Change all the variables so there is no my\_ in front of each one. Make sure you change the name everywhere, not just where you used = to set them.
 
 ```python
 name = 'Josh Archer'
@@ -80,7 +80,7 @@ total = age + height + weight
 print(f"If I add {age}, {height}, and {weight} I get {total}.")
 ```
 
-#### 2. Try to write some variables that convert the inches and pounds to centimeters and kilograms. Do not just type in the measurements. Work out the math in Python.
+### 2. Try to write some variables that convert the inches and pounds to centimeters and kilograms. Do not just type in the measurements. Work out the math in Python.
 
 I initially wrote this answer for version 3 of the LPTHW book which taught Python 2. However, I noticed back then that the format strings were different for Python 3, so I wrote the answer with both.
 
@@ -102,7 +102,7 @@ See how you Python 3.6 supports expressions within the curly braces? You can see
 
 Pretty cool. 
 
-#### 3. Search online for all of the Python format characters.
+### 3. Search online for all of the Python format characters.
 
 This question is no longer in version 4 of the book that teaches Python 3 but I'm leaving it in. 
 In addition to the excellent [PyFormat](https://pyformat.info/) [The docs have the best reference on Python format strings](https://docs.python.org/3/library/string.html#format-string-syntax) that I could find. 
@@ -115,10 +115,10 @@ This bit is useful:
 "More {!a}"                      # Calls ascii() on the argument first
 ```
 
-#### 4. Try more format characters. {!r} is a very useful one. It's like saying "print this no matter what."
+### 4. Try more format characters. {!r} is a very useful one. It's like saying "print this no matter what."
 
 Done, and tried the new syntax too in answer to question 2 above. 
 
-### Source files
+## Source files
 
 As ever, [source files on GitLab](https://gitlab.com/josharcher/LPTHW).

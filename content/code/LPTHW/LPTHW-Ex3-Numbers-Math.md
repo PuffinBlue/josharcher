@@ -89,22 +89,22 @@ print("Is it less or equal?", 5 <= -2)
 
 ## Learn Python The Hard Way Study drills
 
-#### 1. Above each line, use the # to write a comment to yourself explaining what the line does.
+### 1. Above each line, use the # to write a comment to yourself explaining what the line does.
 
 Done for the difficult maths entries. The print statements otherwise are very obvious. 
 
-#### 2. Remember in Exercise 0 when you started python? Start python this way again and using the math operators, use Python as a calculator.
+### 2. Remember in Exercise 0 when you started python? Start python this way again and using the math operators, use Python as a calculator.
 
 Gave it a go, it works.
 
-#### 3. Find something you need to calculate and write a new .py file that does it.
+### 3. Find something you need to calculate and write a new .py file that does it.
 
 This was too redundant. You can add calculations to this file or do study drill 2. There's a limit to useful repetition.
 
-#### 4. Rewrite ex3.py to use floating point numbers so it's more accurate. 20.0 is floating point.
+### 4. Rewrite ex3.py to use floating point numbers so it's more accurate. 20.0 is floating point.
 
 Done in the explanation and completed example above.
 
-### Source files
+## Source files
 
 As ever, [source files on GitLab](https://gitlab.com/josharcher/LPTHW).

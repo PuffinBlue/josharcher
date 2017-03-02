@@ -22,7 +22,7 @@ This is an interesting lesson. It may take a few minutes to get the mental abstr
 
 When we work with and open files ourselves in something like a text document, we associate 'open' with 'read' i.e. we as humans read the file immediately as it opens, so we can do stuff with it. 
 
-It seems here that that's not how computers work. Remembering the old adage that you have to literally tell a computer everything it needs to do we shouldn't be surprised that we have to be extremely precise it our commands.
+It seems here that that's not how computers work. Remembering the old adage that you have to literally tell a computer everything it needs to do we shouldn't be surprised that we have to be extremely precise in our commands.
 
 ### What is that file thing?
 
@@ -32,7 +32,32 @@ The term given to this open file 'thing' is a **file object**. You kind of have 
 
 ### Whaaaaat?
 
-Here's the lesson script with my comments. See if that helps.
+See Study Drill 1 for the lesson script with my comments. See if that helps.
+
+```python
+from sys import argv
+
+script, filename = argv
+
+txt = open(filename)
+
+print(f"Here's your file {filename}:")
+print(txt.read())
+
+print("Type the filename again:")
+file_again = input(">>> ")
+
+txt_again = open(file_again)
+
+print(txt_again.read())
+
+txt.close()
+txt_again.close()
+```
+
+## Learn Python The Hard Way - Study Drills
+
+### 1. Above each line, write out in English what that line does.
 
 ```python
 # Imports the argv (argument variable) module/library 
@@ -48,34 +73,28 @@ script, filename = argv
 # in the argument variable. 
 txt = open(filename)
 
-print "Here's your file %r:" % filename
+print(f"Here's your file {filename}:")
 # NEW - .read() is a function/method applied to the variable 'txt'. From above 'txt'
 # is the file object of the file provided in the argument variable. .read() is 
 # simply an instruction to read the contents of the file. As this is used in 
 # conjunction with 'print' function, the content are written to the screen. 
-print txt.read()
+print(txt.read())
 
 # The below is the above repeated with alternative variable/file object names 
 # instead of the file being provided via argument variable, it's provided 
 # by the user via an input prompt after the script runs.
-print "Type the filename again:"
-file_again = raw_input(">>> ")
+print("Type the filename again:")
+file_again = input(">>> ")
 
 txt_again = open(file_again)
 
-print txt_again.read()
+print(txt_again.read())
 
 txt.close()
 txt_again.close()
 ```
 
-## Learn Python The Hard Way - Study Drills
-
-### Above each line, write out in English what that line does.
-
-Done.
-
-### If you are not sure ask someone for help or search online. Many times searching for "python THING" will find answers to what that THING does in Python. Try searching for "python open."
+### 2. If you are not sure ask someone for help or search online. Many times searching for "python THING" will find answers to what that THING does in Python. Try searching for "python open."
 
 Tried it. At least on my system you get back a crappy one liner telling you to basically go and look at another command.
 
@@ -89,19 +108,21 @@ open(...)
 
 Not overly helpful!
 
-### I used the word "commands" here, but commands are also called "functions" and "methods." You will learn about functions and methods later in the book.
+### 3. I used the word "commands" here, but commands are also called "functions" and "methods." You will learn about functions and methods later in the book.
 
-![](/static/img/2016/09/now-getting-somewhere.gif)
+![now we're getting somewhere Seinfeld gif](/static/img/2016/09/now-getting-somewhere.gif)
 
-### Get rid of the lines 10-15 where you use `raw_input` and run the script again.
+### Get rid of the lines 10-15 where you use `input` and run the script again.
 
 This would work better if you didn't tell us to write a comment above each line telling ourselves what it does. So now those line numbers are meaningless. 
 
-### Use only `raw_input` and try the script that way. Why is one way of getting the filename better than another?
+To combat this going forward I'll be writing out the script again and adding comments separately as I've done now with study question 1. 
+
+### 4. Use only `input` and try the script that way. Why is one way of getting the filename better than another?
 
 Definitely `argv` is better. You can use tab completion to speed up and increase the accuracy of writing the file name. When writing in the prompt you have to write the whole thing exactly, so you better remember the file path!
 
-### Start `python` to start the python shell, and use `open` from the prompt just like in this program. Notice how you can open files and run `read` on them from within python?
+### 5. Start `python3.6` to start the python shell, and use `open` from the prompt just like in this program. Notice how you can open files and run `read` on them from within python3.6?
 
 Tried this, but I'm not sure how you are supposed to set the variable to be the ex15_sample.txt file I am using. 
 
@@ -117,8 +138,10 @@ Notice the quotes around the file path, you'll need those or you'll get an `inva
 
 Once you've got that then you can do stuff like `txt.read()`.
 
-### Have your script also call close() on the txt and txt_again variables. It's important to close files when you are done with them.
+### Have your script also call `close()` on the `txt` and `txt_again` variables. It's important to close files when you are done with them.
 
 Added these to the end of the script. Good job I didn't get rid of those lines 10-15 or calling `close()` on `txt_again` would be pointless.
+
+## Source files
 
 As ever, [source files on GitLab](https://gitlab.com/josharcher/LPTHW).

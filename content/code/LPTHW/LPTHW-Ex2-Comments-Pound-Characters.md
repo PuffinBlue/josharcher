@@ -31,22 +31,22 @@ print("This will run.")
 
 ## Learn Python The Hard Way Study Drills
 
-#### 1. Find out if you were right about what the # character does and make sure you know what it's called (octothorpe or pound character).
+### 1. Find out if you were right about what the # character does and make sure you know what it's called (octothorpe or pound character).
 
 I was correct, it's 'comments out' code meaning it will be ignored by the interpreter. It's obviously called a hash sign too!
 
-#### 2. Take your ex2.py file and review each line going backward. Start at the last line, and check each word in reverse against what you should have typed.
+### 2. Take your ex2.py file and review each line going backward. Start at the last line, and check each word in reverse against what you should have typed.
 
 No mistakes.
 
-#### 3. Did you find more mistakes? Fix them.
+### 3. Did you find more mistakes? Fix them.
 
 Nope!
 
-#### 4. Read what you typed above out loud, including saying each character by its name. Did you find more mistakes? Fix them.
+### 4. Read what you typed above out loud, including saying each character by its name. Did you find more mistakes? Fix them.
 
 None!
 
-### Source files
+## Source files
 
 As ever, [source files on GitLab](https://gitlab.com/josharcher/LPTHW).

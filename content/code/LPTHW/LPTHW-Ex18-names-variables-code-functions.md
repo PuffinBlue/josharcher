@@ -40,19 +40,19 @@ Alright then, here's the script...
 # This one is like your scripts with argv
 def print_two(*args):
     arg1, arg2 = args
-    print "arg1: %r, arg2: %r" % (arg1, arg2)
+    print(f"arg1: {arg1}, arg2: {arg2}")
 
 # OK, that *args is actually pretty pointless, we can just do this
 def print_two_again(arg1, arg2):
-        print "arg1: %r, arg2: %r" % (arg1, arg2)
+        print(f"arg1: {arg1}, arg2: {arg2}")
 
 # This just takes one argument
 def print_one(arg1):
-    print "arg1: %r" % (arg1)
+    print(f"arg1: {arg1}")
 
 # This takes no arguments
 def print_none():
-    print "I got nothin'."
+    print("I got nothin'.")
 
 print_two("Zed","Shaw")
 print_two_again("Zed","Shaw")
@@ -78,7 +78,7 @@ The study drills here are to create an index card reminding you of how to correc
 
 ![Learn Python The Hard Way exercise 18 study drills - function checklist](/static/img/2016/12/function-checklist.png)
 
-### Source files
+## Source files
 
 As ever, [source files on GitLab](https://gitlab.com/josharcher/LPTHW).
 

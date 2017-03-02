@@ -63,11 +63,11 @@ Zed outlines what `.format()` is in the lesson. I'd like to add that this is a P
 
 ## Learn Python The Hard Way Study Drills
 
-#### 1. Do your checks, write down your mistakes, and try not to make the same mistakes on the next exercise.
+### 1. Do your checks, write down your mistakes, and try not to make the same mistakes on the next exercise.
 
 OK.
 
-#### 2. Notice that the last line of output uses both single-quotes and double-quotes for individual pieces. Why do you think that is?
+### 2. Notice that the last line of output uses both single-quotes and double-quotes for individual pieces. Why do you think that is?
 
 Firstly, even though the `{!r}` format string has been used (which means print exactly as shown), Python tries to be efficient and output the 'smallest' possible data, so it uses the single `'` character where possible, even though the string uses the `"` character. Knowing that...
 
@@ -96,6 +96,6 @@ Here's a couple of things to tell you:
 """)
 ``` 
 
-### Source files
+## Source files
 
 As ever, [source files on GitLab](https://gitlab.com/josharcher/LPTHW).

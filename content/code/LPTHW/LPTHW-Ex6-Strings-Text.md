@@ -45,7 +45,7 @@ print(w + e)
 
 ## Learn Python The Hard Way Study Drills
 
-#### 1. Go through this program and write a comment above each line explaining it.
+### 1. Go through this program and write a comment above each line explaining it.
 
 ```python
 # Sets variable x to string with an embedded format string. Format strings 
@@ -109,7 +109,7 @@ Incidentally, this [StackOverflow question](http://stackoverflow.com/questions/6
 
 Yes, those example deal with the Python 2 syntax, but you can use the principles in Python 3 as the syntax has simply changed to `{!r}` and `{!s}` respectively.  
 
-#### 2. Find all the places where a string is put inside a string. There are four places.
+### 2. Find all the places where a string is put inside a string. There are four places.
 
 <del>There are technically 3 `%s` included in the exact example, but also two `%r` that output strings to, so you could say there were either 3 or 5, but not 4.</del>
 
@@ -132,16 +132,16 @@ So you can say the technical answer to the question is indeed 4 or you could say
 Tricky.
 
 
-#### 3. Are you sure there are only four places? How do you know? Maybe I like lying.
+### 3. Are you sure there are only four places? How do you know? Maybe I like lying.
 
 Could be 6. See above.
 
-#### 4. Explain why adding the two strings `w` and `e` with `+` makes a longer string.
+### 4. Explain why adding the two strings `w` and `e` with `+` makes a longer string.
 
 Adding strings concatenates them, literally joining them together. This [isn't the most efficient](http://stackoverflow.com/questions/3055477/how-slow-is-pythons-string-concatenation-vs-str-join) way to 'join' strings and would slow you're programme down if used to join many strings. The proper method is to use `''.join()`.
 
 [More info and examples on ''.join()](http://www.tutorialspoint.com/python/string_join.htm)
  
-### Source files
+## Source files
 
 As ever, [source files on GitLab](https://gitlab.com/josharcher/LPTHW)

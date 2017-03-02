@@ -23,72 +23,56 @@ It's a common thing with programming tutorials, they all start of with such simp
 Thankfully, with this LPTHW format you can at least just copy down the boring lessons and get through it to the interesting concepts. Anywho, here we go then...
 
 ```python 
-print "How old are you?"
-age = raw_input()
-print "How tall are you?"
-height = raw_input()
-print "How much do you weigh?"
-weight = raw_input()
+print("How old are you?", end=' ')
+age = input()
+print("How tall are you?", end=' ')
+height = input()
+print("How much do you weigh?", end=' ')
+weight = input()
 
-print "So you are %r years old, %r tall and weigh %r." % (
-    age,height,weight)
-
-# A new form for the study drill
-
-name = raw_input("What is your name? >>> ")
-print 'Hey %s, let\'s be friends!' % name
+print(f"So, you are {age} years old, {height} tall and weigh {weight}.")
 ```
-
-Kind of surprised we that we used %r, but I suppose that way it wouldn't matter what people input, it would just be shown. I suspect in the future that we'll get to sanitising user input or turning it into different data types or even validating it before accepting. 
 
 ## Learn Python The Hard Way - Study Drills
 
-#### 1. Go online and find out what Python's raw_input does.
+### 1. Go online and find out what Python's input does.
 
-Taken from [here](https://docs.python.org/2/library/functions.html#raw_input), raw_input() is described as:
+Taken from [here](https://docs.python.org/2/library/functions.html#raw_input), input() is described as:
 
-> `raw_input([prompt])`
+> `input([prompt])`
 
 > If the prompt argument is present, it is written to standard output without a trailing newline. The function then reads a line from input, converts it to a string (stripping a trailing newline), and returns that. When EOF is read, `EOFError` is raised. Example:
  
 ```python
->>> s = raw_input('--> ')
+>>> s = input('--> ')
 --> Monty Python's Flying Circus
 >>> s
 "Monty Python's Flying Circus"
 ``` 
 
-#### 2. Can you find other ways to use it? Try some of the samples you find.
+### 2. Can you find other ways to use it? Try some of the samples you find.
 
 I found a slightly different way to use it and that's in the answer to the question below. I also saw it used like so:
 
-`raw_input("Press <enter> to continue")`
+`input("Press <enter> to continue")`
 
 That's a useful way to indicate to a user something has completed and makes them feel like then are authorising continuation. 
 
 Another useful thing I saw was [an example](https://mail.python.org/pipermail/tutor/2011-October/086079.html) of how to convert the output, which is a string, to something else like an integer:
 
-`quantity = int( raw_input("How many? ") )`
+`quantity = int(input("How many? "))`
 
 This is called 'type conversion' and looks like it would be pretty useful to turn the users input into the exact type of data you would need in your programme. 
 
-#### 3. Write another "form" like this to ask some other questions.
+### 3. Write another "form" like this to ask some other questions.
  
 ```python
 # A new form for the study drill
 
-name = raw_input("What is your name? >>> ")
-print 'Hey %s, let\'s be friends!' % name
+name = input("What is your name? >>> ")
+print(f'Hey {name}, let\'s be friends!')
 ``` 
 
-#### 4. Related to escape sequences, try to find out why the last line has '6\'2"' with that \' sequence. See how the single-quote needs to be escaped because otherwise it would end the string?
-
-In one of the links above in the answer to Study Question 2, it mentioned that `raw_input()` doesn't convert to a string. Perhaps it doesn't, perhaps it simply records what the user says which is already a string, but the docs clearly say:
-
-> "The function then reads a line from input, converts it to a string (stripping a trailing newline), and returns that."
-
-So, I'm going with that when I say because the output is a string, when you print any output using those strings, you're encapsulating a 'string within a string', so any quotes that come with those strings are going to need to be escaped so thay don't interfere with the quotes encapsulating the print statement. 
-
-That's why you need to escape those quote marks, to stop them from interfering with the operation of the printing of the string in the print statement. 
+## Source files
 
 As ever, [source files on GitLab](https://gitlab.com/josharcher/LPTHW).
