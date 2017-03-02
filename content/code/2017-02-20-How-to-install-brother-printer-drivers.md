@@ -58,7 +58,7 @@ The ones we need to worry about for Ubuntu are contained in [section 5](http://s
 
 If you attempt to install this package with `sudo apt-get install ia32-libs` it'll simply return an error (on Ubuntu 16.04 at least) stating:
 
-```
+```text
 E: Package 'ia32-libs' has no installation candidate
 ```
 
@@ -69,7 +69,7 @@ That's because this particular package has been replaced with two others:
 
 We can successfully install these two packages with the following command:
 
-```
+```text
 sudo apt-get install lib32ncurses5 lib32z1
 ```
 
@@ -77,7 +77,7 @@ sudo apt-get install lib32ncurses5 lib32z1
 
 You can install this if you like with the following command:
 
-```
+```text
 sudo apt-get install lib32stdc++
 ```
 
@@ -93,13 +93,13 @@ So, you're in your terminal and in your `Downloads/` folder (or wherever you sav
 
 For the LPR printer driver, which you should install first, use:
 
-```
+```text
 sudo dpkg -i --force-all hl3040cnlpr-*.deb
 ```
 
 Now, with this command it's possible you'll get the following error:
 
-```
+```text
 mkdir: cannot create directory `/var/spool/lpd/hl3040cn': No such file or directory
 chown: cannot access `/var/spool/lpd/hl3040cn': No such file or directory
 chgrp: cannot access `/var/spool/lpd/hl3040cn': No such file or directory
@@ -108,13 +108,13 @@ chmod: cannot access `/var/spool/lpd/hl3040cn': No such file or directory
 
 It's a simple fix, just create the directory the installation script can't and repeat the installation command:
 
-```
+```text
 sudo mkdir -p /var/spool/lpd && sudo dpkg -i --force-all hl3040cnlpr-*.deb
 ```
 
 You can check the install worked with the command:
 
-```
+```text
 dpkg -l | grep Brother
 ```
 
@@ -122,7 +122,7 @@ Note the capital 'B' in 'Brother'.
 
 The output should list the following:
 
-```
+```text
 ii  hl3040cncupswrapper:i386                    1.1.2-1     i386         
     Brother CUPS Inkjet Printer Definitions
 ```
@@ -133,13 +133,13 @@ If it's not there, something has gone wrong and you should recheck the steps abo
 
 For the CUPSwrapper printer driver, which you should install second, use:
 
-```
+```text
 sudo dpkg -i --force-all hl3040cncupswrapper-*.deb
 ```
 
 Again, you can chek it installed by using the command below once more. You should now see the two drivers installed:
 
-```
+```text
 dpkg -l | grep Brother
 ```
 
@@ -197,7 +197,7 @@ Click on forward to go to the next step
 
 8) Selecting the PPD file. It's in the following location:
 
-```
+```text
 /usr/share/cups/model/Brother/brother_hl3040cn_printer_en.ppd
 ```
 
