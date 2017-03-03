@@ -80,5 +80,5 @@ OK.
 
 It's trickier first time you do this, setting the variable in this fashion feels a bit weird as we've been writing them in a script. This [Let's Learn Python](https://www.youtube.com/watch?v=D48iCw3WWpI&list=PL82YdDfxhWsDJTq5f0Ae7M7yGcA26wevJ) video by [Trevor Payne](https://www.youtube.com/channel/UCPme28sMOcWS50CgtTWUZIw) has a great overview of doing this if you get stuck or need to see exactly what doing this looks like. 
 
-As ever, [source files on GitLab](https://gitlab.com/josharcher/LPTHW).
+As ever, [source files on GitHub](https://github.com/PuffinBlue/LPTHW).
 

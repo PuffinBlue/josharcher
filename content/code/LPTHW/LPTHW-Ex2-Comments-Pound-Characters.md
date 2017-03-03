@@ -47,4 +47,4 @@ print "I could have code like this." # and the comment after is ignored
 print "This will run."
 ```
 
-As ever, [source files on GitLab](https://gitlab.com/josharcher/LPTHW).
+As ever, [source files on GitHub](https://github.com/PuffinBlue/LPTHW).

@@ -62,4 +62,4 @@ For an excellent primer on the 'shell', Zed has a short [Command Line Interface 
 
 And yes, you'll see those words used interchangeably as I have done above, just get used to it, they all really mean the same thing!
 
-As ever, [source files on GitLab](https://gitlab.com/josharcher/LPTHW).
+As ever, [source files on GitHub](https://github.com/PuffinBlue/LPTHW).

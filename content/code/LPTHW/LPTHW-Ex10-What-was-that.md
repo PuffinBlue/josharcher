@@ -133,4 +133,4 @@ These characters are trivial to lookup (and I'm leaving this here for reference 
 |\ooo|Character with octal value ooo
 |\xhh|Character with hex value hh
 
-As ever, [source files on GitLab](https://gitlab.com/josharcher/LPTHW).
+As ever, [source files on GitHub](https://github.com/PuffinBlue/LPTHW).

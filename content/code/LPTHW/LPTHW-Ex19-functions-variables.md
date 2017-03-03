@@ -22,7 +22,7 @@ There's nothing in the script itself that's tricky, it's mostly just a refresh o
 
 But the study drills take it to a new level with the requirement to write your own function and call it 10 different ways.
 
-Because the script undergoes extensive alterations through the lesson, I'm going to post it in two parts with my additions in a separate section below. The source file will contain the whole thing and you can get that on GitLab.
+Because the script undergoes extensive alterations through the lesson, I'm going to post it in two parts with my additions in a separate section below. The source file will contain the whole thing and you can get that on GitHub.
 
 ```python
 def cheese_and_crackers(cheese_count, boxes_of_crackers):
@@ -169,5 +169,5 @@ There we have it then. 8 ways. If you have more unique ways I missed, give me a 
 
 ### Source files
 
-As ever, [source files on GitLab](https://gitlab.com/josharcher/LPTHW).
+As ever, [source files on GitHub](https://github.com/PuffinBlue/LPTHW).
 
