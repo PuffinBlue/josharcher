@@ -121,4 +121,4 @@ Once you've got that then you can do stuff like `txt.read()`.
 
 Added these to the end of the script. Good job I didn't get rid of those lines 10-15 or calling `close()` on `txt_again` would be pointless.
 
-As ever, [source files on GitLab](https://github.com/PuffinBlue/LPTHW).
+As ever, [source files on GitHub](https://github.com/PuffinBlue/LPTHW).

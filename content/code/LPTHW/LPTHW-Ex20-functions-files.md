@@ -18,7 +18,7 @@ pageimage = ""
 
 More functions this time but here the focus seems to be on being able to follow the 'flow' of multiple functions, not ones that pass data from one to another but just being able to read and follow how a script with multiple functions works
 
-Because the script undergoes extensive alterations through the lesson, I'm going to post it in parts with my additions in a separate section below. The source file will contain the whole thing and you can get that on GitLab.
+Because the script undergoes extensive alterations through the lesson, I'm going to post it in parts with my additions in a separate section below. The source file will contain the whole thing and you can get that on GitHub.
 
 ```python
 from sys import argv
@@ -229,4 +229,4 @@ There is some more nuance to it as ever as detailed in this stackoverflow post:
 
 ### Source files
 
-As ever, [source files on GitLab](https://github.com/PuffinBlue/LPTHW).
+As ever, [source files on GitHub](https://github.com/PuffinBlue/LPTHW).

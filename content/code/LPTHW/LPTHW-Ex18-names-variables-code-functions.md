@@ -80,5 +80,5 @@ The study drills here are to create an index card reminding you of how to correc
 
 ### Source files
 
-As ever, [source files on GitLab](https://github.com/PuffinBlue/LPTHW).
+As ever, [source files on GitHub](https://github.com/PuffinBlue/LPTHW).
 

@@ -77,4 +77,4 @@ I'm honestly not sure what there is to understand? Is Zed expecting us to be thr
 
 For the sake of verbosity, the triple quoted string is exactly the same as a single or double quoted for the purpose of using the formatters. The first formatter in the string corresponds to the first variable in the array (? or whatever it's called) after the format activator (the %).
 
-As ever, [source files on GitLab](https://github.com/PuffinBlue/LPTHW).
+As ever, [source files on GitHub](https://github.com/PuffinBlue/LPTHW).

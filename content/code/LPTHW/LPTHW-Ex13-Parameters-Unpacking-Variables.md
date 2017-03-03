@@ -125,4 +125,4 @@ It's like you're doing the same thing twice, so the first method is more efficie
 
 Sure thing!
 
-As ever, [source files on GitLab](https://github.com/PuffinBlue/LPTHW).
+As ever, [source files on GitHub](https://github.com/PuffinBlue/LPTHW).

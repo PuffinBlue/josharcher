@@ -158,5 +158,5 @@ And into the rabbit hole we go with the [Import System](https://docs.python.org/
 
 ### Source files
 
-As ever, [source files on GitLab](https://github.com/PuffinBlue/LPTHW).
+As ever, [source files on GitHub](https://github.com/PuffinBlue/LPTHW).
 
