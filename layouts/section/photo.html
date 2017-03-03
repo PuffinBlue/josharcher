@@ -1,6 +1,6 @@
 {{ partial "header.html" . }}
 	<main>
-		{{ $paginator := .Paginate (where .Site.Pages "Type" "photo") }}
+		{{ $paginator := .Paginate (where .Data.Pages "Type" "photo") }}
 		{{ range $paginator.Pages }}
 			{{ partial "summary.html" . }}
 		{{ end }}
