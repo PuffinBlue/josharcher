@@ -24,8 +24,10 @@
         </nav>
     <div class="comments">
         <h3>Spotted something wrong with this content? Tell me!</h3> 
-        <p>Get in touch on <a href="https://twitter.com/josharcher">Twitter</a>, <a href="https://github.com/puffinblue">GitHub</a>, <a href="https://gitlab.com/josharcher/josharcher.gitlab.io/issues">GitLab</a> or <a href="/contact/">contact me directly</a>.</p>
-	</div>
+        <p>Get in touch on <a href="https://twitter.com/josharcher">Twitter</a>, <a href="https://github.com/puffinblue">GitHub</a>, <a href="https://gitlab.com/josharcher/josharcher.gitlab.io/issues">GitLab</a> or leave a comment.</p>
+    </div>
 	</main>
-    <!-- {{ partial "sidebar.html" . }} -->
+    <div class="disqus">
+        {{ partial "disqus.html" . }}
+	</div>
 {{ partial "footer.html" . }}
