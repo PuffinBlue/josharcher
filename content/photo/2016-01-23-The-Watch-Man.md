@@ -7,7 +7,7 @@ categories = [
   "Street Photography",
 ]
 tags = [
-  "",
+  "Black and White Street Photography",
 ]
 slug = "the-watch-man"
 pageimage = ""
