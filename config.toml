@@ -2,7 +2,6 @@ baseurl = "https://www.josharcher.uk"
 disablePathToLower = false
 languageCode = "en-gb"
 title = "Josh Archer"
-canonifyurls = true
 paginate = 8
 disqusShortname = "josharcher"
 googleAnalytics = "UA-62812844-1"
