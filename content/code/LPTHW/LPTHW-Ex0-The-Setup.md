@@ -1,6 +1,6 @@
 +++
 tags = [
-  "",
+  "Learn Python The Hard Way","Learn Python The Hard Way Initial Setup","LPTHW setup help"
 ]
 pageimage = ""
 draft = "false"

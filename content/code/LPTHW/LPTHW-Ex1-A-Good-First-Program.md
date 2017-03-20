@@ -4,7 +4,7 @@ url = "/code/lpthw-exercise-1-a-good-first-program/"
 pageimage = ""
 title = "LPTHW - Exercise 1: A Good First Program"
 tags = [
-  "",
+  "LPTHW","Learn Python The Hard Way Exercise 1","LPTHW Exercise 1","Learn Python Exercise 1","LPTHW Ex 1"
 ]
 draft = "false"
 categories = [

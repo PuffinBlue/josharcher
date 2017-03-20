@@ -2,7 +2,7 @@
 slug = ""
 description = "Complete finished example of the second exercise from the Learn Python The Hard Way course. Exercise 2: Comments and Pound characters."
 tags = [
-  "",
+  "LPTHW","Learn Python The Hard Way Exercise 2","LPTHW Exercise 2","Learn Python Exercise 2","LPTHW Ex 2"
 ]
 url = "/code/lpthw-exercise-2-comments-and-pound-characters/"
 draft = "false"
