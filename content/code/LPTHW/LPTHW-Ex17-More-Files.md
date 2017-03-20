@@ -6,7 +6,7 @@ categories = [
   "LPTHW",
 ]
 tags = [
-  "",
+  "","Learn Python The Hard Way Exercise 17","LPTHW Exercise 17","Learn Python Exercise 17","LPTHW Ex 17"
 ]
 draft = "false"
 url = "/code/lpthw-exercise-17-more-files/"
@@ -26,28 +26,28 @@ from os.path import exists
 
 script, from_file, to_file = argv
 
-print "Copying from %s to %s" % (from_file, to_file)
+print(f"Copying from {from_file} to {to_file}")
 
 # We could do the following on one line how?
- in_file = open(from_file)
- indata = in_file.read()
+in_file = open(from_file)
+indata = in_file.read()
 
 # Here's the above as a one liner
 # indata = open(from_file).read()
 
-print "The input file is %d bytes long" % len(indata)
+print(f"The input file is {len(indata)} bytes long")
 
-print "Does the output file exist? %r" % exists(to_file)
-print "Ready, hit RETURN to continue, CTRL+C to abort."
-raw_input()
+print(f"Does the output file exist? {exists(to_file)}")
+print("Ready, hit RETURN to continue, CTRL+C to abort.")
+input()
 
- out_file = open(to_file, 'w')
- out_file.write(indata)
+out_file = open(to_file, 'w')
+out_file.write(indata)
 
- # Or as a one liner like before
- # open(to_file, 'w').write(indata)
+# Or as a one liner like before
+# open(to_file, 'w').write(indata)
 
-print "Alright, all done."
+print("Alright, all done.")
 
 out_file.close()
 in_file.close()
@@ -75,11 +75,11 @@ script, from_file, to_file = argv
 #     indata = in_file.read()
 indata = open(from_file).read()
 
-print "Does the output file exist? %r" % exists(to_file)
+print(f"Does the output file exist? {exists(to_file)}")
 
 open(to_file, 'w').write(indata)
 
-print "Alright, all done."
+print("Alright, all done.")
 ```
 
 Well that's a lot shorter. Notice how there is no `close()` in this shorter script? That's because when opening and immediately reading/writing to the File Object (without storing a reference to that open File Object (as a variable or something)) then with *some* interpreters the files are closed for you.
@@ -156,7 +156,7 @@ I can't write out all the goodness in that linked answer so read it!
 
 And into the rabbit hole we go with the [Import System](https://docs.python.org/3/reference/import.html#importsystem)...
 
-### Source files
+## Source files
 
 As ever, [source files on GitHub](https://github.com/PuffinBlue/LPTHW).
 

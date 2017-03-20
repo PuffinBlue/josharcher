@@ -8,7 +8,7 @@ title = "LPTHW - Ex 0: The Setup"
 slug = ""
 description = "Some thoughts and tips regarding the zeroth exercise from the Learn Python The Hard Way course. Exercise 0: The Setup."
 categories = [
-  "LPTHW",
+  "LPTHW","Learn Python The Hard Way Exercise 0","LPTHW Exercise 0","Learn Python Exercise 0","LPTHW Ex 0","Learn Python The HArd Way setup help"
 ]
 date = "2015-10-13T20:48:07+01:00"
 url = "/code/lpthw-ex-0-setup/"
@@ -32,7 +32,9 @@ No problem, save yourself some testing time and just jump in with [Atom](https:/
 
 Atom has also come a long way from the slow and buggy days of old. It's a cross platform editor available on Windows, OS X and on many variants of Linux. Sure it's not as fast as Sublime Text or Notepad++ when handling massive files, but it's fast enough for 98% of things you'll need to be doing in the first 6 months of learning, and it's totally FREE and OPEN SOURCE!
 
-To add to that, Atom is one of the most easily extensible and well supported text editors around. Microsoft and Adobe each have launched Visual Code Studio and Brackets respectively, showing that an Electron based editor doesn't have to be slow, but you won't find the same number of community packages or the same ease of customisation you will with Atom.
+To add to that, Atom is one of the most easily extensible and well supported text editors around. 
+
+Microsoft and Adobe each have launched Visual Code Studio and Brackets respectively, showing that an Electron based editor doesn't have to be slow, but you won't find the same number of community packages or the same ease of customisation you will with Atom.
 
 So, save yourself a bit of time and go for it.
 
@@ -61,5 +63,7 @@ Well, the terminal needs to be learnt. You will need to learn the basic navigati
 For an excellent primer on the 'shell', Zed has a short [Command Line Interface course](http://cli.learncodethehardway.org/book/) available. It's works for users of Windows, OS X and Linux, so go there and do the exercise first if you're unsure how to get around on the command line. 
 
 And yes, you'll see those words used interchangeably as I have done above, just get used to it, they all really mean the same thing!
+
+## Source files
 
 As ever, [source files on GitHub](https://github.com/PuffinBlue/LPTHW).

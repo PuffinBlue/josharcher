@@ -6,7 +6,7 @@ categories = [
   "LPTHW",
 ]
 tags = [
-  "",
+  "","Learn Python The Hard Way Exercise 19","LPTHW Exercise 19","Learn Python Exercise 19","LPTHW Ex 19"
 ]
 draft = "false"
 url = "/code/lpthw-exercise-19-functions-variables/"
@@ -26,23 +26,23 @@ Because the script undergoes extensive alterations through the lesson, I'm going
 
 ```python
 def cheese_and_crackers(cheese_count, boxes_of_crackers):
-    print "You have %d cheeses!" % cheese_count
-    print "You have %d boxes of crackers!" % boxes_of_crackers
-    print "Man that's enough for a party!"
-    print "Get a blanket.\n"
+    print(f"You have {cheese_count} cheeses!")
+    print(f"You have {boxes_of_crackers} boxes of crackers!")
+    print("Man that's enough for a party!")
+    print("Get a blanket.\n")
 
-print "We can just give the function numbers directly:"
+print("We can just give the function numbers directly:")
 cheese_and_crackers(20,30)
 
-print "OR, we can use variables from our script:"
+print("OR, we can use variables from our script:")
 amount_of_cheese = 10
 amount_of_crackers = 50
 cheese_and_crackers(amount_of_cheese, amount_of_crackers)
 
-print "We can even do math inside too:"
+print("We can even do math inside too:")
 cheese_and_crackers(10+20, 5+6)
 
-print "And we can combine the two, variables and math:"
+print("And we can combine the two, variables and math:")
 cheese_and_crackers(amount_of_cheese + 100, amount_of_crackers + 1000)
 ```
 
@@ -59,21 +59,21 @@ That's a lot to write out, so I have recreated the whole script below with my co
 # "cheese_count" and "boxes_of_crackers"
 def cheese_and_crackers(cheese_count, boxes_of_crackers):
 # prints the value of "cheese_count" in a string using digit formatter
-    print "You have %d cheeses!" % cheese_count
+    print(f"You have {cheese_count} cheeses!")
 # prints the value of "boxes_of_crackers" in a string using digit formatter
-    print "You have %d boxes of crackers!" % boxes_of_crackers
+    print(f"You have {boxes_of_crackers} boxes of crackers!")
 # prints a string
-    print "Man that's enough for a party!"
+    print("Man that's enough for a party!")
 # prints a string
-    print "Get a blanket.\n"
+    print("Get a blanket.\n")
 
 # prints a string
-print "We can just give the function numbers directly:"
+print("We can just give the function numbers directly:")
 # calls the function "cheese_and_crackers" with argument value of 20 and 30
 cheese_and_crackers(20,30)
 
 # prints a string
-print "OR, we can use variables from our script:"
+print("OR, we can use variables from our script:")
 # creates variable "amount_of_cheese" with value "10"
 amount_of_cheese = 10
 # creates variable "amount_of_crackers" with value "50"
@@ -84,14 +84,14 @@ amount_of_crackers = 50
 cheese_and_crackers(amount_of_cheese, amount_of_crackers)
 
 # prints a string
-print "We can even do math inside too:"
+print("We can even do math inside too:")
 # calls the function "cheese_and_crackers" with the arguments "10+20" and "5+6"
 # which proves it's possible to do math on the arguments/values passed to the 
 # function
 cheese_and_crackers(10+20, 5+6)
 
 # prints a string
-print "And we can combine the two, variables and math:"
+print("And we can combine the two, variables and math:")
 # calls the function "cheese_and_crackers" with the arguments 
 # "amount_of_cheeses+100" and "amount_of_crackers +1000" which proves it's 
 # possible to do math on the variables passed to the function
@@ -123,10 +123,10 @@ I know there must be one more too - getting a value back out of a function direc
 
 ```python
 def order_stats(total_orders, total_returns):
-    print "You have %d orders" % total_orders
-    print "You have %d returns" % total_returns
-    print "Your net sales are %d" % (total_orders - total_returns)
-    print "Hopefully you had a good month!\n"
+    print(f"You have {total_orders} orders")
+    print(f"You have {total_returns} returns")
+    print(f"Your net sales are {total_orders - total_returns}")
+    print("Hopefully you had a good month!\n")
 
 # Simple arguments
 order_stats(4321, 1234)
@@ -160,8 +160,8 @@ def func_to_func():
 func_to_func()
 
 # user input - Don't forget to specify a type of input! In this case an integer
-print "how much did you sell this month?"
-user_sales = int(raw_input('>>>'))
+print("how much did you sell this month?")
+user_sales = int(input('>>>'))
 order_stats(user_sales, returns)
 ```
 

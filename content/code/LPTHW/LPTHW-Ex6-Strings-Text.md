@@ -1,6 +1,6 @@
 +++
 tags = [
-  "",
+  "Learn Python The Hard Way Exercise 6","LPTHW Exercise 6","Learn Python Exercise 6","LPTHW Ex 6","",
 ]
 pageimage = ""
 draft = "false"
@@ -20,42 +20,38 @@ More working with strings and text in this exercise.
 
 Having looked into string formatting in the last exercise I realised that I was looking into something quite a bit further on in the course than I needed to right now. 
 
-Exercise 37 picks up the topic again so for now I'll just be following along using the old style `%` indicators rather than the 'new' format.
-
 ```python
-x = "There are %d types of people." % 10
+x = "There are {!a} types of people.".format(10)
 binary = "binary"
 do_not = "don't"
-y = "Those who know %s and those who %s." % (binary, do_not)
+y = f"Those who know {binary} and those who {do_not}."
 
-print x
-print y
+print(x)
+print(y)
 
-print "I said: %r." % x
-print "I also said:'%s'." % y
+print(f"I said: {x!r}")
+print(f"I also said: '{y}'")
 
 hilarious = False
-joke_evaluation = "Isn't that joke so funny?! %r"
+joke_evaluation = "Isn't that joke so funny?! {}"
 
-print joke_evaluation % hilarious
+print(joke_evaluation.format(hilarious))
 
 w = "This is the left side of..."
 e = "a string with a right side."
 
-print w + e
-
-print ''.join((w,e))
+print(w + e)
 ```
 
 ## Learn Python The Hard Way Study Drills
 
-#### 1. Go through this program and write a comment above each line explaining it.
+### 1. Go through this program and write a comment above each line explaining it.
 
 ```python
 # Sets variable x to string with an embedded format string. Format strings 
 # are way to insert (embed) a thing within a string such that the final 
 # output will include the thing or whatever operation the thing is part of.
-x = "There are %d types of people." % 10
+x = "There are {!a} types of people.".format(10)
 
 # sets variable 'binary' to 'binary' = redundant slightly but needed
 binary = "binary"
@@ -63,31 +59,36 @@ binary = "binary"
 # sets variable 'do_not' to 'don't'
 do_not = "don't"
 
-# Sets variable y to string with two embedded format strings (binary and do_not)
-y = "Those who know %s and those who %s." % (binary, do_not)
+# Sets variable y to string with two embedded format strings 
+# (binary and do_not)
+y = "Those who know {binary} and those who {do_not}."
 
-print x
-print y
+print(x)
+print(y)
 
-# Print the RAW output of the x variable inside the string (that's what %r is) 
-# So x get's printed with quotes around it even though not specificed in this 
-# string. Also, Notice how the format string from x also caries through to this 
-# string. Format strings seem to cascade and output through levels of strings. 
-print "I said: %r." % x
+# Print the RAW output of the x variable inside the string 
+# (that's what !r does) So x get's printed with quotes around it even 
+# though not specificed in this string. Also, Notice how the format string 
+# from x also caries through to this string. Format strings seem to cascade 
+# and output through levels of strings. 
+print("I said: {x!r}")
 
-# Output string with called variable but not output RAW so needs quotes around 
-# format string to display in output. 
-print "I also said:'%s'." % y
+# Output string with called variable but not output RAW so needs quotes 
+# around format string to display in output. If you don't specify a conversion
+# flag the `__format__()` method for that value will do the formatting - 
+# I think this means if you insert digits it'll format as digits, 
+# text as a string etc.
+print "I also said:'{y}'."
 
 hilarious = False
-joke_evaluation = "Isn't that joke so funny?! %r"
+joke_evaluation = "Isn't that joke so funny?! {!r}"
 
-# Here you learn that you can set the content of the format string 'later' by 
-# creating the format string in one variable yet specifying it's 
+# Here you learn that you can set the content of the format string 'later' 
+# by creating the format string in one variable yet specifying it's 
 # 'content/operator' at print time. Here the variable 'hilarious' is set as 
 # the format string at print time, which will output False in the final print. 
 # This seems powerful behaviour. 
-print joke_evaluation % hilarious
+print(joke_evaluation.format(hilarious))
 
 # Shows that you can add variables together. This just literally seems to 
 # concantenate the two together rather than any mathematical operation. 
@@ -96,19 +97,19 @@ print joke_evaluation % hilarious
 # Instead use ''.join e.g ''.join((w,e))
 w = "This is the left side of..."
 e = "a string with a right side."
-
 print w + e
+
 # Test of ''.join
 print ''.join((w,e))
 ```
 
-As you can see from the comments there, one of the subtle but important things in this lesson is getting an understanding of what `%d`, `%s` and `%r` do. 
+There are a few subtle things to look at here. Look into `.format()` and that syntax as it's from previous versions of Python 3. Also look into the use of `{!r}` and `{!s}`. These are conversion flags and details of these can be found in the docs. 
 
-This [StackOverflow question](http://stackoverflow.com/questions/6005159/when-to-use-r-instead-of-s-in-python) has some interesting and useful explanations concerning the difference between `%r` and `%s`.
+Incidentally, this [StackOverflow question](http://stackoverflow.com/questions/6005159/when-to-use-r-instead-of-s-in-python) has some interesting and useful explanations concerning the difference between `%r` and `%s`. 
 
-Remember to [check the docs for more info](https://docs.python.org/2/library/string.html#format-specification-mini-language) on format strings.
+Yes, those example deal with the Python 2 syntax, but you can use the principles in Python 3 as the syntax has simply changed to `{!r}` and `{!s}` respectively.  
 
-#### 2. Find all the places where a string is put inside a string. There are four places.
+### 2. Find all the places where a string is put inside a string. There are four places.
 
 <del>There are technically 3 `%s` included in the exact example, but also two `%r` that output strings to, so you could say there were either 3 or 5, but not 4.</del>
 

@@ -6,7 +6,7 @@ categories = [
   "LPTHW",
 ]
 tags = [
-  "",
+  "","Learn Python The Hard Way Exercise 16","LPTHW Exercise 16","Learn Python Exercise 16","LPTHW Ex 16"
 ]
 draft = "false"
 url = "/code/lpthw-exercise-16-reading-writing-files/"
@@ -27,46 +27,32 @@ from sys import argv
 
 script, filename = argv
 
-print "We're going to erase %r." %filename
-print "If you don't want to do that, hit CTRL+c (^c.)"
-print "If you do want to do that, hit RETURN."
+print(f"We're going to erase {filename}.")
+print("If you don't want to do that, hit CTRL+c (^c.)")
+print("If you do want to do that, hit RETURN.")
 
-raw_input("Hit 'RETURN' to continue, ctrl+c to cancel...")
+input("Hit 'RETURN' to continue, ctrl+c to cancel...")
 
-print "Opening the file..."
-# 'w' is an arguement that puts open() into write mode. It opens by default to 
-# read mode so to allow write later, you need to set the write flag when you 
-# actually open the file object. A file object without 'w' can't be written to.
-# CAUTION - using 'w' will truncate the file if it already exists!!
+print("Opening the file...")
 target = open(filename, 'w')
-# Truncate basically deletes the contents of the file, be careful!
 
+print("Truncating the file. Goodbye!")
+target.truncate()
 
-print "Truncating the file. Goodbye!"
-# The following line is not necessary, opening the file with the 'w' argument
-# will truncate the file anyway if the file exists, and if it doesn't then it
-# would be blank anyway.
-#target.truncate()
+print("Now I'm going to ask you for three lines.")
+line1 = input("Line 1: ")
+line2 = input("Line 2: ")
+line3 = input("Line 3: ")
 
-print "Now I'm going to ask you for three lines."
+print("I'm going to write these lines to the file.")
+target.write(line1)
+target.write("\n")
+target.write(line2)
+target.write("\n")
+target.write(line3)
+target.write("\n")
 
-line1 = raw_input("Line 1: ")
-line2 = raw_input("Line 2: ")
-line3 = raw_input("Line 3: ")
-
-print "I'm going to write these lines to the file."
-
-# See the following StackOverflow for more info on why the method below is the 
-# correct one to take to solve this problem
-# The quick answer is use %s as it doesn't add quotes, you need '' around the 
-# first bit as \n has no meaning outside a string and you wrap the whole thing
-# inside the target.write() brackets or you'll try and execute it outside of
-# the write method - so it will do nothing as write has 'finished'
-# http://stackoverflow.com/questions/8691311/python-how-to-write-multiple-strings-in-one-line
-
-target.write('%s\n%s\n%s\n' % (line1, line2, line3))
-
-print "And finally, we'll close it."
+print("And finally, we'll close it.")
 target.close()
 ```
 
@@ -76,9 +62,55 @@ target.close()
 
 Some parts of this are tricky, mostly the ones added through the study drills, so I've commented on those parts.
 
+```python
+from sys import argv
+
+script, filename = argv
+
+print(f"We're going to erase {filename}.")
+print("If you don't want to do that, hit CTRL+c (^c.)")
+print("If you do want to do that, hit RETURN.")
+
+input("Hit 'RETURN' to continue, ctrl+c to cancel...")
+
+print("Opening the file...")
+# 'w' is an arguement that puts open() into write mode. It opens by default to 
+# read mode so to allow write later, you need to set the write flag when you 
+# actually open the file object. A file object without 'w' can't be written to.
+# CAUTION - using 'w' will truncate the file if it already exists!!
+target = open(filename, 'w')
+# Truncate basically deletes the contents of the file, be careful!
+
+print("Truncating the file. Goodbye!")
+# The following line is not necessary, opening the file with the 'w' argument
+# will truncate the file anyway if the file exists, and if it doesn't then it
+# would be blank anyway.
+target.truncate()
+
+print("Now I'm going to ask you for three lines.")
+
+line1 = input("Line 1: ")
+line2 = input("Line 2: ")
+line3 = input("Line 3: ")
+
+print("I'm going to write these lines to the file.")
+
+# This writes the content of a variable and then a new line over and over
+# again in order to format the text in the new file. 
+target.write(line1)
+target.write("\n")
+target.write(line2)
+target.write("\n")
+target.write(line3)
+target.write("\n")
+
+print("And finally, we'll close it.")
+target.close()
+```
+
 ### 2. Write a script similar to the last exercise that uses `read` and `argv` to read the file you just created.
 
-I thought I'd try and find the simplest/shortest way of writing this. Not that I fully understand exactly what is happening yet, but through trawling StackOverflow I believe that best way of doing this (including closing the file immediately) is the following:
+I thought I'd try and find the simplest/shortest way of writing this. Not that I fully understand exactly what is happening yet because I don't know exactly what `with` and `as` mean, but through trawling StackOverflow I believe that best way of doing this (including closing the file immediately) is the following:
 
 ```python
 from sys import argv
@@ -87,21 +119,23 @@ with open(filename) as f:
     output = f.read()
 ```
 
-This study question doesn't say to print the output, just to read it, and I'm reasonably sure that this script does that. I believe `with` statement will properly close the file once it's been read too. 
+Reading it in English is seems reasonably obvious what it's doing but it would be good to find out the exact meaning of those new keywords at some point. 
+
+NOTE - This study question doesn't say to print the output, just to read it, and this script does that. I believe `with` statement will properly close the file once it's been read too. 
 
 Hopefully, the exact nuances behind this script will become crystal clear as this course progresses. 
 
 ### 3. There's too much repetition in this file. Use strings, formats, and escapes to print out `line1`, `line2`, and `line3` with just one `target.write()` command instead of six.
 
-I've commented this in the script above. Here it is again for clarity...
-
 See the following StackOverflow for more info on why the method below is the correct one to take to solve this problem:
 
 [http://stackoverflow.com/questions/8691311/python-how-to-write-multiple-strings-in-one-line](http://stackoverflow.com/questions/8691311/python-how-to-write-multiple-strings-in-one-line)
 
-The quick answer is use `%s` as it doesn't add quotes. You need '' around the first bit as `\n` has no meaning outside a string and you wrap the whole thing inside the `target.write()` brackets or you'll try and execute it outside of the write method - so it will do nothing as write has 'finished'. 
+The quick answer is use `{}` (don't forget we're using python3.6 so we use the new format string syntax) as it is functioanlly the equivalent of {!s} which doesn't add quotes. You need '' around the first bit as `\n` has no meaning outside a string and you wrap the whole thing inside the `target.write()` brackets or you'll try and execute it outside of the write method - so it will do nothing as write has 'finished'. 
 
-`target.write('%s\n%s\n%s\n' % (line1, line2, line3))`
+```python
+target.write('{}\n{}\n{}\n'.format(line1, line2, line3))
+```
 
 ### 4. Find out why we had to pass a `'w'` as an extra parameter to `open`. Hint: `open` tries to be safe by making you explicitly say you want to write a file.
 

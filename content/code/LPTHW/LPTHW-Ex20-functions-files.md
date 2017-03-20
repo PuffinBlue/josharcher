@@ -6,7 +6,7 @@ categories = [
   "LPTHW",
 ]
 tags = [
-  "",
+"Learn Python The Hard Way Exercise 20","LPTHW Exercise 20","Learn Python Exercise 20","LPTHW Ex 20"
 ]
 draft = "false"
 url = "/code/lpthw-exercise-20-functions-files/"
@@ -26,25 +26,25 @@ from sys import argv
 script, input_file = argv
 
 def print_all(f):
-    print f.read()
+    print(f.read())
 
 def rewind(f):
     f.seek(0)
 
 def print_a_line(line_count, f):
-    print line_count, f.readline()
+    print(line_count, f.readline())
 
 current_file = open(input_file)
 
-print "First let's print the whole file:\n"
+print("First let's print the whole file:\n")
 
 print_all(current_file)
 
-print "Now let's rewind, kind of like a tape."
+print("Now let's rewind, kind of like a tape.")
 
 rewind(current_file)
 
-print "Let's print three lines:"
+print("Let's print three lines:")
 
 current_line = 1
 print_a_line(current_line, current_file)
@@ -88,7 +88,7 @@ script, input_file = argv
 
 # Creates a function 'print_all(f)' which reads and prints the input
 def print_all(f):
-    print f.read()
+    print(f.read())
 
 # Creates a function 'rewind(f)' which sets the input files current position 
 # to 0 via the 'seek()' function (this is in bytes i.e the start of the file)
@@ -104,20 +104,20 @@ def rewind(f):
 # newline in place. That why there's a line break in the output code.
 # That's how this script is reading, printing and advancing each line in turn.
 def print_a_line(line_count, f):
-    print line_count, f.readline()
+    print(line_count, f.readline())
 
 # Sets 'current_file' to equal the file object 'input_file', which is defined
 # in the arguments when running the script, in this case it's 'test.txt'
 current_file = open(input_file)
 
 # Prints the whole file on a newline under the print statement
-print "First let's print the whole file:\n"
+print("First let's print the whole file:\n")
 
 # Calls the function 'print_all' using 'current_line' as the parameter
 print_all(current_file)
 
 # Simple print statement
-print "Now let's rewind, kind of like a tape."
+print("Now let's rewind, kind of like a tape.")
 
 # Calls the function 'rewind()' with the parameter 'current_file' which should
 # reset the files current position to 0, i.e. to the beginning.
@@ -129,7 +129,7 @@ print "Now let's rewind, kind of like a tape."
 rewind(current_file)
 
 # Simple print statement
-print "Let's print three lines:"
+print("Let's print three lines:")
 
 # Sets variable 'current_line' to 1
 current_line = 1
@@ -215,7 +215,7 @@ current_line += 1
 print_a_line(current_line, current_file)
 ```
 
-`+=` seems to mean equal to plus X, where X might be an integer like 1. It's equivalent to:
+`+=` seems to mean '*equal to plus X*', where 'X' might be an integer like 1. It's equivalent to:
 
 `a = a + b` is the same as `a += b`
 
@@ -227,6 +227,6 @@ There is some more nuance to it as ever as detailed in this stackoverflow post:
 
 [https://docs.python.org/3/reference/simple_stmts.html#augmented-assignment-statements](https://docs.python.org/3/reference/simple_stmts.html#augmented-assignment-statements)
 
-### Source files
+## Source files
 
 As ever, [source files on GitHub](https://github.com/PuffinBlue/LPTHW).

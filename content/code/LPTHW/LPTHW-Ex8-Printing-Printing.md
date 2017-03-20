@@ -1,7 +1,7 @@
 +++
 draft = "false"
 tags = [
-  "",
+  "Learn Python The Hard Way Exercise 8","LPTHW Exercise 8","Learn Python Exercise 8","LPTHW Ex 8","",
 ]
 date = "2016-02-20T22:29:06+01:00"
 categories = [
@@ -22,40 +22,54 @@ Look at how `formatter` is declared right at the beginning. Throughout the rest 
 
 I think this is a subtly important concept to begin to learn, that you can setup the structure of how to do something and allow the data to come later, knowing it'll be output how you intended. 
 
-I also thought it was interesting to see the `print formatter % (formatter, formatter, formatter, formatter)` line too, reminding you that you can add your own variable 'into' itself, so it itself will be output in the way it itself stipulates. 
+I also thought it was interesting to see the...
 
-It gives you a little insight that no part of your code is particularly 'special', just because you 'created' a variable for one thing doesn't mean it can't be used to do another. 
+```python
+print(formatter.format(formatter, formatter, formatter, formatter))
+``` 
+
+...line too, reminding you that you can add your own variable 'into' itself, so it itself will be output in the way it itself stipulates. 
+
+This gives you a little insight that no part of your code is particularly 'special', just because you 'created' a variable for one thing doesn't mean it can't be used to do another. 
 
 An interesting abstraction to learn, I thought. 
  
 ```python
-formatter = "%r %r %r %r"
+formatter = "{!r} {!r} {!r} {!r}"
 
 # No quotes for integers
-print formatter % (1, 2, 3, 4)
-print formatter % ("one", "two", "three", "four")
+print(formatter.format(1, 2, 3, 4))
+
+print(formatter.format("one", "two", "three", "four"))
+
 # No quotes for boolean operators
-print formatter % (True, False, False, True)
+print(formatter.format(True, False, False, True))
+
 # No quotes when calling variables
-print formatter % (formatter, formatter, formatter, formatter)
+print(formatter.format(formatter, formatter, formatter, formatter))
+
 # Alternative clearer formatting for the array
-print formatter % (
+print(formatter.format(
     "I had this thing.",
     "That you could type up right.",
     "But it didn't sing",
     "So I said goodnight."
-    )
+    ))
 ```
+
+### A note on `.format()`
+
+Zed outlines what `.format()` is in the lesson. I'd like to add that this is a Python 3 specific way of doing this. If you see the use of `%s` or `%r` then you're looking at some python 2 code. 
 
 ## Learn Python The Hard Way Study Drills
 
-#### 1. Do your checks, write down your mistakes, and try not to make the same mistakes on the next exercise.
+### 1. Do your checks, write down your mistakes, and try not to make the same mistakes on the next exercise.
 
 OK.
 
-#### 2. Notice that the last line of output uses both single-quotes and double-quotes for individual pieces. Why do you think that is?
+### 2. Notice that the last line of output uses both single-quotes and double-quotes for individual pieces. Why do you think that is?
 
-Firstly, even though the `%r` format string has been used (which means print exactly as shown), Python tries to be efficient and output the 'smallest' possible data, so it uses the single `'` character where possible, even though the string uses the `"` character. Knowing that...
+Firstly, even though the `{!r}` format string has been used (which means print exactly as shown), Python tries to be efficient and output the 'smallest' possible data, so it uses the single `'` character where possible, even though the string uses the `"` character. Knowing that...
 
 When defining a string, you can use either the `'` or `"` characters. But, you can't use again in the middle of the string the same character you used to define the string at the beginning, otherwise Python will think you've ended the string early. 
 
@@ -65,19 +79,23 @@ To solve this you can use double quotes `"` to wrap the string and the single qu
 
 So, because in this particular example there is a `'` character in the middle of that particular string, Python chooses to display the characters that wrap the string as the originally used `"` character.
 
-### Triple quotes to the rescue
+#### Triple quotes to the rescue
 
 I looked it up and there *is* a way to use both single and double quotes in a single string, and that's by using three quotes to define the string. You can use either single or double quotes to define the string, just as long as you use three of them to start and three to end like so:
 
-`print '''Here's a couple of things to tell you: "You're great"!'''`
+```python
+print('''Here's a couple of things to tell you: "You're great"!''')
+```
 
 Normally, this is used for multiple line print statements, apparently, like so:
  
 ```
-print """
+print("""
 Here's a couple of things to tell you: 
 "You're great"!
-"""
+""")
 ``` 
 
-As ever, [source files on GitHub](https://github.com/PuffinBlue/LPTHW).
+## Source files
+
+As ever, [source files on GitLab](https://gitlab.com/josharcher/LPTHW).

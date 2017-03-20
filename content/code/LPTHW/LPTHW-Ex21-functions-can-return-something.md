@@ -4,9 +4,10 @@ description = "Complete finished example of the twenty first exercise from the L
 date = "2017-02-09T12:13:39Z"
 categories = [
   "LPTHW",
-]
+  ]
 tags = [
-  "",
+  "","Learn Python The Hard Way Exercise 21","LPTHW Exercise 21","Learn Python Exercise 21","LPTHW Ex 21"
+
 ]
 draft = "false"
 url = "/code/lpthw-exercise-21-functions-can-return-something/"
@@ -24,36 +25,36 @@ Anyway, here's the script...
 
 ```python
 def add(a, b):
-    print "ADDING %d + %d" % (a, b)
+    print(f"ADDING {a} + {b}")
     return a + b
 
 def subtract(a, b):
-    print "SUBTRACTING %d - %d" % (a, b)
+    print(f"SUBTRACTING {a} - {b}")
     return a - b
 
 def multiply(a, b):
-    print "MULTIPLYING %d * %d" % (a, b)
+    print(f"MULTIPLYING {a} * {b}")
     return a * b
 
 def divide(a, b):
-    print "DIVIDING %d / %d" % (a, b)
+    print(f"DIVIDING {a} / {b}")
     return a / b
 
-print "Let's do some maths with just functions!"
+print("Let's do some maths with just functions!")
 
 age = add(30, 5)
 height = subtract(78, 4)
 weight = multiply(90, 2)
 iq = divide(100, 2)
 
-print "Age: %d, Height: %d, Weight: %d, IQ: %d" % (age, height, weight, iq)
+print(f"Age: {age}, Height: {height}, Weight: {weight}, IQ: {iq}")
 
 # A puzzle for the extra credit, type it in anyway.
-print "Here is a puzzle."
+print("Here is a puzzle.")
 
 what = add(age, subtract(height, multiply(weight, divide(iq, 2))))
 
-print "That becomes: ", what, "Can you do it by hand?"
+print("That becomes: ", what, "Can you do it by hand?")
 ```
 
 ## Learn Python The Hard Way - Study Drills
@@ -112,7 +113,7 @@ Looking at the right side of the photo we see the result of the bottom line is t
 
 `74 - (180 * (50/2)`
 
-That's because the next function 'out' is `subtract(height...`, and remember `height` is equal to `74.
+That's because the next function 'out' is `subtract(height...`, and remember `height` is equal to `74`.
 
 So, we add a minus sign and then just add 74 on the same line as the multiplication sign, indicating that we should minus, from 74, the result of the bottom line. 
 
@@ -170,9 +171,11 @@ Here's my script additions...
 ```python
 # Study drill 3 alteration
 
+print("Here's study drill 3 for you:")
+
 study = add(age, multiply(weight, subtract(height, divide(iq, 2)))) 
 
-print "Here's what we get when we switch the multiple and divide functions:", study
+print("Here's what we get when we switch the multiple and divide functions:", study)
 ```
 
 And if we run that script the output is:
@@ -199,19 +202,19 @@ That should equal `62`, so lets see
 ```python
 # Study drill 4 alteration
 
-print "Here's study drill 4 for you:"
-print "First the new variables..."
+print("Here's study drill 4 for you:")
+print("First the new variables...")
 
 knife = divide(20, 2)
 fork = multiply(5, 4)
 spoon = add(40, 20)
 spork = subtract(230, 8)
 
-print " And now lets do through the new puzzle..."
+print("And now lets do through the new puzzle...")
 
 cutlery = subtract(spork, add(spoon, multiply(fork, divide(knife, 2))))
 
-print "Here's the answer to study drill 4:", cutlery
+print("Here's the answer to study drill 4:", cutlery)
 ```
 
 And here's the output:
@@ -233,12 +236,12 @@ Here's the answer to study drill 4: 62
 
 Great success!
 
-### Wrapping up
+## Wrapping up
 
 Bit of a long one today, hopefully I've explained it well enough that it all makes sense to you. Don't forget, I'm learning this as we go along, so there's no quarantee I've got everything right or that there isn't a better way to do something.
 
 If you have a better way to do something or there's something that needs correcting here, get in touch through the details in the footer.
 
-### Source files
+## Source files
 
 As ever, [source files on GitHub](https://github.com/PuffinBlue/LPTHW).
