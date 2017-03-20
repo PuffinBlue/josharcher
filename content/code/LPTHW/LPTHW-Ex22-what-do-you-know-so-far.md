@@ -8,7 +8,7 @@ categories = [
 tags = [
   "","Learn Python The Hard Way Exercise 22","LPTHW Exercise 22","Learn Python Exercise 22","LPTHW Ex 22"
 ]
-draft = "false"
+draft = "true"
 url = "/code/lpthw-exercise-22-what-do-you-know-so-far/"
 slug = ""
 pageimage = ""
