@@ -1,0 +1,149 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 10px;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Custom CSS alterations below here */
+/* ================================= */
+
+/* Typography */
+
+html {
+    color:#fff;
+    font-family:"Open Sans",sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align:center;
+    line-height:120%;
+    font-family: Oswald, sans-serif;
+    padding: 0 0 20px;
+}
+
+h1 {font-size:4em;}
+h2 {font-size:3em;}
+h3 {font-size:2em;}
+p {
+    font-size:1.2em;
+    line-height:130%;
+    margin:20px 0;
+}
+a {color:#fff13f;}
+.footer-wrapper p {
+    text-align:center;
+    font-size: 1em;
+    line-height: 100%;
+    margin: 15px 0;
+}
+
+/* Project Controls */
+
+.project-controls {
+    display: flex;
+    justify-content: space-around;
+    align-items;center;
+    max-width:45em;
+    margin:auto;
+    padding:20px;
+}
+
+input[type="button" i], input[type="submit" i], input[type="reset" i], input[type="file" i]::-webkit-file-upload-button, button, .button {
+    align-items: flex-start;
+    text-align: center;
+    cursor: pointer;
+    color: #fff;
+    background-color: #921438;
+    padding: 10px 15px;
+    border:none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    text-decoration:underline;
+    border:3px solid #777;
+}
+
+/* Wrappers */
+
+.wrapper {
+    padding: 30px;
+}
+
+.intro-wrapper, footer {
+    background-color:#921438;
+}
+
+.intro, .footer-wrapper { 
+    max-width: 45em;
+    margin:auto;
+}
+.project {
+    max-width:55em;
+    margin:auto;
+}
+.project-wrapper {
+    background-color:#082D38;
+}
+
+/* Grid styling */
+
+.project-grid-container {
+    border: 3px solid #921438;
+    max-width: 800px;
+    max-height: 800px;
+    margin:auto;
+}
+
+.row {
+    display:flex;
+    margin:0;
+    padding:0;
+}
+
+.grid-square {
+    background-color:#eee;
+    float: left;
+}
+
