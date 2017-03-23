@@ -28,7 +28,7 @@ Below are direct links to the final .html, .css and .js files for the completed 
 
 [GitHub repo](https://github.com/JoshArcher-OdinProject/javascript-jquery).
 
-[Josh Archer's solution - completed .css file](https://github.com/JoshArcher-OdinProject/javascript-jquery/blob/master/project.html).
+[Josh Archer's solution - completed .html file](https://github.com/JoshArcher-OdinProject/javascript-jquery/blob/master/project.html).
 
 [Josh Archer's solution - completed .css file](https://github.com/JoshArcher-OdinProject/javascript-jquery/blob/master/style.css).
 
