@@ -22,7 +22,7 @@ This is a long post, so here are some links to jump to the relevant sections:
 
 You can take a look at my completed project live in your browser by clicking the link below:
 
-[Josh Archer's solution - Javascript and jQuery - The Odin Project](https://www.josharcher.uk/static/projects/odinproject/javascriptandjquery/project)
+[Josh Archer's solution - Javascript and jQuery - The Odin Project](https://www.josharcher.uk/static/projects/odinproject/javascriptandjquery/project.html)
 
 Below are direct links to the final .html, .css and .js files for the completed project. You can use these as example/inspiration. It's not a good idea to just copy as you'll not get any benefit but hopefully they help you work out whatever issue you are trying to solve:
 
