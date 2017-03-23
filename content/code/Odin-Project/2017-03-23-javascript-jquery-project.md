@@ -10,11 +10,11 @@ tags = ["Odin Project - Javascript and jQuery Project","Javascript and jQuery Pr
 slug = ""
 
 +++
-I'm finding the Odin Project isnt' really that easy to blog your way through like you can with [LPTHW](/categories/lpthw/), but this project seemed like a great one to share. 
+I'm finding the Odin Project isn't really that easy to blog your way through like you can with [LPTHW](/categories/lpthw/), but this project seemed like a great one to share. 
 
 This is a long post, so here are some links to jump to the relevant sections:
 
-1. [Completed example and live project section](javascript-and-jquery-completed-project)
+1. [Completed example and live project section](javascript-and-jquery-completed-project).
 2. [Lessons learned section](#javascript-and-jquery-project-lessons-learned) (hints on how to approach the project).
 3. [Example section](#javascript-and-jquery-an-example) (walkthrough of my project). 
 
@@ -24,13 +24,15 @@ You can take a look at my completed project live in your browser by clicking the
 
 [Josh Archer's solution - Javascript and jQuery - The Odin Project](https://www.josharcher.uk/static/projects/odinproject/javascriptandjquery/project)
 
-To view the html code, simple view the page source. 
+Below are direct links to the final .html, .css and .js files for the completed project. You can use these as example/inspiration. It's not a good idea to just copy as you'll not get any benefit but hopefully they help you work out whatever issue you are trying to solve:
 
-Below are direct links to the completed .css and .js files for the completed project. You can use these as example/inspiration. It's not a good idea to just copy as you'll not get any benefit but hopefully they help you work out whatever issue you are trying to solve:
+[GitHub repo](https://github.com/JoshArcher-OdinProject/javascript-jquery).
 
-[Josh Archer's solution - completed .css file](https://www.josharcher.uk/static/projects/odinproject/javascriptandjquery/style.css)
+[Josh Archer's solution - completed .css file](https://github.com/JoshArcher-OdinProject/javascript-jquery/blob/master/project.html).
 
-[Josh Archer's solution - completed .js file](https://www.josharcher.uk/static/projects/odinproject/javascriptandjquery/script.js)
+[Josh Archer's solution - completed .css file](https://github.com/JoshArcher-OdinProject/javascript-jquery/blob/master/style.css).
+
+[Josh Archer's solution - completed .js file](https://github.com/JoshArcher-OdinProject/javascript-jquery/blob/master/script.js).
 
 ## Javascript and jQuery Project - lessons learned
 
@@ -38,7 +40,7 @@ I've created websites before, like the one you're reading this one. I've made la
 
 Going from literally nothing, not even boilerplate code, is a bit unnerving when you've been used to using frameworks or simply adjusting pre-existing code. So, here's a few bits I learned through this project...
 
-### 1. Plan functionality in broad terms. 
+### 1. Plan functionality in broad terms
     
 It sounds simple but getting a piece of blank paper and writing down what you want the thing you're making to do is a good start. The project makes this easy for you because it tells you what is needed. But that brings us to point 2...
 
@@ -87,7 +89,7 @@ Seriously, just start writing. You'll never get it correct first go. Equally you
 
 Once that's done you can start to adjust and iterate to reach the final finished state. 
 
-### 5. Repeat steps 1-4 for each bit you need to add. 
+### 5. Repeat steps 1-4 for each bit you need to add
 
 Ok, sometimes you won't need to do this fully. Step one is probably not required unless it's something major for instance. However, don't forget these steps when you do realise something needs to be added. 
 
@@ -168,13 +170,13 @@ That allows us to use the variable `rgb` as a rgb formatted random colour for us
 
 That allows us to set each square to a random colour if that option has been chosen by the user. 
 
-#### What's the `rgb != null` bit?
+### What's the `rgb != null` bit?
 
 Good question. Before the user clicks on the 'Random Colour' button and `randomColour()` is called, say the first time they visit the page, `rgb` would be `undefined`. That would cause an error, so to get around that I set it to null at the top of the script. 
 
 That way, if 'Random Colour' button isn't clicked `rgb` remains as `null`, the `if` statement in `drawLine()` is skipped (because it's checking `rgb` is `NOT null`) and the `else` statement fires returning a black line. 
 
-#### Alright, but what's the `&& setBlack = false` bit?
+### Alright, but what's the `&& setBlack = false` bit?
 
 Well, remember one of the requirements was to allow the user to reset the colour back to black? That allows us to do that. 
 
@@ -214,7 +216,7 @@ else {
     }
 ```
 
-#### Why can't you just set `rgb` to `null` again?
+### Why can't you just set `rgb` to `null` again?
 
 Good question. As best as I can work out, it's because of the `.mouseover` event. Once the 'Random Colour' button is clicked and jQuery starts watching for the `.mouseover` event, it doesn't just 'stop' doing so, it checks constantly. 
 
@@ -230,7 +232,7 @@ Because that's calling `randomColour()` it's setting `rgb` to a value at each mo
 
 Between the time you click the 'Set to Black' button and mousing over the grid, `rgb` remains `null`, but on mouseover it'll get a value. 
 
-#### So? The line will still stay black despite that won't it. 
+### So? The line will still stay black despite that won't it. 
 
 Yes, but you remember the requirement to retain the colour after clearing the grid or changing the grid size? Lets look at the code the 'Clear Grid' button runs:
 
