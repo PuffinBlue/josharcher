@@ -7,7 +7,7 @@ description = "This is my generations Apollo moon landing moment. Space X launch
 categories = ["thoughts"]
 title = "Space X launches and lands a reuseable rocket"
 draft = "false"
-slug = ""
+slug = "spacex-historic-reusable-rocket-flight"
 
 +++
 
