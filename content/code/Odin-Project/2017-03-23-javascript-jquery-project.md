@@ -14,7 +14,7 @@ I'm finding the Odin Project isn't really that easy to blog your way through lik
 
 This is a long post, so here are some links to jump to the relevant sections:
 
-1. [Completed example and live project section](javascript-and-jquery-completed-project).
+1. [Completed example and live project section](#javascript-and-jquery-completed-project).
 2. [Lessons learned section](#javascript-and-jquery-project-lessons-learned) (hints on how to approach the project).
 3. [Example section](#javascript-and-jquery-an-example) (walkthrough of my project). 
 
