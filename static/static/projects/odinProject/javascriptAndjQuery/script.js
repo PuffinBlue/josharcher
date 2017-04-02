@@ -114,7 +114,7 @@ function changeGridSize () {
         alert("Erm...that's not a number. Please enter a number!");
         }
     else if (newGridSize > 250) {
-        alert("Yikes, that number is too large, you'll crash the browser! Pick something less than 400.")
+        alert("Yikes, that number is too large, you'll crash the browser! Pick something less than 250.")
         }
     else {
         buildGrid(newGridSize);
