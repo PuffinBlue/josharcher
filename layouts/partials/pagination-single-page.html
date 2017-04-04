@@ -1,0 +1,8 @@
+<nav class="pagination" role="navigation">
+            {{ with .NextInSection }}
+            <a class="single-page-nav next-posts" style="order:2;" href="{{ .RelPermalink }}" title="{{ .LinkTitle }}">Next Post &rarr;</a>
+            {{ end }}
+            {{ with .PrevInSection }}
+            <a class="single-page-nav previous-posts" style="order:1;" href="{{ .RelPermalink }}" title="{{ .LinkTitle }}">&larr; Previous Post</a>
+            {{ end }}
+        </nav>

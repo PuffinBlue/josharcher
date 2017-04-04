@@ -17,17 +17,10 @@
                 <p>Tags: {{ range .Params.tags }} <a href="{{ "/tags/" | relURL }}{{ . | urlize }}">{{ . }}</a> {{ end }}</p>
             </div>
 		</article>
-        <nav class="pagination" role="navigation">
-            {{ with .NextInSection }}
-            <a class="newer-posts" style="order:2;" href="{{ .RelPermalink }}" title="{{ .LinkTitle }}">Next Post &rarr;</a>
-            {{ end }}
-            {{ with .PrevInSection }}
-            <a class="older-posts" style="order:1;" href="{{ .RelPermalink }}" title="{{ .LinkTitle }}">&larr; Previous Post</a>
-            {{ end }}
-        </nav>
-    <div class="comments">
+        {{ partial "pagination-single-page.html" . }}
+    <div class="feedback">
         <h3>Spotted something wrong with this content? Tell me!</h3> 
-        <p>Get in touch on <a href="https://twitter.com/josharcher">Twitter</a>, <a href="https://github.com/puffinblue/josharcher">GitHub</a>, or <a href="#disqus">leave a comment</a>.</p>
+        <p>Get in touch on <a href="https://twitter.com/josharcher">Twitter</a>, <a href="https://github.com/puffinblue/josharcher">GitHub</a>, or <b>leave a comment below</b>.</p>
     </div>
 	</main>
     <div class="disqus">

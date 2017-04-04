@@ -1,8 +1,9 @@
 {{ partial "header.html" . }}
 <main>
-   <h1 id="title">Tag: {{ .Title }}</h1>
-    {{ range .Data.Pages }}
-    {{ partial "summary.html" . }}
-    {{ end }}
-</main>
+   <h1 class="taxonomy-title">Tag: {{ .Title }}</h1>
+   {{ range .Paginator.Pages }}
+		{{ partial "summary.html" . }}
+	{{ end }}
+	{{ partial "pagination.html" . }}
+    </main>
 {{ partial "footer.html" . }}
