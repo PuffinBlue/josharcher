@@ -16,11 +16,13 @@ This site is broken down into three main sections. The following details the lic
 
 Unless otherwise specified, content in the blog (/blog/) section is licensed under the [Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](http://creativecommons.org/licenses/by-nc-sa/4.0/) license. 
 
+Unless otherwise specified, code in this section is licensed under the [Apache License 2.0](https://choosealicense.com/licenses/apache-2.0/).
+
 ### Code
 
-Unless otherwise specified, content in code (/code/) section is licensed under the [Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](http://creativecommons.org/licenses/by-nc-sa/4.0/) license.
+Unless otherwise specified, content in code (/code/) section is licensed for copyright purposes under the [Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](http://creativecommons.org/licenses/by-nc-sa/4.0/) license.
 
-Unless otherwise specified, code in this section is licensed under the [GNU General Public License v3.0](http://choosealicense.com/licenses/gpl-3.0/).
+Unless otherwise specified, code in this section is licensed under the [Apache License 2.0](https://choosealicense.com/licenses/apache-2.0/).
 
 ### Photo
 
