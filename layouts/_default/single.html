@@ -6,9 +6,6 @@
             Posted on: {{ .Date.Format "02.01.2006 15:04" }} | 
             Author: {{.Site.Author.name }} |
             Categories: {{ range .Params.categories }} <a href="{{ "/categories/" | relURL }}{{ . | urlize }}">{{ . }}</a> {{ end }} 
-            | <a href="{{ .RelPermalink }}#disqus_thread">
-                <span class="disqus-comment-count" data-disqus-url="{{ .RelPermalink }}">Comments <!-- Count will be inserted here --> </span>
-            </a>
             </p>
 			<div class="content">
 				{{ .Content }}
@@ -20,10 +17,7 @@
         {{ partial "pagination-single-page.html" . }}
     <div class="feedback">
         <h3>Spotted something wrong with this content? Tell me!</h3> 
-        <p>Get in touch on <a href="https://twitter.com/josharcher">Twitter</a>, <a href="https://github.com/puffinblue/josharcher">GitHub</a>, or <b>leave a comment below</b>.</p>
+        <p>Get in touch on <a href="https://twitter.com/josharcher">Twitter</a>, <a href="https://github.com/puffinblue/josharcher">GitHub</a>.</p>
     </div>
 	</main>
-    <div class="disqus">
-        {{ partial "disqus.html" . }}
-	</div>
 {{ partial "footer.html" . }}
