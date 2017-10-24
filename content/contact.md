@@ -19,11 +19,11 @@ GitLab: <a href="https://gitlab.com/josharcher">JoshArcher</a>
 <h2>Need to contact me securely?</h2>
 If you'd like to email me securely or just want to be sure that the person replying is actually me, you can use my PGP public key:
 
-<a href="/static/files/2016/10/josh-archer-public-key.asc">Josh Archer - Public Key</a>
+<a href="/static/files/josh-archer-brainpool-public.asc">Josh Archer - Public Key</a>
 
 Fingerprint:
 
-`56E0 297B 6157 B883 7692 571A 9C65 46AC 7932 19D3`
+`151B24A94FBB9B5B4A2223C181204B60CC49036D`
 
 I have also published this key to the usual keyservers if you find that more convenient.
 
@@ -31,4 +31,3 @@ If you'd like to cross reference this fingerprint with other identity methods I 
 
 My twitter timeline: <a href="https://twitter.com/josharcher">Twitter: @josharcher</a>
 
-A forum I adminster: <a href="https://squarepenguin.co.uk/email/">https://squarepenguin.co.uk/email/</a> (cross reference this with my GitHub profile for added assurance)
