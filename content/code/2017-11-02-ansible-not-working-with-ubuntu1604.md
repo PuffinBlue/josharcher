@@ -4,7 +4,7 @@ description = "Ansible fails to connect to Ubuntu Server 16.04 - it's because of
 tags = [
   "Ansible Python not working Ubuntu 16.04","Ansible Python3 not working Ubuntu 16.04","Ansible defaults to Python 2.7 on Ubuntu 16.04","Ubuntu Server 16.04 with Ansible not working","Ansible Python not found Ubuntu Server 16.04" 
 ]
-url = "ansible-python-connection-failure-ubuntu-server-1604"
+url = ""
 date = "2017-11-02T09:12:57+01:00"
 slug = "ansible-python-connection-failure-ubuntu-server-1604"
 draft = "false"
