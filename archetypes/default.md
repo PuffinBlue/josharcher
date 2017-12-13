@@ -1,7 +1,7 @@
 +++
-date = "" 
+date = "{{ .Date }}" 
 draft = "true"
-title = "" 
+title = "{{ replace .TranslationBaseName "-" " " | title }}" 
 description = "" 
 categories = [""]
 tags = [""]
