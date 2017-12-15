@@ -56,15 +56,17 @@ I've not tested it on a non-Debian based distro simply because I don't run them 
 
 ## Install SANE
 
-First thing is to install SANE. Open a terminal and type the following to install SANE:
+First thing is to install SANE and associated utilities. Open a terminal and type the following to install SANE:
 
-`sudo apt-get install sane`
+`sudo apt-get install sane sane-utils libsane-extras`
 
 You'll probably be asked to enter your password to allow the install to proceed. 
 
 The result will be something like below if you're running an Ubuntu based Distro but a pure Debian variant will likely perform an install as it's not usually already installed on Debain.
 
 <img src="/static/img/2016/10/1-sane-install.png" alt="SANE installation in a terminal">
+
+NOTE - In Ubuntu 17.10 you may also be prompted to install the GIMP package as part of the SANE installation. Go ahead and install it. You may also be prompted to install `libsane-extras-common` instead of `libsane-extras`. That's fine too, just install that package - sometimes names change. 
 
 ## Find your s1300, s1300i, s1100 or s300 Scanner
 
