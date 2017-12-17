@@ -5,7 +5,7 @@ date = "2015-05-10T19:50:23+01:00"
 draft = false
 slug = "find-path-to-folder-on-mac"
 title = "Find the Absolute Path to a folder or directory in Mac OS X"
-pageimage = "/static/img/2015/5/Locate-folder-you-need-location-for.png"
+pageimage = "/static/img/2015/05/Locate-folder-you-need-location-for.png"
 +++
 Mac OS X doesn’t have an obvious way to view the exact text based path to a folder (otherwise known as a directory) in the finder window. You can have it show a graphical path, but getting just the text based path to a directory (for use in the Terminal for example) requires a couple of extra steps.
 
@@ -62,8 +62,6 @@ Here are the instructions for finding the file path on Mavericks and below...
 The first thing to do is identify the folder you need to know the full path for. In this example it’s the “month 1″ folder of my Insanity Workout folder (and yes, I did buy Insanity, directly from Amazon actually and these are my back-ups. It’s not pirated like so much Beachbody stuff unfortunately is!):
 
 <img src="/static/img/2015/05/Locate-folder-you-need-location-for.png" alt="Locate folder you need location for" width="884" height="552" >
-
-<!--more-->
 
 Now we can simply press the “cmd+i” keys together to open up the “Get Info” window. This displays various bits of info about the folder as you can see below:
 
