@@ -22,23 +22,23 @@ You can find the Linking Internal and External Pages lesson [here](https://www.t
 
 For example, linking to `/somepage` on site A will find the 'correct' page relative to Site A that the original creator intended. This would 'create' the full link `https://siteA.com/somepage`. 
 
-If `/somepage` is existxecuted in the context of another site, Site B, it would return the resource found at `https://siteB.com/somepage`. That page may not exist on Site B and if by coincidence it does, it won't have the came content as the one found on Site A as the author of Site A wouldn't have created it. 
+If `/somepage` is executed in the context of another site, Site B, it would return the resource found at `https://siteB.com/somepage`. That page may not exist on Site B and if by coincidence it does, it won't have the came content as the one found on Site A as the author of Site A wouldn't have created it. 
 
-`https://www.somesite.com/somepage` on the otherhand is an exact specific location a file can be found on a specific website. So this type of link will always link back to the original resource as created and intended by the original author. 
+`https://www.somesite.com/somepage` on the other hand is an exact specific location a file can be found on a specific website. So this type of link will always link back to the original resource as created and intended by the original author. 
 
 ### When on a webpage should you use the full URI (with the http://yoursite.com/somepath) and when should you use the relative path (/somepath)?
 
 You should use relative links to link to pages within you own site, i.e. the site you control and creates the original intended content to be found at the relative link. 
 
-It has been claimed that there is performance difference between the two types of links, but [this is unlikey](https://webmasters.stackexchange.com/questions/96955/speed-comparison-absolute-vs-relative-path-links).
+It has been claimed that there is performance difference between the two types of links, but [this is unlikely](https://webmasters.stackexchange.com/questions/96955/speed-comparison-absolute-vs-relative-path-links).
 
 If you need to link to a resource on another site, you should use the absolute path/full URI. 
 
 ### How do you navigate the document tree with links (../../someotherpage)?
 
-The clue is in the question. You set the relative path relatieve to the root of the website. If a file is in `/images/2017/05/` then you would include this 'full' relative path to the resource. 
+The clue is in the question. You set the relative path relative to the root of the website. If a file is in `/images/2017/05/` then you would include this 'full' relative path to the resource. 
 
-To answer the specific question of using [dot segments](https://stackoverflow.com/a/6009045) within the relative path is more confusing and I don't fully understand the RFC and how it works. I suspect that you can link to `./../` in a similar way you can in some filesystems but I'm unsure how different browsers would handle this or the webserver would traverse the file structure to find the correct named resource. 
+To answer the specific question of using [dot segments](https://stackoverflow.com/a/6009045) within the relative path is more confusing and I don't fully understand the RFC and how it works. I suspect that you can link to `./../` in a similar way you can in some file systems but I'm unsure how different browsers would handle this or the webserver would traverse the file structure to find the correct named resource. 
 
 A quick test with the inbuilt Hugo webserver simple removed the dot-segments. 
 
@@ -48,7 +48,7 @@ You set a value of `blank` on the `target` attribute of an `a` element.
 
 ### What are all the possible pseudo-states (e.g. :hover) of a link and when are they actually activated? How do you change styles based on them?
 
-From [here](https://www.webpagefx.com/blog/web-design/link-pseudo-classes/) the following examples show what pseudo elements are avaiable and how to target them:
+From [here](https://www.webpagefx.com/blog/web-design/link-pseudo-classes/) the following examples show what pseudo elements are available and how to target them:
 
 ```css
 /* Default */
