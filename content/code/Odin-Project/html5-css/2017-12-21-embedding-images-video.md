@@ -2,12 +2,12 @@
 date = "2017-12-21T11:36:00Z" 
 draft = "false"
 title = "The Odin Project - Embedding Images and Video" 
-description = "A post covering the completion of the Embedding Images and Video assignment from The Odin Project's HTML5 and CSS course." 
+description = "A post covering the completion of the Embedding Images and Video assignment from The Odin Project's HTML5 and CSS3 course." 
 categories = ["Odin Project"]
 tags = ["Embedding Images and Video","Odin Project - Embedding Images and Video","HTML5 basics", "HTML5 and CSS3 basics"]
 url = "/code/odin-project-embedding-images-video/"
 slug = ""
-pageimage = ""
+pageimage = "/static/img/2017/12/embeddingimagesvideo.jpg"
 +++
 This post covers my work on the [Embedding Images and Video assignment](https://www.theodinproject.com/courses/html5-and-css3/lessons/embedding-images-and-video) from the [HTML5 and CSS3 course](https://www.theodinproject.com/courses/html5-and-css3) from [The Odin Project](https://www.theodinproject.com/).
 
