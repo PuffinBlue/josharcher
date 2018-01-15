@@ -9,6 +9,7 @@ url = ""
 slug = "industrial-society-and-its-future-an-analysis"
 pageimage = ""
 +++
+{{< figure class="img-right-float" src="/static/img/2018/01/industrial_society_and_its_future.jpg" alt="Industrial Society and Its Future cover" >}}
 Thanks to Netflix I recently stumbled across the "Manhunt: Unabomber" series. I found the story fascinating, especially it's protagonist. Not because he killed people, but because he was certifiably a genius and he had much to say about modern industrial-technological society.  
 
 I don't seek to approve of his actions (they were abhorrent) but nor do I think that a mans actions necessarily disqualify his ideas from the potential of being insightful, worthy of thought and analysis - or even of being correct. 
@@ -28,7 +29,7 @@ You can also cross reference this document with the original text published by T
 Further, should the above links 'rot' (be removed from their original locations), the two are replicated below:
 
 [PDF](/static/files/2018/01/Industrial_Society_and_Its_Future-Ted_Kaczynski.pdf) | [Text](/static/files/2018/01/Industrial_Society_and_Its_Future-Ted_Kaczynski.txt)
-
+<!--more-->>
 ## Is this 'analysis' worth reading?
 
 Well lets just say I think I've been quite liberal with the word 'analysis'. This isn't any kind of in depth academic critique of his ideas. It's a single pass read through with notes written as I read. I tidied them up for this blog post to remove repetition but they're largely as written.  
