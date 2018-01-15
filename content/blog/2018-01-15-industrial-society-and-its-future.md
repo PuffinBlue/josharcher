@@ -7,7 +7,7 @@ categories = ["essays"]
 tags = ["Unabomber manifesto analysis","Unabomber manifesto","Ted Kaczynski manifesto","Industrial Society and Its Future analysis"]
 url = ""
 slug = "industrial-society-and-its-future-an-analysis"
-pageimage = ""
+pageimage = "/static/img/2018/01/industrial_society_and_its_future.jpg"
 +++
 {{< figure class="img-right-float" src="/static/img/2018/01/industrial_society_and_its_future.jpg" alt="Industrial Society and Its Future cover" >}}
 Thanks to Netflix I recently stumbled across the "Manhunt: Unabomber" series. I found the story fascinating, especially it's protagonist. Not because he killed people, but because he was certifiably a genius and he had much to say about modern industrial-technological society.  
