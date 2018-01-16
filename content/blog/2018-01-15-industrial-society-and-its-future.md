@@ -14,9 +14,9 @@ Thanks to Netflix I recently stumbled across the "Manhunt: Unabomber" series. I 
 
 I don't seek to approve of his actions (they were abhorrent) but nor do I think that a mans actions necessarily disqualify his ideas from the potential of being insightful, worthy of thought and analysis - or even of being correct. 
 
-## Is the manifesto worth reading?
+## Is the Unibomber manifesto worth reading?
 
-It's always best if one can make one's own mind up about something. The unique thing about this TV show was the possibility of going beyond the dramatisation (which certainly stood out as being overdone in many areas) and reading Kaczynski's manifesto firsthand.
+It's always best if one can make one's own mind up about something. The unique thing about this TV show was the possibility of going beyond the dramatisation (which certainly stood out as being overdone in many areas) and reading Kaczynski's 'Industrial Society and Its Future' firsthand.
 
 To that end, you can find a copy of the manifesto in full at the link below:
 
@@ -29,20 +29,20 @@ You can also cross reference this document with the original text published by T
 Further, should the above links 'rot' (be removed from their original locations), the two are replicated below:
 
 [PDF](/static/files/2018/01/Industrial_Society_and_Its_Future-Ted_Kaczynski.pdf) | [Text](/static/files/2018/01/Industrial_Society_and_Its_Future-Ted_Kaczynski.txt)
-<!--more-->>
-## Is this 'analysis' worth reading?
+<!--more-->
+## Is this 'analysis' of the Unibomber manifesto worth reading?
 
-Well lets just say I think I've been quite liberal with the word 'analysis'. This isn't any kind of in depth academic critique of his ideas. It's a single pass read through with notes written as I read. I tidied them up for this blog post to remove repetition but they're largely as written.  
+Well lets just say I think I've been quite liberal with the word 'analysis'. This isn't any kind of in depth academic critique of his ideas. It's a single pass read through with notes written as I read. I tidied them up for this blog post (and did add a few clarifying points once I had chance to ruminate on my thoughts) but they're largely as written.  
 
 I don't seek to provide any specific insight, just a stream of consciousness that might spark a discussion. 
 
-Having re-read my notes in preparation for this blog post I do see that I was primarily interested in the motivation behind the mind that wrote the manifesto rather than necessarily its contents specifically. 
+Having re-read my notes in preparation for this blog post I do see that I was primarily interested in the motivation behind the mind that wrote the manifesto as well as its contents specifically. 
 
 There is a lot in it that can be said to be accurate and insightful but I didn't always credit it as I went along (saving that instead for the conclusion), instead I spent time looking at the reasons why such points were raised in the first place. 
 
 This may have hampered my 'analysis' or it might just be a different take on it.
 
-## Industrial Society and Its Future
+## Industrial Society and Its Future - The Unibomber Manifesto
 
 ### Para 21
 
@@ -110,7 +110,27 @@ Its almost like Kaczynski comes up for air, realises he been on a bit of a rant 
 
 ### THE POWER PROCESS and SURROGATE ACTIVITIES
 
-I find this quite accurate, perhaps because it's been long established? At least now in 2018 anyway. The truths here certainly seem plain to see in society now. 
+I find this quite accurate, perhaps because it's been long established? At least now in 2018 anyway. The truths here certainly seem plain to see in society now.
+
+Later edit - reading back through my post and re-reading the manifesto in this section I think it's important to qualify my above statement because it can be taken to mean different things.
+
+I believe Kaczynksi to be right in the sense that he's identifying things that seem self-evident and have been explored before. His Power Process seems like a specific subset of Maslow's Needs, the Surrogate Activities section is so prevalent corollaries might be found in almost any productivity or self-help book.
+
+> 40\. In modern industrial society only minimal effort is necessary to satisfy one’s physical needs. It is enough to go through a training program to acquire some petty technical skill, then come to work on time and exert the very modest effort needed to hold a job.
+
+The statement above may be very general but it is also accurate. Most jobs fit this description.  
+
+Where things start to unravel is in his analysis of the use of surrogate activities
+
+> 41\. For many if not most people, surrogate activities are less satisfying than the pursuit of real goals (that is, goals that people would want to attain even if their need for the power process were already fulfilled).
+
+This is unquantified. I also question the logic of the argument. If as Kaczynski states:
+
+> Many people who pursue surrogate activities will say that they get far more fulfillment from these activities than they do from the “mundane” business of satisfying their biological needs, but that is because in our society the effort needed to satisfy the biological needs has been reduced to triviality.
+
+What is to say that actually meeting ones biological needs with autonomy will be *more* satisfying that meeting 'surrogate' needs with autonomy? 
+
+I see no empirical evidence to suggest the primacy of meeting biological needs in the manner. 
 
 ### AUTONOMY
 
@@ -118,11 +138,23 @@ This is an interesting idea. It's skipped over very quickly though. I wonder how
 
 I wonder if this speaks to Kaczynski's idea of freedom. It's shaping up to be freedom from control, not just someone else letting you be free or the system allowing you huge flexibility of action, but absolute freedom. 
 
+### SOURCES OF SOCIAL PROBLEMS
+
+I see no unique insight in this section. I believe many have made such comments before, not that I've spent the time to look. Even just in popular culture, TV programmes, films etc these concepts seem prevalent. Perhaps they weren't at the time though the manifesto was written, so credit may be due. 
+
 ### Para 50.
 
 Danger to the left of him, fools to the right. An isolated world to live in.
 
-> 50\. The conservatives are fools: They whine about the decay of traditional values, yet they enthusiastically support technological progress and economic growth. Apparently it never occurs to them that you can’t make rapid, drastic changes in the technology and the economy of a society without causing rapid changes in all other aspects of the society as well, and that such rapid changes inevi tably break down traditional values.
+> 50\. The conservatives are fools: They whine about the decay of traditional values, yet they enthusiastically support technological progress and economic growth. Apparently it never occurs to them that you can’t make rapid, drastic changes in the technology and the economy of a society without causing rapid changes in all other aspects of the society as well, and that such rapid changes inevitably break down traditional values.
+
+### Para 57
+
+It's possible to claim whatever you like as Kaczynski does below - but a claim is only that. Far more work would be needed to even identify if the 'Power Process' is in any way involved, yet alone the sole or major cause of any ill in society. 
+
+This manifesto is being built upon very shaky foundations. 
+
+> We contend that the most important cause of social and psychological problems in modern society is the fact that people have insufficient opportunity to go through the power process in a normal way. We don’t mean to say that modern society is the only one in which the power process has been disrupted. Probably most if not all civilized societies have interfered with the power process to a greater or lesser extent. But in modern industrial society the problem has become particularly acute. Leftism, at least in its recent (mid- to late-20th century) form, is in part a symptom of deprivation with respect to the power process.
 
 ### DISRUPTION OF THE POWER PROCESS IN MODERN SOCIETY
 
@@ -156,6 +188,20 @@ And there's more:
 
 I think this is true. 
 
+### Para 74
+
+Kaczynski is veering off course here, seemingly shoe-horning these examples into his stated ideas. It just doesn't seem to fit:
+
+> 74\. We suggest that modern man’s obsession with longevity, and with maintaining physical vigor and sexual attractiveness to an advanced age, is a symptom of unfulfillment resulting from deprivation with respect to the power process. The “mid-life crisis” also is such a symptom.
+
+### Para 75
+
+This paragraph just seems like make believe! How can Kaczynski know how early man felt?
+
+> Again, having successfully raised his children, going through the power process by providing them with the physical necessities, the primitive man feels that his work is done and he is prepared to accept old age (if he survives that long) and death.
+
+Well clearly not, because it was primitive man that developed into modern man, so he must not have been satisfied and instead desired to produce technology and to advance.
+
 ### Para 76 - there may be trouble ahead
 
 Woah there Nelly! What constitutes 'their own opportunities'? If we're talking about returning to nature as mentioned in paras 47 and 48 then there may be trouble ahead. Society will have to be destroyed, not just industrial-technological society, *all* forms of 'big' society. 
@@ -165,6 +211,44 @@ Woah there Nelly! What constitutes 'their own opportunities'? If we're talking a
 **Yeah, it's clear now this is about freedom from control, not simple freedom from interference. In practice they can be the same but in principle it's the idea of someone else letting you be free vs you being free in absolute terms.** 
 
 **Totalitarianism awaits, no doubt radical destruction will be proposed as a solution.**
+
+### HOW SOME PEOPLE ADJUST
+
+Whilst Kaczynski accurately describes a range of common human behaviour seen in various strata of society, his assertion that this comes solely from the Power Process is myopic. 
+
+> Our society uses it too, though less crudely. Example: Manuel Noriega was an irritant to the U.S. (goal: punish Noriega). The U.S. invaded Panama (effort) and punished Noriega (attainment of goal). Thus the U.S. went through the power process and many Americans, because of their identification with the U.S., experienced the power process vicariously.
+
+I think Kaczynski undermines his own argument here. By attempting to show that an entire society itself goes through the Power Process he shows how even extra-human events can fit it's model.
+
+This brings into question whether the model is too broad to be usefully applicable. If anything can be applied to it - what use is it in understanding anything? 
+
+Using the Power Process to analyse the behaviour of nation state on nation state falls woefully short of a rigorous exploration of all the nuances of why such events occurred. 
+
+Yet the Power Process still fits.
+
+So that suggests we are missing the true nuances of what motivates human behaviour. At the very least we must work much harder to prove such a model has utility, something that is severely lacking in this manifesto. 
+
+### THE MOTIVATIONS OF SCIENTISTS
+
+I simply find this section utterly irrelevant. The logic here is convoluted and seems to exist solely to back up previous unsubstantiated claims. The removal of this section from the manifesto would improve it's overall content. 
+
+Let's look at one central claim:
+
+> 87\. Science and technology provide the most important examples of surrogate activities. Some scientists claim that they are motivated by “curiosity” or by a desire to “benefit humanity.” But it is easy to see that neither of these can be the principal motive of most scientists. As for “curiosity,” that notion is simply absurd.
+
+What about the 'what if?'. What if the notion of curiosity is not absurd? It's bordering ridiculous to suggest that pure curiosity is 'absurd'. Does a baby explore the world around so as to satisfy the Power Process? Or perhaps it's an innate curiosity 'programmed' genetically? 
+
+Do we shed our curiosity at some arbitrary point in life? What about curiosity in the pursuit of obtaining the physical necessities? What do we call that moment of thought when we see a sharp stick and think about it's use in hunting, or a bendy branch next to a length of twine? Is it our curiosity that says "I wonder if I put that string on the bendy bow and the sharp stick on the string - what will happen?
+
+What is that thought if not curiosity? 
+
+If such a thing is curiosity (as it blatantly is), why is such curiosity excluded from all other areas of life save for those concerned with necessitating existence? 
+
+The idea that curiosity as a pure motivator being 'absurd' is itself absurd. Pure curiosity, the desire to know something, to understand it, is a fundamental part of being human and can exist independently of any 'Power Process' or basic need.
+
+> In any case it is not normal to put into the satisfaction of mere curiosity the amount of time and effort that scientists put into their work.
+
+This is far more revealing of Kaczynski's true thought. He just doesn't seem to like science. Perhaps this is another autobiographical passage borne of his emotions. It certainly doesn't seem to add anything to his core arguments in the manifesto.
 
 ### THE NATURE OF FREEDOM
 
@@ -202,7 +286,7 @@ Like all good essays there has been plenty of foreshadowing to this big reveal.
 
 Note the interchangeable use of technology, industrial and industrial-technological. The use throughout so far has bugged me. They're used precisely but more to explain the problem rather than being the problem. 
 
-That suggests there may only be a limited exploration of the counter-example of technology doing good and even technology returning us naturally to decentralised form of society. 
+That suggests there may only be a limited exploration of the counter-example of technology doing good and even technology returning us naturally to decentralised form of society.
 
 ### RESTRICTION OF FREEDOM IS UNAVOIDABLE IN INDUSTRIAL SOCIETY
 
@@ -453,7 +537,7 @@ It's just such an *unintelligent* response to the objective goals he set. Which 
 
 There is nothing to be lauded in this manifesto. There are points that deserve exploration and debate, perhaps even non-violent action - even the criminal can be correct after all - but nothing more.   
 
-To me it is the rationalised logic of an angry and mistreated man, an intelligent one, but not one who should be forgiven his crimes.
+To me it is the malformed logic of an angry and mistreated man, an intelligent one, but not one who should be forgiven his crimes.
 
 That said, I still remain deeply wary of those moral fundamentalists on both sides, caricatures of which Kaczynksi describes in the manifesto. 
 
@@ -463,7 +547,7 @@ I fear the mindless technician.
 
 I fear the certainty of conviction of a half-educated man. 
 
-I fear Kaczynski *may* turn out to be right.
+I fear Kaczynski *could* turn out in part to be right.
 
 That's an uncomfortable position to be in. We would like our villains to by 100% monster after all. It's easier to dismiss their ideas if we think them pure evil or insane.
 
@@ -471,9 +555,15 @@ So much of what he has to say about the current state of society is actually pre
 
 The legions of YouTubers, Instagrammers, Facebookers, Tweeters, bloggers (I unironically include my self within this group), 1 like = 1 prayer profile picture updating idiots who post vacuously into the void to no effect whatsoever are the great sadness of our generation. My time in the Caribbean helping in the wake of Hurricane Irma, only to have Hurricane Maria blow through and cause further devastation, brought home to me with viscous clarity how so much of what is needed in the world is *local community* and *self-reliance*. 
 
-Kaczynski's thoughts on how society controls is also pretty accurate. It does. It necessarily limits it's subjects because without it the whole cannot work. It does limit freedom, there's no question of that. I find his ideas on 'Leftists' (in reality moral fundamentalists) largely accurate. His thoughts on Surrogate Activities I find to be quite insightful and see such behaviour in myself and others around me.
+Kaczynski's thoughts on how society controls is also pretty accurate. It does. It necessarily limits it's subjects because without it the whole cannot work. It does limit freedom, there's no question of that. I find his ideas on 'Leftists' (in reality moral fundamentalists) largely accurate. 
 
-But I don't subscribe to the certainty of it all or to the absolutism or extremism required for his 'solution'. And certainly not to such a *stupid* solution such that he proposes. In fact I'd go so far as to say his solution is utterly naive, lazy and laughably unworkable - something I was not expecting to discover given his intellect. 
+His commentary on Surrogate Activities I find to be quite insightful and see such behaviour in myself and others around me.
+
+But I don't subscribe to his severely limited *analysis of the causes behind these observations*. 
+
+I reject the certainty of his assertion that the Power Process is the primary motivating factor in human behaviour. I find this concept useful to think about but not even a fully fledged first draft attempt at fully exploring the issue. Such limited tools are often used by those who seek to influence as they let one make grand sweeping statements and create villains to rally against. 
+
+I strongly reject the absolutism and extremism required for his 'solution'. And certainly such a *stupid* solution such that he proposes. In fact I'd go so far as to say his solution is utterly naive, lazy and laughably unworkable - something I was not expecting to discover given his intellect. 
 
 It absolutely isn't a 100% probability that what society is now will only progress down one route. There are too many 'unknown unknown's' to make such a sweeping statement, let alone enough try to pull the whole system down at great cost to life.
 
