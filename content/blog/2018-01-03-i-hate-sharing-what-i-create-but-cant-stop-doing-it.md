@@ -19,7 +19,7 @@ I want to make/do those things I do because I *have* to. There's also the second
 
 Usually it's a blog post that's inspired me to do something so I fell it's my duty, you know [today you, tomorrow me](https://www.reddit.com/r/AskReddit/comments/elal2/have_you_ever_picked_up_a_hitchhiker/c18z0z2/) etc etc.
 
-But doing so means sharing what I've written, done or made. And I HATE this part. Being put up for scrutiny, having to face the opinions of others and deal with the fallout of disagreement and criticism.
+But doing so means sharing what I've written, done or made. And I **HATE** this part. Being put up for scrutiny, having to face the opinions of others and deal with the fallout of disagreement and criticism.
 <!--more-->
 It's not always because some people can cut to the quick with a searing truth or illuminate a painful flaw with a pithy remark, but also because how many objectively stupid comments the internet can bring. Knowing there's that much dumb in the world is a bit disheartening :-) 
 
@@ -39,15 +39,25 @@ Many flabber-jowled keyboard monkeys will now be dusting off their frosting of c
 
 Jokes on you, there is no comment section.
 
-Try being spirit-crushingly unimportant and ignored by everyone (you know the feeling). Pretty easy to delete stuff that people won't pay attention to even when you try and push it in their face.
+Try being spirit-crushingly unimportant and ignored by everyone (you know the feeling). Pretty easy to delete stuff that even the bots won't pay attention to despite shoving it semantically into their artificial little faces.
 
 ## Anonocarthegenisis
 
-Anyway, there's something cathartic about retreating to the sanctuary of isolation I've created for myself here. More aggressive treatments like just burning it all and staggering outside into the caustic light of day to interact with other humans are positively invigorating.
+Anyway, I can't offer you much insight in dealing with such feelings my dear reader. 
+
+But I can say there's something cathartic about retreating to the sanctuary of isolation I've created for myself here.
 
 In the past I've simply stopped blogging as the awkwardness built up to a crescendo of over analysis and that curious skin-crawling sensation of putting oneself up for display.
 
-However, with my new found [discipline](https://www.josharcher.uk/blog/motivation-is-dangerous/), it's time for another way.
+But I've always returned to posting something, writing something, making something. So perhaps the most important thing I could say is to remain true to yourself, do what you *must* do, critique be damned. 
+
+The worse thing that can happen is internet strangers disagree with you (or worse continue to ignore you) but even if so you'll be in the same position to when you began. 
+
+And importantly, if you do just 'do it', you will have scratched that incessant creative itch. 
+
+So I say - just keep on keeping on. 
+
+Plus, with my new found [discipline](https://www.josharcher.uk/blog/motivation-is-dangerous/), I thought it time for another way of approaching this internal tension.
 
 So the posts will keep coming.
 
