@@ -4,7 +4,7 @@ draft = "false"
 title = "Industrial Society and Its Future - an analysis" 
 description = "Industrial Society and Its Future - " 
 categories = ["essays"]
-tags = ["Unabomber manifesto analysis","Unabomber manifesto","Ted Kaczynski manifesto","Industrial Society and Its Future analysis"]
+tags = ["Unabomber manifesto analysis","Unabomber manifesto","Ted Kaczynski manifesto","Industrial Society and Its Future analysis","Netflix Unabomber manifesto","Unabomber Manifesto PDF","Unabomber Manifesto Plain Text","Unabomber Manifesto crituque","Industrial Society and Its Future critique","ISAIF","ISAIF analysis","ISAIF critique"]
 url = ""
 slug = "industrial-society-and-its-future-an-analysis"
 pageimage = "/static/img/2018/01/industrial_society_and_its_future.jpg"
@@ -344,7 +344,11 @@ Kaczynski talks often and at length of pre-industrial society. He speaks of its 
 
 I'm not convinced that this rosy picture of the past is accurate or at all based in concrete fact. Was crime and abuse really so low and happiness so high? Was it not a brutal and insecure existence?
 
-That contact with industrial society 'cracked open' more 'primitive' cultures I do not dispute. But how far must we 'go back' in history to find these 'harmonious ancients'? Neolithic? What about Stonehenge? Is that not a technological marvel? A colossal monument to surrogate activity? What of the pyramids? The Great Wall? The ancient wonders of the world? Clearly not all ancient cultures fit the description, so I predict Kaczynksi will pick and choose cultures aligning with his own beliefs to support his argument.
+That contact with industrial society 'cracked open' more 'primitive' cultures I do not dispute. But, concomitently, would it not be prudent to ask *why* it did so so effectively? Could it be that 'primitive' society wasn't as great as Kaczynski thinks it to be?
+
+And how far must we 'go back' in history to find these 'harmonious ancients'? Neolithic? What about Stonehenge? Is that not a technological marvel? A colossal monument to surrogate activity? What of the pyramids? The Great Wall? The ancient wonders of the world?
+
+Clearly not all ancient cultures fit the description, so I predict Kaczynksi will pick and choose cultures aligning with his own beliefs to support his argument.
 
 ### Para 173
 
@@ -480,8 +484,7 @@ He differed though in his extreme reaction to it and the appalling crimes he com
 
 I like this line:
 
-Never forget that the human race with technology is just 
-like an alcoholic with a barrel of wine.
+> Never forget that the human race with technology is just like an alcoholic with a barrel of wine.
 
 It's cynical, judgemental and like all generalisms patently false, but it's fun to say. 
 
