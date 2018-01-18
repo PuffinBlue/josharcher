@@ -5,19 +5,19 @@ title = "The Odin Project - JavaScript Fundamentals Part 1"
 description = "A complete set of answers to the study questions from the Odin Project - JavaScript Fundamentals Part 1 course. " 
 categories = ["Odin Project"]
 tags = ["JavaScript Fundamentals Odin Project","Odin Project JavaScript"]
-url = ""
-slug = "/code/odin-project-javascript-fundamentals-part-1"
+url = "/code/odin-project-javascript-fundamentals-part-1"
+slug = ""
 pageimage = ""
 +++
-Reading the linked info in the course is essential, it covers much more material than the questions ask below. 
+Reading the linked info in the course is essential, it covers much more material than the questions asked below. 
 
-To save unnecessary typing, some redundant questions have been grouped together so answers can be given in one section in a more complete manner. 
+To save unnecessary typing some redundant questions have been grouped together so answers can be given in one section in a more complete manner. 
 
 ## How do you declare a variable in javascript? What are three different ways to declare a variable? Which one should you use when?
 
 You can use any of the reserved words `let`, `const` and `var` to declare a variable. You should use `let` as 'standard'. Use this to create most variables. 
 
-You should NOT use `var`, it's behaviour is rooted in a time the language didn't have certain abilities and variables created this way may behave differently than expected. 
+You should **NOT** use `var`, it's behaviour is rooted in a time the language didn't have certain abilities and variables created this way may behave differently than expected. 
 
 You should use `const` when creating variable that will have fixed, unchanging, 'constant' values. Variable created this way cannot have their values altered, once created they will always retain their initial value. 
 
