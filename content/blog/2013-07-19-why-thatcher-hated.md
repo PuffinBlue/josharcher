@@ -1,6 +1,6 @@
 +++
 description = "10 of the most common reasons why Margaret Thatcher is Britain's most hated Politician...and the facts behind the rhetoric."
-date = "2013-07-19T09:38:13+01:00"
+date = "2018-03-18T19:38:13+01:00"
 draft = false
 title = "10 Reasons why Margaret Thatcher is Britain's most hated politician"
 categories = ["essays"]
@@ -18,9 +18,9 @@ Unquestionably strong and successful in her political career, she has garnered l
 
 ## Thatcher – Why is she hated?
 
-A <a title="Aisling Creedon" href="http://uk.linkedin.com/pub/aisling-creedon/37/a11/368">good friend</a> of mine, <a title="Aisling" href="https://twitter.com/sayface">Aisling</a>, was gracious enough to respond to my Facebook request for information with a fantastic <a href="https://www.facebook.com/mike.harding.10/posts/10151595369993383">post by Mike Harding</a>, which list 42 reasons why people hated Thatcher.
+I can’t hope to cover all of the reasons people hate Thatcher. I couldn't even hope to cover all the reasons why people _don't_ hate her, and there are seemingly considerably fewer of those!
 
-I can’t hope to cover all of the points, and many are actually different aspects of the same thing, but these 10 reasons below go a long way to explaining the strength of feeling her legacy has left.
+What I can do though is highlight some of the main reasons why Thatcher was hated, so below I've selected the ten main reasons most often cited. These 10 reasons go a long way to explaining the strength of feeling her legacy has left.
 
 ### Jump to a reason…
 
@@ -36,6 +36,8 @@ Looking for a specific reason why people hate Thatcher? Click on a link below to
 8. [She sowed the seeds of NHS Privatisation]({{< ref "blog/2013-07-19-why-thatcher-hated.md#8"  >}})
 9. [Section 28 – Thatchers quiet homophobia?]({{< ref "blog/2013-07-19-why-thatcher-hated.md#9"  >}})
 10. [The Irish Hunger Strikes]({{< ref "blog/2013-07-19-why-thatcher-hated.md#10"  >}})
+
+For a list of further reason, check out this post by [Mike Harding on Facebook](https://www.facebook.com/mike.harding.10/posts/10151595369993383).
 
 <!--more-->
 
@@ -69,7 +71,7 @@ Despite public outcry and plunging popularity, Thatcher stood firm in her polici
 
 Ultimately her policies and the link between money supply and inflation were proven correct and inflation lowered to 8.5% by 1982.
 
-But that was not before over 2 million manufacturing jobs had been lost in the 1979-81 recession and swathes of industry had been decimated, never to recover - though [Tony Blair's Labour administration actually contributed more to manufacturing decline](http://www.ft.com/cms/s/0/8c257da6-dfab-11de-98ca-00144feab49a.html), as seen in the GDP graphic below.
+But that was not before over 2 million manufacturing jobs had been lost in the 1979-81 recession and swathes of industry had been decimated, never to recover - though [Tony Blair's Labour administration actually contributed more to manufacturing decline](http://www.dailymail.co.uk/news/article-1232897/Manufacturing-decline-Labour-greater-Margaret-Thatcher.html), as seen in the GDP graphic below.
 
 After the recession in 1983, manufacturing output was 30% lower than 1978 levels, reducing the manufacturing base so much that the [balance of payments](http://en.wikipedia.org/wiki/Balance_of_payments) in manufactured goods was in deficit - and has been there ever since.
 
@@ -95,7 +97,7 @@ For a more 'thorough' review you can read a detailed analysis from the Centre fo
 
 ### <a name="3"></a>3. She presided over interest rates of 15%
 
-She did. This [Guardian article](http://www.theguardian.com/politics/datablog/2013/apr/08/britain-changed-margaret-thatcher-charts) and the linked [Google Spreadsheet](https://docs.google.com/spreadsheet/ccc?key=0AonYZs4MzlZbdHE0dnFiRmIwM0Y3T1dMeXIwQVZBR2c&amp;usp=sharing#gid=18) has a number for excellent interactive charts where you can plot various economic indicators over the course of the Thatcher Government and beyond.
+She did. This [Guardian article](https://www.theguardian.com/politics/datablog/2013/apr/08/britain-changed-margaret-thatcher-charts) and the linked [Google Spreadsheet](https://docs.google.com/spreadsheet/ccc?key=0AonYZs4MzlZbdHE0dnFiRmIwM0Y3T1dMeXIwQVZBR2c&amp;usp=sharing#gid=18) has a number for excellent interactive charts where you can plot various economic indicators over the course of the Thatcher Government and beyond.
 
 More important than simply being in office during the time of such rates were the consequences and the measures taken to control them.
 
@@ -111,7 +113,7 @@ Though the control of inflation was ultimately achieved, this further damage to 
 
 She did, but the Bill passed anyway. Prior to The Divorce Reform Act 1969, it was impossible for a “guilty” party to divorce and an innocent party.
 
-As long as the innocent spouse took care not to be caught in adultery, he or she could [effectively block the other’s divorce and remarriage](http://www.lawteacher.net/family-law-resources/History-Divorce-Law.php).
+As long as the innocent spouse took care not to be caught in adultery, he or she could [effectively block the other’s divorce and remarriage](https://www.lawteacher.net/study-guides/family-law/History-Divorce-Law.php).
 
 ### <a name="5"></a>5. She abolished free milk for School Children
 
@@ -154,7 +156,7 @@ However, there is little doubt that the sweeping changes and current social prob
 
 The Poll Tax is the stand-out, [unequivocal disaster of the Thatcher Government](http://www.mirror.co.uk/news/uk-news/margaret-thatcher-dead-poll-tax-1820775). Also known as the ‘[Community Charge](http://en.wikipedia.org/wiki/Community_Charge)‘, this ill-conceived legislation led directly to the [downfall of Thatcher](http://www.bbc.co.uk/programmes/p00y3ydn).
 
-It’s even [been suggested that](http://www.historyworld.net/Articles/PlainTextArticles.asp?aid=zai&amp;pid=165) had voter registration not been so low as people tried to avoid being identified to pay the charge, it’s likely that the Conservatives would have been removed from power during the [1992 general election](http://en.wikipedia.org/wiki/United_Kingdom_general_election,_1992).
+It’s even [been suggested that](http://www.independent.co.uk/news/uk/exclusive-how-did-labour-lose-in-92-the-most-authoritative-study-of-the-last-general-election-is-1439286.html) had voter registration not been so low as people tried to avoid being identified to pay the charge, it’s likely that the Conservatives would have been removed from power during the [1992 general election](http://en.wikipedia.org/wiki/United_Kingdom_general_election,_1992). Though, that's a somewhat contested claim. 
 
 Many believed that [changing the way the tax was](http://en.wikipedia.org/wiki/Community_Charge#Opposition) calculated, from the estimated market value of a property to the number of people living in it, was a backwards step.
 
@@ -188,7 +190,7 @@ Such is the strength of feeling still felt in Britain about the Community Charge
 
 As ever, things are more subtle. Following recommendations in the [Griffith’s Report](http://www.solhaam.org/articles/nhs.html) the Thatcher government introduced ‘Modern Management Processes’ to replace the older system on ‘Consensus Management’. Then in 1988, and again in 1989, a review of the NHS (and subsequent White Papers ‘_Working for Patients’_ and ‘_Caring for People’),_ led to the introduction in England of [National Health Service &amp; Community Care Act](http://en.wikipedia.org/wiki/National_Health_Service_and_Community_Care_Act_1990).
 
-This Act defined what was to be known as the ‘Internal Market’, which [introduced the following changes](http://www.guardian.co.uk/society/2010/jul/09/nhs-history-reforms-health-policy):
+This Act defined what was to be known as the ‘Internal Market’, which [introduced the following changes](https://www.guardian.co.uk/society/2010/jul/09/nhs-history-reforms-health-policy):
 
 > “The market splits health authorities (which commission care for their local population) from hospital trusts (which compete to provide care). GP fundholding, which gives some family doctors budgets to buy care on their patients’ behalf, is introduced.’
 
@@ -224,7 +226,7 @@ There is little evidence to say that Thatcher was directly involved in the Act�
 
 Nonetheless, such legislation reflects the generally held beliefs of the [Conservative traditionalists](http://www.standard.co.uk/news/politics/antihomosexual-section-28-was-right-for-schools-says-tory-mp-8398942.html) that Homosexuality, though no longer illegal, should not be promoted.
 
-Modernists, including current [Prime Minister David Cameron](http://en.wikipedia.org/wiki/David_Cameron), no longer support such sentiment. Cameron even went so far as to issue a much needed and long overdue apology in [July 2009](http://www.guardian.co.uk/politics/2009/jul/02/david-cameron-gay-pride-apology), despite he himself having voted for a retention of the Section in 2003. He stated:
+Modernists, including current [Prime Minister David Cameron](http://en.wikipedia.org/wiki/David_Cameron), no longer support such sentiment. Cameron even went so far as to issue a much needed and long overdue apology in [July 2009](https://www.guardian.co.uk/politics/2009/jul/02/david-cameron-gay-pride-apology), despite he himself having voted for a retention of the Section in 2003. He stated:
 
 > “Yes, we may have sometimes been slow and, yes, we may have made mistakes, including Section 28, but the change has happened.”
 
