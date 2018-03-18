@@ -4,7 +4,7 @@ date = "2018-03-18T19:38:13+01:00"
 draft = false
 title = "10 Reasons why Margaret Thatcher is Britain's most hated politician"
 categories = ["essays"]
-tags = ["Thatcher","Margaret Thatcher hated","Margaret Thatcher","Politics"]
+tags = ["Thatcher","Margaret Thatcher hated","Margaret Thatcher","Politics","Why is Thatcher hated so much","Why Thatcher was bad","Why do people hate thatcher","Margaret Thatcher bad","Why was Margaret Thatcher bad","What did Margaret Thatcher do wrong"]
 slug = "why-margaret-thatcher-is-hated"
 pageimage = "/static/img/2013/Margaret-Thatcher-Photo.jpg"
 +++
