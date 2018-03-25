@@ -18,7 +18,7 @@ Personally, I lean towards the 'best book ever' camp, but not as forcefully as s
 
 This is a tough book for sure though. Even the opening chapters on the birth of a new digital mind will leave many people grasping around for just what on earth Egan is going on about. 
 
-To some, this has become an elitist badge of honour - those 'getting it' becoming reassured in their intelect and looking down on those that fail to see the joy in reading page after page of detail on the various processes and developments that go into creating new digital life. 
+To some, this has become an elitist badge of honour - those 'getting it' becoming reassured in their intellect and looking down on those that fail to see the joy in reading page after page of detail on the various processes and developments that go into creating new digital life. 
 
 I wonder how some of those delighting in their own excellence at being able to understand Egan's depth would fair with Mrs Dalloway or The Return of the Native? Perhaps the shoe would be on the other foot... 
 
