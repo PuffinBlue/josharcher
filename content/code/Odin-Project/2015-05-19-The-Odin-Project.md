@@ -13,7 +13,7 @@ Here we go then, the start of something big...maybe. In an attempt to avoid bein
 
 ## What is the Odin Project?
 
-If you don't know about The Odin Project, go and take a [quick look](http://www.theodinproject.com/about). It's FREE, and it's a great resource that brings together all sorts of tutorials and information from around the web in a logical and consistent package that anyone can follow along and learn with.
+If you don't know about The Odin Project, go and take a [quick look](https://www.theodinproject.com/about). It's FREE, and it's a great resource that brings together all sorts of tutorials and information from around the web in a logical and consistent package that anyone can follow along and learn with.
 
 It basically creates a structured 'course' to follow so you can learn how to be a Web Developer.
 
@@ -28,11 +28,11 @@ If I'd skipped a few bits or spent 8 hours a day studying I definitely could hav
 
 ## Why am I doing this?
 
-<figure><a href="https://xkcd.com/378/"><img src="http://imgs.xkcd.com/comics/real_programmers.png" /></a><figcaption><a href="http://xkcd.com/378/">http://xkcd.com/378/</a></figure>
+<figure><a href="https://xkcd.com/378/"><img src="https://imgs.xkcd.com/comics/real_programmers.png" /></a><figcaption><a href="https://xkcd.com/378/">https://xkcd.com/378/</a></figure>
 
 Prior to starting the course I've been building my own websites for years, and even some 'professionally' for a few business friends. I also host the main website and forum for a popular open source tool, having 'built' the site myself.
 
-But...hacking together a site whilst relying on the work of others does not a Web Developer make. I've relied heavily on tools like [Wordpress](https://wordpress.org/), [Headway Themes](http://headwaythemes.com), [bbpress](https://bbpress.org/) and [Gravity Forms](http://www.gravityforms.com/), amongst many many others.
+But...hacking together a site whilst relying on the work of others does not a Web Developer make. I've relied heavily on tools like [Wordpress](https://wordpress.org/), [Headway Themes](http://headwaythemes.com), [bbpress](https://bbpress.org/) and [Gravity Forms](https://www.gravityforms.com/), amongst many many others.
 
 >...hacking together a site whilst relying on the work of others does not a Web Developer make.
 
@@ -44,7 +44,7 @@ But my preference is to go from the ground up and give myself a strong knowledge
 
 I've completed the [first part of the curriculum](http://www.theodinproject.com/introduction-to-web-development) and am now well into the [second](http://www.theodinproject.com/web-development-101), but I couldn't blog about it until now because I refused to use a site I hadn't 'handmade' myself.
 
-This site for example - it uses the fantastic Static Site Generator '[Hugo](http://gohugo.io/)' but I've hand written the HTML and CSS and heavily customised almost all aspects of the original 'NoFancy' theme, even diving into some of the Go Templates.
+This site for example - it uses the fantastic Static Site Generator '[Hugo](https://gohugo.io/)' but I've hand written the HTML and CSS and heavily customised almost all aspects of the original 'NoFancy' theme, even diving into some of the Go Templates.
 
 It's been an enlightening and empowering process that's left me 'in charge' of my code. Having full control over the HTML and the CSS is actually easier than hacking at complex frameworks in a bid to get them to do what you want.
 
@@ -52,7 +52,7 @@ Who knew?!
 
 ## What's next?
 
-I've just completed the [HTML and CSS basics](http://www.theodinproject.com/web-development-101/html-and-css-basics) course (which includes the HTML and CSS track on [CodeCademy](http://www.codecademy.com)) and a rebuild of the Google homepage, so I'll be blogging about that shortly.
+I've just completed the [HTML and CSS basics](http://www.theodinproject.com/web-development-101/html-and-css-basics) course (which includes the HTML and CSS track on [CodeCademy](https://www.codecademy.com)) and a rebuild of the Google homepage, so I'll be blogging about that shortly.
 
 Then the real fun begins. Next up is Javascript. I've done no programming ever, save for a couple of 'gameified' graphical attempts that I learnt nothing from.
 
