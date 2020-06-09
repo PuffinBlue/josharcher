@@ -10,31 +10,31 @@
 <!-- Open Graph date -->
   <meta name="author" content="{{ .Site.Author.name }}">
   <!-- Additional metadata -->
-  <meta property="og:title" content="{{ if ne .URL "/" }} {{ .Title }} | {{ end }} {{ .Site.Title }}" />
-  <meta property="og:site_name" content="{{ .Site.Title }}" />
-  <meta property="og:url" content="{{ .Permalink }}" />
+  <meta property="og:title" content="{{ if ne .URL "/" }} {{ .Title }} | {{ end }} {{ .Site.Title }}">
+  <meta property="og:site_name" content="{{ .Site.Title }}">
+  <meta property="og:url" content="{{ .Permalink }}">
   {{ if .IsPage }}
-    <meta property="og:type" content="article" />
-    <meta property="og:article:published_time" content="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}" />
+    <meta property="og:type" content="article">
+    <meta property="og:article:published_time" content="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}" >
     {{ range .Params.tags }}
-    <meta property="og:article:tag" content="{{ . }}" />
+    <meta property="og:article:tag" content="{{ . }}"> 
     {{ end }}
     {{ else }}
-    <meta property="og:type" content="website" />
+    <meta property="og:type" content="website">
     {{ end }}
-  <meta property="og:image" content="{{.Site.BaseURL}}{{.Params.pageimage}}" />
-  <meta property="og:locale" content="en_GB" />
+  <meta property="og:image" content="{{.Site.BaseURL}}{{.Params.pageimage}}" >
+  <meta property="og:locale" content="en_GB" >
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@josharcher">
   <meta name="twitter:creator" content="@josharcher">
   <meta name="twitter:title" content="{{ .Title }}">
   <meta name="twitter:description" content="{{ .Description }}">
-  <meta name="twitter:image" content="{{.Site.BaseURL}}{{.Params.pageimage}}" >
+  <meta name="twitter:image" content="{{.Site.BaseURL}}{{.Params.pageimage}}">
   <!-- RSS Feeds -->
-  <link rel="alternate" type="application/rss+xml" title="Full site feed" href="/index.xml"/>
-  <link rel="alternate" type="application/rss+xml" title="Main blog feed" href="/blog/index.xml"/>
-  <link rel="alternate" type="application/rss+xml" title="Code blog feed" href="/code/index.xml"/>
-  <link rel="alternate" type="application/rss+xml" title="Photo blog feed" href="/photo/index.xml"/>
+  <link rel="alternate" type="application/rss+xml" title="Full site feed" href="/index.xml">
+  <link rel="alternate" type="application/rss+xml" title="Main blog feed" href="/blog/index.xml">
+  <link rel="alternate" type="application/rss+xml" title="Code blog feed" href="/code/index.xml">
+  <link rel="alternate" type="application/rss+xml" title="Photo blog feed" href="/photo/index.xml">
   <!-- Favicon, Touch Icon and Canonical -->
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
@@ -42,7 +42,7 @@
 <link rel="manifest" href="/manifest.json">
 <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#ff4500">
 <meta name="theme-color" content="#ffffff">
-  <link rel="canonical" href="{{ .Permalink }}" />
+  <link rel="canonical" href="{{ .Permalink }}">
 <style>
 html {
     font-size:10px;
@@ -51,19 +51,19 @@ html {
 }
 body {
     font-family:Helvetica, FreeSans, sans-serif;
-    Font-size: 1.9em;
+    Font-size: 1.6em;
     line-height: 1.4em;
     padding:0;
     margin:0;
 }
 main {
     max-width:45em;
-    padding:0 1.5em;
+    padding:0 1.3em;
     margin:0 auto;}
 Article {
     padding-bottom:1em;
     background-color: #fff;
-    padding: 1em 3em;
+    padding: 1em 2em;
     margin: 1.5em 0;
     border: 15px solid #2b2b2b;
 }
@@ -255,14 +255,14 @@ blockquote {
 }
 
 /* Frontpage styling specifics */
-.front-container { background-color: #006699; padding:40px; margin:0px;}
-.frontpage-header {max-width:45em; margin:30px auto;}
+.front-container { background-color: #006699; padding:40px; margin:0px;color:#fff}
+.frontpage-header {max-width:35em; margin:30px auto;}
 .frontpage-header h1, .frontpage-header h2 { color:#fff; text-align:center;}
-.frontpage-header h1 {font-size:4em; font-weight:300;text-transform: uppercase;margin: 0 0 23px 0;}
-.frontpage-header h2 {font-size:2em;font-weight:300;margin: 23px 0 23px 0;}
+.frontpage-header h1 {font-size:3em; font-weight:300;margin: 0 0 15px;}
+.frontpage-header h2 {font-size:1.3em;font-weight:300;margin: 0 0 35px;}
 .frontpage-value {text-transform: uppercase;}
 .front-container2 {background-color:#ffffff;}
-.front-container3 {
+.front-container3, .front-container4 {
     max-width:55em;
     margin:auto;
   	display:flex;
@@ -285,17 +285,31 @@ blockquote {
       align-items: center;
     	padding:30px 30px 60px;
   }
+.front-container4 {
+    padding:30px;
+}
 .front-img {
   	flex:0 1 250;
-  	-webkit-box-flex: 0 1 250;   /* OLD - iOS 6-, Safari 3.1-6 */
-  	-webkit-flex: 0 1 250;       /* Safari 6.1+. iOS 7.1+, BB10 */
-    	-ms-flex: 0 1 250;           /* IE 10 */
-  	width:250px;
+  	-webkit-box-flex: 0 1 220;   /* OLD - iOS 6-, Safari 3.1-6 */
+  	-webkit-flex: 0 1 220;       /* Safari 6.1+. iOS 7.1+, BB10 */
+    	-ms-flex: 0 1 220;           /* IE 10 */
+  	width:220px;
      	text-align:center;
      	margin:0 30px;
   }
 .front-img a {color:#333;}
 
+.front-container-goals {
+    background-color:#8b2635;
+    color:#fff;
+    padding: 20px;
+}
+.front-container-goals > h1, .front-container-goals > h3 {
+    text-align:center;
+}
+.front-container-goals a {
+    color:#fff;
+}
 /* Footer and footernore - styles the links and text in the footer */
 footer {
     background-color:#2b2b2b;
