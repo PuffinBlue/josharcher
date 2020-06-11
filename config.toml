@@ -26,3 +26,6 @@ smartypants = false
 smartDashes = false
 angledQuotes = false
 latexDashes = false
+
+[markup.goldmark.renderer]
+unsafe= true
