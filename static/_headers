@@ -2,4 +2,4 @@
   X-Frame-Options: DENY
   Referrer-Policy: no-referrer-when-downgrade
   X-Content-Type-Options: nosniff
-  Content-Security-Policy: default-src 'self' https://www.google-analytics.com https://youtube.com https://s.ytimg.com; child-src https://youtube.com;
+  Content-Security-Policy: default-src 'self' https://www.google-analytics.com https://youtube.com https://s.ytimg.com;
