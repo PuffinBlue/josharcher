@@ -107,4 +107,4 @@ Done in the explanation and completed example above.
 
 ## Source files
 
-As ever, [source files on GitLab](https://gitlab.com/josharcher/LPTHW).
+As ever, [source files on GitHub](https://github.com/josharcheruk/LPTHW).

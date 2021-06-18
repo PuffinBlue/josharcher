@@ -98,4 +98,4 @@ Here's a couple of things to tell you:
 
 ## Source files
 
-As ever, [source files on GitLab](https://gitlab.com/josharcher/LPTHW).
+As ever, [source files on GitHub](https://github.com/josharcheruk/LPTHW).

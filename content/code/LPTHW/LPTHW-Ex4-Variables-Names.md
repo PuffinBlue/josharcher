@@ -84,4 +84,4 @@ It's trickier first time you do this, setting the variable in this fashion feels
 
 ## Source files
 
-As ever, [source files on GitLab](https://gitlab.com/josharcher/LPTHW).
+As ever, [source files on GitHub](https://github.com/josharcheruk/LPTHW).

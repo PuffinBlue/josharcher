@@ -35,13 +35,13 @@ Below are direct links to the final .html, .css and img files for the completed 
 
 It's not a good idea to just copy as you'll not get any benefit but hopefully they help you work out whatever issue you are trying to solve:
 
-[GitLab repo](https://gitlab.com/odin-project-josh-archer/embedding-images-and-video)
+[GitHub repo](https://github.com/JoshArcher-OdinProject/embedding-images-video)
 
-[Josh Archer's solution - completed .html file](https://gitlab.com/odin-project-josh-archer/embedding-images-and-video/blob/master/index.html)
+[Josh Archer's solution - completed .html file](https://github.com/JoshArcher-OdinProject/embedding-images-video/blob/master/index.html)
 
-[Josh Archer's solution - completed .css file](https://gitlab.com/odin-project-josh-archer/embedding-images-and-video/blob/master/css/video-embed.css)
+[Josh Archer's solution - completed .css file](https://github.com/JoshArcher-OdinProject/embedding-images-video/blob/master/css/video-embed.css)
 
-[Josh Archer's solution - completed img files](https://gitlab.com/odin-project-josh-archer/embedding-images-and-video/tree/master/img)
+[Josh Archer's solution - completed img files](https://github.com/JoshArcher-OdinProject/embedding-images-video/tree/master/img)
 
 ## View the assigment page on The Odin Project
 
